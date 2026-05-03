@@ -1,0 +1,13 @@
+==================================================
+PODSUMOWANIE WYNIKÓW (DOWNSTREAM)
+==================================================
+       model target      auc      prc
+RandomForest  BACE1 0.837198 0.955923
+         SVM  BACE1 0.834226 0.957040
+     XGBoost  BACE1 0.826190 0.953377
+RandomForest   TYK2 0.816149 0.983664
+         SVM   TYK2 0.784068 0.978855
+     XGBoost   TYK2 0.777765 0.981294
+RandomForest    A2a 0.813832 0.979046
+         SVM    A2a 0.794850 0.975528
+     XGBoost    A2a 0.794445 0.979184
