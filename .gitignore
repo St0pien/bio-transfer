@@ -1,0 +1,5 @@
+env/
+.vscode/
+/data/
+__pycache__
+src/biotransfer.egg-info
