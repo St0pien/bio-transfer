@@ -1,7 +1,7 @@
 import torch
 from torch_geometric.loader import DataLoader
 from data_utils import scaffold_split_three_way, MoleculeDataset
-from gnn_model import GNNMoleculeModel
+from models.gnn_model import GNNMoleculeModel
 import pandas as pd
 import os
 import logging
