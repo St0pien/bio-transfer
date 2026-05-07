@@ -49,6 +49,7 @@ def main(
         "data",
         "splits",
         "upstream",
+        str(seed),
         "filtered" if filter_similar_targets else "full",
         str(similarity_thershold),
     )

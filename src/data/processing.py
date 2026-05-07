@@ -81,7 +81,7 @@ def aggregate_bioactivity_duplicates(
 
 
 def generate_dataset(targets: dict[str, str], name: str, data_dir="data/sanitized"):
-    pbar = tqdm(targets.items(), desc="Building upstream dataset")
+    pbar = tqdm(targets.items(), desc="Sanitizing dataset")
 
     upstream_parts = []
     for target_name, target_id in pbar:
