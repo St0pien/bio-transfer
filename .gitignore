@@ -1,5 +1,8 @@
 env/
+.venv
 .vscode/
 /data/
 __pycache__
-src/biotransfer.egg-info
+src/biotransfer.egg-info.venv
+logs
+models/*
