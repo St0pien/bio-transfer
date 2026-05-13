@@ -71,3 +71,12 @@ def download_alphafold_pdb(uniprot_id: str, filename: str):
         return filename
     else:
         raise Exception(f"Alphafold structure not found! uniprot_id: {uniprot_id}")
+
+
+def fetch_protein_seqeuence(uniprot_id: str):
+    url = f"https://rest.uniprot.org/uniprotkb/{uniprot_id}.fasta"
+    r = requests.get(url)
+    r.raise_for_status()
+    txt = r.text
+
+    return "".join(txt.splitlines()[1:])
