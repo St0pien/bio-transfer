@@ -1,18 +1,11 @@
 import json
-from pathlib import Path
 from typing import Optional
 
 import pandas as pd
 import torch
-import torch.nn as nn
 from rdkit import Chem
-from torch_geometric.data import Data, Dataset
-from torch_geometric.loader import DataLoader
+from torch_geometric.data import Data
 from tqdm import tqdm
-from transformers import (
-    AutoTokenizer,
-    EsmModel,
-)
 
 from model.esm_target_embedder import ESMTargetEmbedder
 
@@ -93,7 +86,7 @@ def smiles_to_graph(smiles: str, y: Optional[float] = None, atom_types=ATOM_TYPE
             ]
         )
 
-    edge_index = torch.tensor(edge_index).t().contiguous()
+    edge_index = torch.tensor(edge_index).T.contiguous()
 
     edge_attr = torch.stack(edge_attr)
 
@@ -110,10 +103,18 @@ class GNNDataset:
         y_col="pchembl_value",
     ):
         self.df = df
-        self.target_embedding_dict = target_embedding_dict
         self.smiles_col = smiles_col
         self.target_id_col = target_id_col
         self.y_col = y_col
+
+        target_chembl_ids = sorted(target_embedding_dict.keys())
+        self.target_to_idx = {
+            chembl_id: i for i, chembl_id in enumerate(target_chembl_ids)
+        }
+
+        self.target_embeddings = torch.stack(
+            [target_embedding_dict[chid] for chid in target_chembl_ids]
+        )
 
     def __len__(self):
         return len(self.df)
@@ -122,12 +123,11 @@ class GNNDataset:
         row = self.df.iloc[idx]
 
         smiles = row[self.smiles_col]
-        target_id = row[self.target_id_col]
+        target_chembl_id = row[self.target_id_col]
         y = float(row[self.y_col])
 
         graph = smiles_to_graph(smiles, y)
-        graph.target_embedding = self.target_embedding_dict[target_id]
-        graph.target_id = target_id
+        graph.target_id = self.target_to_idx[target_chembl_id]
 
         return graph
 
