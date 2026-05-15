@@ -5,12 +5,11 @@ import pandas as pd
 import torch
 from rdkit import Chem
 from torch_geometric.data import Data
-from tqdm import tqdm
 
 from model.esm_target_embedder import ESMTargetEmbedder
 
 from .config import ATOM_TYPES
-from .downloading import fetch_protein_seqeuence, fetch_uniprot_from_chembl
+from .downloading import fetch_targets_sequences
 
 
 class GNNData(Data):
@@ -86,9 +85,12 @@ def smiles_to_graph(smiles: str, y: Optional[float] = None, atom_types=ATOM_TYPE
             ]
         )
 
-    edge_index = torch.tensor(edge_index).T.contiguous()
-
-    edge_attr = torch.stack(edge_attr)
+    if len(edge_index) == 0:
+        edge_index = torch.empty((2, 0), dtype=torch.long)
+        edge_attr = torch.empty((0, 4), dtype=torch.float)
+    else:
+        edge_index = torch.tensor(edge_index, dtype=torch.long).T.contiguous()
+        edge_attr = torch.stack(edge_attr)
 
     return GNNData(x=x, edge_index=edge_index, edge_attr=edge_attr, y=y)
 
@@ -131,7 +133,9 @@ class GNNDataset:
 
         return graph
 
+    @classmethod
     def from_csv(
+        cls,
         csv_path: str,
         embedder: ESMTargetEmbedder,
         target_dict_json: Optional[str] = None,
@@ -151,15 +155,9 @@ class GNNDataset:
             with open(target_dict_json) as f:
                 target_sequences = json.load(f)
         else:
-            target_sequences = {}
-            for chembl_id in tqdm(
-                unique_targets, desc="Downloading target protein sequences"
-            ):
-                target_sequences[chembl_id] = fetch_protein_seqeuence(
-                    fetch_uniprot_from_chembl(chembl_id)
-                )
+            target_sequences = fetch_targets_sequences(unique_targets)
 
         print("[+] Precomputing target embeddings")
         target_embmeddings = embedder.get_target_embeddings(target_sequences)
 
-        return GNNDataset(df, target_embmeddings, smiles_col, target_id_col, y_col)
+        return cls(df, target_embmeddings, smiles_col, target_id_col, y_col)

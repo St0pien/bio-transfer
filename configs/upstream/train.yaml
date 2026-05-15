@@ -1,0 +1,12 @@
+dataset:
+  csv_path: data/splits/upstream/42/full/None/upstream_full_raw_train.csv
+  target_sequences_json: data/sequences/train_targets.json
+
+validation_dataset:
+  csv_path: data/splits/upstream/42/full/None/upstream_full_raw_val.csv
+  target_sequences_json: data/sequences/val_targets.json
+
+wandb:
+  experiment_name: upstream-gnn-full-training
+  entity: st0pien-default-team
+  project: bio-transfer

@@ -3,6 +3,7 @@ from pathlib import Path
 
 import requests
 from chembl_webresource_client.new_client import new_client
+from tqdm import tqdm
 
 DEFAULT_STANDARD_TYPES = ["IC50", "Ki", "Kd", "EC50"]
 
@@ -80,3 +81,13 @@ def fetch_protein_seqeuence(uniprot_id: str):
     txt = r.text
 
     return "".join(txt.splitlines()[1:])
+
+
+def fetch_targets_sequences(target_ids):
+    target_sequences = {}
+    for chembl_id in tqdm(target_ids, desc="Downloading target protein sequences"):
+        target_sequences[chembl_id] = fetch_protein_seqeuence(
+            fetch_uniprot_from_chembl(chembl_id)
+        )
+
+    return target_sequences

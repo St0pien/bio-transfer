@@ -1,10 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch_geometric.nn import GINEConv, GraphNorm
-from torch_geometric.nn import global_add_pool
-
-from data.gnn_dataset import GNNData
+from torch_geometric.nn import GINEConv, GraphNorm, global_add_pool
 
 
 class FiLM(nn.Module):
@@ -82,6 +79,8 @@ class MultiTargetGINE(nn.Module):
     ):
         super().__init__()
 
+        self.register_buffer("target_embedding_mean", torch.zeros(esm_dim))
+
         self.node_encoder = nn.Linear(node_dim, hidden_dim)
         self.edge_encoder = nn.Linear(edge_dim, hidden_dim)
 
@@ -120,6 +119,9 @@ class MultiTargetGINE(nn.Module):
             nn.Linear(hidden_dim // 2, out_dim),
         )
 
+    def set_target_embedding_mean(self, mean: torch.Tensor):
+        self.target_embedding_mean.copy_(mean)
+
     def forward(
         self,
         x: torch.Tensor,
@@ -131,7 +133,9 @@ class MultiTargetGINE(nn.Module):
         x = self.node_encoder(x)
         edge_attr = self.edge_encoder(edge_attr)
 
-        target_embeddings = self.target_mlp(target_esm_embeddings)
+        mean_centered_temb = target_esm_embeddings - self.target_embedding_mean
+        norm_mean_centered_temb = F.normalize(mean_centered_temb)
+        target_embeddings = self.target_mlp(norm_mean_centered_temb)
 
         for layer in self.layers:
             x = layer(
