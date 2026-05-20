@@ -1,3 +1,5 @@
+epochs: 120
+
 dataset:
   csv_path: data/splits/upstream/42/full/None/upstream_full_raw_train.csv
   target_sequences_json: data/sequences/train_targets.json

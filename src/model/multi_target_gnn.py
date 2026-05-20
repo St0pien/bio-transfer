@@ -153,3 +153,36 @@ class MultiTargetGINE(nn.Module):
         y = self.head2(y)
 
         return F.relu(y)
+
+    @classmethod
+    def from_pretrained(cls, path: str) -> "MultiTargetGINE":
+        state_dict = torch.load(path)
+        hidden_dim, node_dim = state_dict["node_encoder.weight"].shape
+        edge_dim = state_dict["edge_encoder.weight"].shape[1]
+        target_dim, esm_dim = state_dict["target_mlp.0.weight"].shape
+
+        num_layers = (
+            max(
+                [
+                    int(l.split(".")[1])
+                    for l in state_dict.keys()
+                    if l.startswith("layers.")
+                ]
+            )
+            + 1
+        )
+
+        out_dim = state_dict["head2.4.weight"].shape[0]
+
+        gnn = MultiTargetGINE(
+            node_dim=node_dim,
+            edge_dim=edge_dim,
+            esm_dim=esm_dim,
+            hidden_dim=hidden_dim,
+            target_dim=target_dim,
+            num_layers=num_layers,
+            out_dim=out_dim,
+        )
+        gnn.load_state_dict(state_dict)
+
+        return gnn

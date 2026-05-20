@@ -29,6 +29,5 @@ if __name__ == "__main__":
     args = parse_args()
 
     config = load_config(args.config)
-    print(config)
 
     train_upstream_gnn(config)
