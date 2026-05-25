@@ -32,10 +32,12 @@ def main(
     ]
 
     for df in downstream_dfs:
-        train_df, val_df, test_df = scaffold_split(df, 0.6, 0.2)
+        train_df, val_df, test_df = scaffold_split(df, 0.6, 0.2, seed=seed)
 
         if subset is not None:
-            train_df = train_df.sample(frac=subset, random_state=seed).reset_index(drop=True)
+            train_df = train_df.sample(frac=subset, random_state=seed).reset_index(
+                drop=True
+            )
 
         save_dir = Path("data", "splits", "downstream", str(seed))
         save_dir.mkdir(parents=True, exist_ok=True)
