@@ -16,13 +16,22 @@ from data.processing import (
 def main(
     subset: Optional[float] = None,
     seed: Optional[int] = 42,
+    target: Optional[str] = None,
 ):
     sanitized_dir = Path("data/sanitized")
-    downstream_csv = sanitized_dir / "downstream_full_raw.csv"
+    downstream_targets = DOWNSTREAM_TARGETS
+
+    if target is not None:
+        downstream_targets = {target: DOWNSTREAM_TARGETS[target]}
+
+    downstream_csv_name = (
+        "downstream_full_raw" if target is None else f"downstream_{target}_raw"
+    )
+    downstream_csv = sanitized_dir / f"{downstream_csv_name}.csv"
 
     if not downstream_csv.exists():
         generate_dataset(
-            DOWNSTREAM_TARGETS, downstream_csv.stem, data_dir=sanitized_dir
+            downstream_targets, downstream_csv.stem, data_dir=sanitized_dir
         )
 
     downstream_df_full = pd.read_csv(downstream_csv)
@@ -68,6 +77,13 @@ def parse_arguments():
         default=42,
         help="Random seed for scaffold splitting (default: 42).",
     )
+    parser.add_argument(
+        "--target",
+        type=str,
+        default=None,
+        choices=sorted(DOWNSTREAM_TARGETS.keys()),
+        help="Optional downstream target to generate, e.g. TYK2.",
+    )
 
     args = parser.parse_args()
 
@@ -76,4 +92,4 @@ def parse_arguments():
 
 if __name__ == "__main__":
     args = parse_arguments()
-    main(subset=args.subset, seed=args.seed)
+    main(subset=args.subset, seed=args.seed, target=args.target)
