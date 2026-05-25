@@ -85,6 +85,7 @@ def generate_dataset(targets: dict[str, str], name: str, data_dir="data/sanitize
 
     upstream_parts = []
     for target_name, target_id in pbar:
+        pbar.set_postfix_str(f"{target_name} ({target_id})")
         bioactivity_data = fetch_data_from_chembl(target_id)
         df = pd.DataFrame.from_records(bioactivity_data)
         sanitized_df = sanitize_bioactivity_data(df)

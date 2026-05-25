@@ -2,12 +2,9 @@ import json
 from pathlib import Path
 
 import requests
-from chembl_webresource_client.new_client import new_client
 from tqdm import tqdm
 
 DEFAULT_STANDARD_TYPES = ["IC50", "Ki", "Kd", "EC50"]
-
-activity_client = new_client.activity
 
 
 def fetch_data_from_chembl(
@@ -26,6 +23,9 @@ def fetch_data_from_chembl(
         return data
 
     records = []
+    from chembl_webresource_client.new_client import new_client
+
+    activity_client = new_client.activity
 
     for stype in standard_types:
         res = activity_client.filter(
