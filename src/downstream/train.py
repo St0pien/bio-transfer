@@ -2,21 +2,13 @@ import numpy as np
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem, DataStructs
+from sklearn.base import clone
 from sklearn.model_selection import GridSearchCV, PredefinedSplit
-from xgboost import XGBRegressor
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+
 from downstream.eval import (
     eval_downstream_classification_model,
     eval_downstream_regression_model,
 )
-
-XBOOST_GRID = {
-    "max_depth": [6, 8],
-    "learning_rate": [0.005, 0.01, 0.05, 0.1],
-    "n_estimators": [300],
-    "subsample": [0.6, 0.8, 1.0],
-    "colsample_bytree": [0.6, 0.8],
-}
 
 
 def parse_csv(csv_path: str, smiles_col="canonical_smiles", y_col="pchembl_value"):
@@ -75,13 +67,15 @@ def tune_hyperparams(
         cv=ps,
         verbose=2,
         n_jobs=1,
-        refit=True,
     )
 
     grid.fit(X, y)
 
-    best_model = grid.best_estimator_
     best_params = grid.best_params_
+
+    best_model = clone(model)
+    best_model.set_params(**best_params)
+    best_model.fit(X_train, y_train)
 
     eval_fn = eval_downstream_regression_model
     if task == "classification":

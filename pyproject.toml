@@ -7,7 +7,19 @@ name = "biotransfer"
 version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "pandas",
+    "rdkit",
+    "tqdm",
+    "requests",
+    "torch",
+    "torch-geometric",
+    "numpy",
+    "scikit-learn",
+    "wandb",
+    "transformers",
+    "xgboost",
+]
 
 [tool.setuptools]
 package-dir = { "" = "src" }
