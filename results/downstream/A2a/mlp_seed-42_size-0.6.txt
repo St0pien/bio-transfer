@@ -1,0 +1,22 @@
+Fitting 1 folds for each of 4 candidates, totalling 4 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7865853658536586
+Precision:	0.7016460905349794
+Recall:	0.6673189823874756
+F1:	0.6840521564694082
+ROC_AUC:	0.8432809790819586
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}
+
+==== TEST RESULTS ====
+Accuracy: 0.7853
+Precision: 0.6752
+Recall: 0.6865
+F1: 0.6808
+ROC_AUC: 0.8351
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  17.7s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time=  43.0s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=  31.4s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  15.3s
