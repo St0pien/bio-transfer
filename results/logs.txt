@@ -1,0 +1,3153 @@
+ Python/3.10.4 unloaded.
+ Python/3.10.4 loaded.
+
+####################################################################################################
+RUNNING SEED: 42
+####################################################################################################
+
+####################################################################################################
+RUNNING SUBSET: full
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   3.5s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=  11.7s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   5.3s
+[CV] END .....................max_depth=20, n_estimators=300; total time=  11.3s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   7.0s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   5.1s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   7.2s
+[CV] END .....................max_depth=50, n_estimators=300; total time=  14.9s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   3.0s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   8.6s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   3.5s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.4s
+[CV] END ...................max_depth=None, n_estimators=300; total time=  14.9s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   7.6s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   4.5s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   9.4s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  18.2s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   5.7s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   4.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   7.9s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  23.6s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   8.4s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   6.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   8.0s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  23.7s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   5.8s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=  10.1s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   2.7s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   6.7s
+[CV] END ...................................C=10, kernel=rbf; total time= 2.0min
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  14.5s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   4.8s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   2.4s
+[CV] END ...............................C=0.1, kernel=linear; total time= 2.4min
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=  10.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   4.4s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   5.2s
+[CV] END ................................C=10, kernel=linear; total time= 2.5min
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=  10.4s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   5.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   5.7s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   5.1s
+[CV] END ....................................C=1, kernel=rbf; total time= 2.8min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8099173553719008
+Precision:	0.7550335570469798
+Recall:	0.6267409470752089
+F1:	0.684931506849315
+ROC_AUC:	0.8733959438318007
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8130
+Precision: 0.7390
+Recall: 0.6633
+F1: 0.6991
+ROC_AUC: 0.8747
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8011937557392103
+Precision:	0.7522123893805309
+Recall:	0.5919220055710307
+F1:	0.6625097427903351
+ROC_AUC:	0.8646726065555005
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8039
+Precision: 0.7509
+Recall: 0.6003
+F1: 0.6672
+ROC_AUC: 0.8708
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8163452708907254
+Precision:	0.7359050445103857
+Recall:	0.6908077994428969
+F1:	0.7126436781609196
+ROC_AUC:	0.8792316938222612
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.8030
+Precision: 0.7118
+Recall: 0.6691
+F1: 0.6898
+ROC_AUC: 0.8673
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=  11.0s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   8.5s
+[CV] END .....................max_depth=10, n_estimators=500; total time=  11.3s
+[CV] END ..................................C=100, kernel=rbf; total time= 3.3min
+[CV] END ..............................................C=0.1; total time=   1.0s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=  12.4s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.9s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   2.2s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   8.9s
+[CV] END ..............................C=0.01, kernel=linear; total time= 3.4min
+[CV] END ................................................C=1; total time=   2.0s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   7.4s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   2.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   6.4s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   4.2s
+[CV] END .................................C=1, kernel=linear; total time= 3.4min
+[CV] END ...............................................C=10; total time=   2.2s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  16.3s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   2.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   3.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=  14.0s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   3.9s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 4.3min
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  18.2s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  17.8s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   1.4s
+[CV] END .................................C=0.01, kernel=rbf; total time= 4.5min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  29.2s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  41.5s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  42.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  47.4s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  51.7s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  53.3s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  54.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time= 1.3min
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   9.9s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   2.8s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   6.7s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   7.1s
+[CV] END ...............................C=100, kernel=linear; total time= 4.9min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.5min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.800734618916437
+Precision:	0.7232704402515723
+Recall:	0.6406685236768802
+F1:	0.6794682422451994
+ROC_AUC:	0.8814610600221315
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.8015
+Precision: 0.7085
+Recall: 0.6691
+F1: 0.6883
+ROC_AUC: 0.8634
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7988980716253443
+Precision:	0.7272727272727273
+Recall:	0.6239554317548747
+F1:	0.671664167916042
+ROC_AUC:	0.8580240966154082
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}
+
+TEST METRICS:
+Accuracy: 0.7939
+Precision: 0.6869
+Recall: 0.6808
+F1: 0.6838
+ROC_AUC: 0.8548
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 42 | SUBSET full
+MODEL: xgboost
+SCORE: 0.8747
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.8
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   3.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   3.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   4.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   5.4s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   9.7s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  12.7s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   6.7s
+[CV] END .....................max_depth=50, n_estimators=300; total time=  10.0s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   6.1s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   3.7s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   5.3s
+[CV] END ...................max_depth=None, n_estimators=300; total time=  11.8s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=  10.6s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.6s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   6.0s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  12.5s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   7.1s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   2.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   7.3s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  19.4s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   4.4s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   8.5s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   2.3s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  19.4s
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8108356290174472
+Precision:	0.749185667752443
+Recall:	0.6406685236768802
+F1:	0.6906906906906907
+ROC_AUC:	0.8713745373373527
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8111
+Precision: 0.7522
+Recall: 0.6310
+F1: 0.6863
+ROC_AUC: 0.8729
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8062442607897153
+Precision:	0.7605633802816901
+Recall:	0.6016713091922006
+F1:	0.671850699844479
+ROC_AUC:	0.8649730987903995
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.8063
+Precision: 0.7617
+Recall: 0.5944
+F1: 0.6678
+ROC_AUC: 0.8650
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8034894398530762
+Precision:	0.7138643067846607
+Recall:	0.6740947075208914
+F1:	0.6934097421203438
+ROC_AUC:	0.8739125042927461
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.8049
+Precision: 0.7204
+Recall: 0.6603
+F1: 0.6891
+ROC_AUC: 0.8637
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   4.9s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=  11.6s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   2.0s
+[CV] END ...............................C=0.1, kernel=linear; total time= 1.1min
+[CV] END ..............................................C=0.1; total time=   0.9s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   3.7s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   6.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   1.7s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.8s
+[CV] END .................................C=0.01, kernel=rbf; total time= 1.5min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8085399449035813
+Precision:	0.7431340872374798
+Recall:	0.6406685236768802
+F1:	0.6881077038145101
+ROC_AUC:	0.8764557179379555
+
+==== BEST PARAMETERS ====
+{'C': 0.1}
+
+TEST METRICS:
+Accuracy: 0.8130
+Precision: 0.7359
+Recall: 0.6691
+F1: 0.7009
+ROC_AUC: 0.8647
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7952249770431589
+Precision:	0.7186495176848875
+Recall:	0.6225626740947076
+F1:	0.6671641791044776
+ROC_AUC:	0.8626607394970809
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}
+
+TEST METRICS:
+Accuracy: 0.7939
+Precision: 0.6869
+Recall: 0.6808
+F1: 0.6838
+ROC_AUC: 0.8602
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 42 | SUBSET 0.8
+MODEL: xgboost
+SCORE: 0.8729
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.6
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8034894398530762
+Precision:	0.7308917197452229
+Recall:	0.6392757660167131
+F1:	0.6820208023774146
+ROC_AUC:	0.8593572328003969
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.8111
+Precision: 0.7470
+Recall: 0.6398
+F1: 0.6893
+ROC_AUC: 0.8611
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7929292929292929
+Precision:	0.744954128440367
+Recall:	0.5654596100278552
+F1:	0.6429136975455265
+ROC_AUC:	0.8569289693593316
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8006
+Precision: 0.7495
+Recall: 0.5871
+F1: 0.6585
+ROC_AUC: 0.8595
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8053259871441689
+Precision:	0.7213855421686747
+Recall:	0.6671309192200557
+F1:	0.6931982633863966
+ROC_AUC:	0.8591554737283933
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.8039
+Precision: 0.7261
+Recall: 0.6442
+F1: 0.6827
+ROC_AUC: 0.8629
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7970615243342516
+Precision:	0.7284768211920529
+Recall:	0.6128133704735376
+F1:	0.6656580937972768
+ROC_AUC:	0.867385622162018
+
+==== BEST PARAMETERS ====
+{'C': 0.1}
+
+TEST METRICS:
+Accuracy: 0.8030
+Precision: 0.7230
+Recall: 0.6457
+F1: 0.6821
+ROC_AUC: 0.8570
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7851239669421488
+Precision:	0.676056338028169
+Recall:	0.6685236768802229
+F1:	0.6722689075630253
+ROC_AUC:	0.8502995382912962
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.001}
+
+TEST METRICS:
+Accuracy: 0.7905
+Precision: 0.6836
+Recall: 0.6706
+F1: 0.6770
+ROC_AUC: 0.8516
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 42 | SUBSET 0.6
+MODEL: svm
+SCORE: 0.8629
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.4
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+/net/tscratch/people/plgvltkv/bio-transfer/.venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   8.2s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=  12.5s
+[CV] END ..............................C=0.01, kernel=linear; total time= 1.2min
+[CV] END ................................................C=1; total time=   1.5s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   6.2s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   3.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   3.0s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   2.7s
+[CV] END .................................C=1, kernel=linear; total time= 1.2min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  39.5s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=   8.9s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   0.9s
+[CV] END ...............................C=0.1, kernel=linear; total time=  30.6s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  29.9s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   2.4s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   2.9s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   2.3s
+[CV] END ................................................C=1; total time=   0.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   9.7s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   5.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   5.3s
+[CV] END .....................max_depth=10, n_estimators=500; total time=  11.4s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   2.7s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   9.9s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   4.3s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   3.0s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 1.9min
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  32.3s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   2.8s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   3.8s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   1.8s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   4.1s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   4.2s
+[CV] END ...................................C=10, kernel=rbf; total time= 1.1min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   7.5s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   1.3s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   4.7s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   1.8s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   1.6s
+[CV] END .................................C=1, kernel=linear; total time=  26.4s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 1.6min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   0.8s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   2.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.4s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   0.8s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   0.8s
+[CV] END .................................C=1, kernel=linear; total time=   7.3s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=   3.1s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   3.4s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=  12.1s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   8.1s
+[CV] END .....................max_depth=50, n_estimators=300; total time=  12.3s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 3.1min
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   1.9s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   6.2s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   9.3s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   5.8s
+[CV] END ...............................C=100, kernel=linear; total time= 2.5min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  21.4s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   8.3s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   4.5s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  10.5s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   9.9s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   3.4s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   1.9s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   2.6s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   4.3s
+[CV] END ..............................C=0.01, kernel=linear; total time=  32.4s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  21.0s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=   4.7s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.3s
+[CV] END .................................C=0.01, kernel=rbf; total time=   9.5s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=   7.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  15.5s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.5s
+[CV] END ...................max_depth=None, n_estimators=300; total time=  14.2s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  22.1s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   2.1s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   2.2s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   3.6s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   3.8s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   8.1s
+[CV] END ...............................................C=10; total time=   1.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   5.4s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   1.5s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   3.2s
+[CV] END .....................max_depth=20, n_estimators=500; total time=   6.5s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   8.5s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   3.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   0.7s
+[CV] END ...................max_depth=None, n_estimators=500; total time=   3.6s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=  28.5s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   8.1s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   6.8s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   7.2s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  17.5s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   7.5s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   5.1s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  13.0s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.3min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   3.4s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   2.7s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   4.4s
+[CV] END ................................................C=1; total time=   0.5s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   2.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   2.4s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   2.5s
+[CV] END ...............................................C=10; total time=   0.3s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   3.0s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   8.8s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   6.5s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  22.8s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  15.3s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   1.2s
+[CV] END .................................C=0.01, kernel=rbf; total time= 1.9min
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  28.2s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   9.7s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.0s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  12.8s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  17.3s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   6.4s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.0s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   2.4s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   3.8s
+[CV] END ..................................C=100, kernel=rbf; total time=  29.0s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   8.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   3.1s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   0.8s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   1.5s
+[CV] END ...............................C=100, kernel=linear; total time=   7.2s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   2.8s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=  12.4s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   4.3s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   9.0s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  23.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  33.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   7.9s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   6.3s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   2.8s
+[CV] END ................................C=10, kernel=linear; total time=  53.8s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  33.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   5.3s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   3.9s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   1.3s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  32.6s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  11.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   4.0s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   2.3s
+[CV] END .....................max_depth=50, n_estimators=500; total time=   3.5s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=   9.5s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=  11.6s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   3.3s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   4.7s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   6.0s
+[CV] END ...................................C=10, kernel=rbf; total time= 2.0min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   6.5s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   5.6s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   3.9s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   3.5s
+[CV] END .................................C=1, kernel=linear; total time= 1.4min
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  16.1s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   4.8s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   3.0s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   2.1s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   3.3s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   2.3s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 1.2min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  21.6s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   7.4s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   1.2s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END .................................C=0.01, kernel=rbf; total time=  40.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   1.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   1.9s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   1.8s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   0.7s
+[CV] END ....................................C=1, kernel=rbf; total time=   9.5s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  26.9s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   5.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=  11.2s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   5.8s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   4.9s
+[CV] END ................................C=10, kernel=linear; total time= 2.0min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  55.1s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   3.6s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   9.4s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   6.0s
+[CV] END ..................................C=100, kernel=rbf; total time= 1.4min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  54.3s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   1.0s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   3.0s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   4.4s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   4.4s
+[CV] END ...............................................C=10; total time=   0.6s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   0.7s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   0.5s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   1.3s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   1.5s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   1.4s
+[CV] END ...................................C=10, kernel=rbf; total time=   8.2s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  21.5s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   2.3s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   7.0s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   7.7s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   4.2s
+[CV] END ....................................C=1, kernel=rbf; total time= 2.3min
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   2.3s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   2.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   1.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   2.4s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.8s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   4.9s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   8.9s
+[CV] END ..................................C=100, kernel=rbf; total time= 1.9min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.7min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   5.0s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   4.3s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.4s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   5.9s
+[CV] END ..............................C=0.01, kernel=linear; total time=  54.7s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 2.1min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   3.5s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   2.9s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   2.8s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   2.7s
+[CV] END ...................................C=10, kernel=rbf; total time=  38.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  39.0s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   1.2s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   0.7s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   1.8s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   0.5s
+[CV] END ...............................C=0.1, kernel=linear; total time=   6.7s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time=  49.1s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   2.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   3.5s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   2.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   5.1s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   6.6s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   2.4s
+[CV] END ...............................C=0.1, kernel=linear; total time= 2.4min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7938475665748393
+Precision:	0.7260504201680672
+Recall:	0.6016713091922006
+F1:	0.6580350342726581
+ROC_AUC:	0.8501130423169383
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8035
+Precision: 0.7325
+Recall: 0.6296
+F1: 0.6772
+ROC_AUC: 0.8474
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7915518824609734
+Precision:	0.7348754448398577
+Recall:	0.575208913649025
+F1:	0.6453125
+ROC_AUC:	0.8492110886404396
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.7972
+Precision: 0.7249
+Recall: 0.6135
+F1: 0.6646
+ROC_AUC: 0.8448
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7966023875114784
+Precision:	0.6950354609929078
+Recall:	0.6824512534818942
+F1:	0.6886858749121574
+ROC_AUC:	0.8581633723814248
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.7919
+Precision: 0.6930
+Recall: 0.6545
+F1: 0.6732
+ROC_AUC: 0.8344
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7897153351698806
+Precision:	0.6963746223564955
+Recall:	0.6420612813370473
+F1:	0.6681159420289855
+ROC_AUC:	0.853117964665929
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.7924
+Precision: 0.6888
+Recall: 0.6676
+F1: 0.6781
+ROC_AUC: 0.8313
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7947658402203857
+Precision:	0.70254110612855
+Recall:	0.6545961002785515
+F1:	0.6777217015140591
+ROC_AUC:	0.8461384362956462
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.0001}
+
+TEST METRICS:
+Accuracy: 0.7824
+Precision: 0.6786
+Recall: 0.6369
+F1: 0.6571
+ROC_AUC: 0.8331
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 42 | SUBSET 0.4
+MODEL: xgboost
+SCORE: 0.8474
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.2
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7855831037649219
+Precision:	0.7167530224525043
+Recall:	0.5779944289693594
+F1:	0.6399383191981496
+ROC_AUC:	0.8410825352005189
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.7766
+Precision: 0.6900
+Recall: 0.5769
+F1: 0.6284
+ROC_AUC: 0.8217
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7846648301193756
+Precision:	0.7301293900184843
+Recall:	0.5501392757660167
+F1:	0.6274821286735505
+ROC_AUC:	0.8442062235280651
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.7809
+Precision: 0.7085
+Recall: 0.5622
+F1: 0.6269
+ROC_AUC: 0.8270
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7897153351698806
+Precision:	0.7103559870550162
+Recall:	0.6114206128133705
+F1:	0.657185628742515
+ROC_AUC:	0.8463311329034228
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.7790
+Precision: 0.6820
+Recall: 0.6091
+F1: 0.6435
+ROC_AUC: 0.8325
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7704315886134068
+Precision:	0.6792763157894737
+Recall:	0.575208913649025
+F1:	0.6229260935143288
+ROC_AUC:	0.8363481130995536
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.7709
+Precision: 0.6717
+Recall: 0.5871
+F1: 0.6266
+ROC_AUC: 0.8072
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.778236914600551
+Precision:	0.6799387442572741
+Recall:	0.6183844011142061
+F1:	0.6477024070021882
+ROC_AUC:	0.819317834929599
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}
+
+TEST METRICS:
+Accuracy: 0.7570
+Precision: 0.6517
+Recall: 0.5534
+F1: 0.5986
+ROC_AUC: 0.7947
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 42 | SUBSET 0.2
+MODEL: svm
+SCORE: 0.8325
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SEED: 123
+####################################################################################################
+
+####################################################################################################
+RUNNING SUBSET: full
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8157195963887414
+Precision:	0.7264808362369338
+Recall:	0.6869851729818781
+F1:	0.7061812023708721
+ROC_AUC:	0.8744900146152773
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8102
+Precision: 0.7534
+Recall: 0.6296
+F1: 0.6860
+ROC_AUC: 0.8743
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8029739776951673
+Precision:	0.7201492537313433
+Recall:	0.6359143327841845
+F1:	0.6754155730533683
+ROC_AUC:	0.8669532052904205
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.7965
+Precision: 0.7274
+Recall: 0.6106
+F1: 0.6639
+ROC_AUC: 0.8654
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8093467870419543
+Precision:	0.6919504643962848
+Recall:	0.7364085667215815
+F1:	0.713487629688747
+ROC_AUC:	0.8680971218748871
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.8077
+Precision: 0.7112
+Recall: 0.7004
+F1: 0.7057
+ROC_AUC: 0.8647
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   9.1s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   7.0s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   4.6s
+[CV] END ...................................C=10, kernel=rbf; total time= 2.0min
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 2.6min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   5.5s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   6.0s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   6.5s
+[CV] END ..............................................C=0.1; total time=   0.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   1.8s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   3.8s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   2.9s
+[CV] END ...................max_depth=None, n_estimators=500; total time=   8.0s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  10.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   2.4s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   1.5s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   1.5s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   2.1s
+[CV] END ..................................C=100, kernel=rbf; total time=  10.1s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=  18.8s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   3.9s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 2.6min
+[CV] END ..............................................C=0.1; total time=   0.7s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  48.3s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   2.1s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   6.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   2.7s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   2.7s
+[CV] END ....................................C=1, kernel=rbf; total time= 1.3min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  17.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   1.8s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.8s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   2.0s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   1.6s
+[CV] END ....................................C=1, kernel=rbf; total time=  30.5s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=   7.0s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   1.8s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   1.0s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   0.9s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   1.9s
+[CV] END .....................max_depth=20, n_estimators=500; total time=   3.4s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   2.7s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   7.7s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   4.4s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   9.5s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   9.3s
+[CV] END ..................................C=100, kernel=rbf; total time= 2.8min
+[CV] END ................................................C=1; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   1.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   6.5s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   4.1s
+[CV] END ..............................................C=0.1; total time=   0.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   1.4s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   3.7s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   0.7s
+[CV] END ..................................C=0.1, kernel=rbf; total time=   9.1s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=   9.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   4.1s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   4.2s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   2.4s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   8.6s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   4.1s
+[CV] END .................................C=1, kernel=linear; total time= 3.0min
+[CV] END ...............................................C=10; total time=   2.4s
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8146574614976102
+Precision:	0.7179054054054054
+Recall:	0.700164744645799
+F1:	0.7089241034195163
+ROC_AUC:	0.8721821693616274
+
+==== BEST PARAMETERS ====
+{'C': 0.1}
+
+TEST METRICS:
+Accuracy: 0.8165
+Precision: 0.7391
+Recall: 0.6839
+F1: 0.7104
+ROC_AUC: 0.8718
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8029739776951673
+Precision:	0.6891025641025641
+Recall:	0.7084019769357496
+F1:	0.6986190089358245
+ROC_AUC:	0.8573809732845123
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+
+TEST METRICS:
+Accuracy: 0.8077
+Precision: 0.7190
+Recall: 0.6827
+F1: 0.7004
+ROC_AUC: 0.8569
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 123 | SUBSET full
+MODEL: xgboost
+SCORE: 0.8743
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.8
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time= 1.2min
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  13.0s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   4.5s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   9.3s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   6.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   4.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   3.5s
+[CV] END ...................max_depth=None, n_estimators=300; total time=  10.2s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  42.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  12.7s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   1.4s
+[CV] END ...............................C=0.1, kernel=linear; total time=  47.4s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  26.9s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   1.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   5.3s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   1.6s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   3.0s
+[CV] END ...............................C=100, kernel=linear; total time=  18.5s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  14.0s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   1.2s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   3.1s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   2.3s
+[CV] END ..............................................C=0.1; total time=   0.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   6.1s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=  14.4s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   6.6s
+[CV] END ...............................C=100, kernel=linear; total time= 4.2min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.9min
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=  14.6s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   4.9s
+[CV] END .....................max_depth=50, n_estimators=300; total time=  10.5s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   1.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   2.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   1.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   9.3s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  14.6s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 3.2min
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  15.6s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  16.2s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time= 1.1min
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   7.8s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   6.3s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   6.7s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  18.3s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  27.8s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   9.9s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   2.8s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.8s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   7.4s
+[CV] END ..............................C=0.01, kernel=linear; total time=  59.9s
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8104089219330854
+Precision:	0.704248366013072
+Recall:	0.7100494233937397
+F1:	0.7071369975389664
+ROC_AUC:	0.8677388410033413
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8036
+Precision: 0.7363
+Recall: 0.6283
+F1: 0.6780
+ROC_AUC: 0.8646
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8024429102496017
+Precision:	0.716390423572744
+Recall:	0.6408566721581549
+F1:	0.6765217391304348
+ROC_AUC:	0.8622180878259388
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.7919
+Precision: 0.7228
+Recall: 0.5967
+F1: 0.6537
+ROC_AUC: 0.8602
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8082846521508231
+Precision:	0.6933962264150944
+Recall:	0.7265238879736409
+F1:	0.7095736122284795
+ROC_AUC:	0.8692462028683127
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.8140
+Precision: 0.7396
+Recall: 0.6713
+F1: 0.7038
+ROC_AUC: 0.8654
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+/net/tscratch/people/plgvltkv/bio-transfer/.venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/net/tscratch/people/plgvltkv/bio-transfer/.venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   1.5s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   5.3s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   4.1s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.9s
+[CV] END .................................C=0.01, kernel=rbf; total time= 1.5min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7934147636749868
+Precision:	0.6687306501547987
+Recall:	0.7116968698517299
+F1:	0.6895450917797287
+ROC_AUC:	0.859104594774651
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.7919
+Precision: 0.6892
+Recall: 0.6700
+F1: 0.6795
+ROC_AUC: 0.8614
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7923526287838556
+Precision:	0.6547277936962751
+Recall:	0.7528830313014827
+F1:	0.7003831417624521
+ROC_AUC:	0.842392567382626
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}
+
+TEST METRICS:
+Accuracy: 0.7803
+Precision: 0.6556
+Recall: 0.7004
+F1: 0.6773
+ROC_AUC: 0.8318
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 123 | SUBSET 0.8
+MODEL: svm
+SCORE: 0.8654
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.6
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8082846521508231
+Precision:	0.7023026315789473
+Recall:	0.7034596375617792
+F1:	0.702880658436214
+ROC_AUC:	0.8572331420780549
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.7969
+Precision: 0.7238
+Recall: 0.6195
+F1: 0.6676
+ROC_AUC: 0.8543
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8061603823685608
+Precision:	0.7274436090225563
+Recall:	0.6375617792421746
+F1:	0.6795434591747147
+ROC_AUC:	0.8592311227941517
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.7994
+Precision: 0.7330
+Recall: 0.6144
+F1: 0.6685
+ROC_AUC: 0.8607
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.807222517259692
+Precision:	0.6930379746835443
+Recall:	0.7215815485996705
+F1:	0.7070217917675545
+ROC_AUC:	0.8654542355900079
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.8007
+Precision: 0.7074
+Recall: 0.6726
+F1: 0.6896
+ROC_AUC: 0.8553
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7950079660116834
+Precision:	0.6838602329450915
+Recall:	0.6771004942339374
+F1:	0.6804635761589404
+ROC_AUC:	0.860318230880067
+
+==== BEST PARAMETERS ====
+{'C': 0.1}
+
+TEST METRICS:
+Accuracy: 0.8086
+Precision: 0.7258
+Recall: 0.6726
+F1: 0.6982
+ROC_AUC: 0.8596
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7987254381306426
+Precision:	0.680952380952381
+Recall:	0.7067545304777595
+F1:	0.6936135812449474
+ROC_AUC:	0.8436888340313892
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+
+TEST METRICS:
+Accuracy: 0.7903
+Precision: 0.6866
+Recall: 0.6675
+F1: 0.6769
+ROC_AUC: 0.8389
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 123 | SUBSET 0.6
+MODEL: randomforest
+SCORE: 0.8607
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.4
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  32.1s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   8.8s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.6s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   6.0s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   3.7s
+[CV] END ....................................C=1, kernel=rbf; total time= 2.3min
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  39.7s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   7.6s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   6.3s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   2.8s
+[CV] END ....................................C=1, kernel=rbf; total time= 1.4min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  43.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=   8.8s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   1.0s
+[CV] END ...............................C=0.1, kernel=linear; total time=  27.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=   8.2s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   3.1s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   1.8s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   1.3s
+[CV] END ...................................C=10, kernel=rbf; total time=  11.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   2.8s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=  10.7s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=  10.3s
+[CV] END .....................max_depth=20, n_estimators=300; total time=  12.7s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   1.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   6.3s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   1.3s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  28.4s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  29.6s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   2.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   2.8s
+[CV] END ..............................C=0.01, kernel=linear; total time=   2.6s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=   5.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   4.5s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=  12.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   8.8s
+[CV] END .....................max_depth=50, n_estimators=300; total time=  15.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  51.1s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   1.5s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   4.5s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   4.9s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   2.7s
+[CV] END ................................C=10, kernel=linear; total time= 1.1min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  35.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   5.5s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   4.6s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   1.7s
+[CV] END ....................................C=1, kernel=rbf; total time=  34.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  24.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=   5.0s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   0.5s
+[CV] END ...............................C=0.1, kernel=linear; total time=   6.4s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   3.6s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   9.0s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   8.0s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.6s
+[CV] END ...................max_depth=None, n_estimators=300; total time=  16.6s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  42.6s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   6.3s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   3.6s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   7.0s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   1.6s
+[CV] END ...............................C=0.1, kernel=linear; total time= 1.8min
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  19.5s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   4.7s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   2.7s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   2.1s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   1.5s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   7.0s
+[CV] END ................................................C=1; total time=   1.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   2.6s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   4.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   1.2s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   2.7s
+[CV] END ...............................C=100, kernel=linear; total time=  24.4s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  19.2s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   3.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.4s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   1.2s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.3s
+[CV] END .................................C=0.01, kernel=rbf; total time=   8.0s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=   6.7s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=  13.0s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   3.5s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   8.0s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  17.7s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  27.6s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   9.9s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   5.1s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  12.9s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.4min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   2.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   2.2s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   2.6s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   2.4s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   4.2s
+[CV] END ..............................................C=0.1; total time=   0.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   1.8s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   1.9s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   0.8s
+[CV] END .................................C=1, kernel=linear; total time=   9.1s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  10.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=  13.3s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   7.4s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  26.1s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   2.4s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   9.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.0s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   4.0s
+[CV] END ................................C=10, kernel=linear; total time= 1.1min
+[CV] END ..............................................C=0.1; total time=   0.6s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   3.8s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   9.1s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   2.3s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 1.2min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  15.4s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   5.9s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   1.8s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   4.8s
+[CV] END ...............................................C=10; total time=   0.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   2.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   1.5s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   1.7s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   0.9s
+[CV] END ....................................C=1, kernel=rbf; total time=  11.1s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  24.7s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   6.1s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=  12.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   9.9s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  26.7s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  19.4s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   7.9s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   2.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   5.9s
+[CV] END ..............................C=0.01, kernel=linear; total time=  56.8s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 2.1min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   3.3s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   1.9s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   1.5s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   1.1s
+[CV] END ...................max_depth=None, n_estimators=500; total time=   7.9s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=  50.0s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   1.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   1.6s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   0.7s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   0.7s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   1.0s
+[CV] END ................................C=10, kernel=linear; total time=   4.9s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  12.5s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  21.2s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   7.6s
+[CV] END ...................................C=10, kernel=rbf; total time= 2.2min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time= 1.4min
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   3.4s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   3.6s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   5.6s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   5.4s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   3.1s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 2.5min
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 2.5min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   1.8s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   6.1s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.1s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   2.9s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   3.5s
+[CV] END ...................................C=10, kernel=rbf; total time=  57.8s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  10.7s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   2.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   0.9s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   3.9s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   4.7s
+[CV] END ................................................C=1; total time=   0.5s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   2.7s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   1.0s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   2.3s
+[CV] END ................................................C=1; total time=   0.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=  10.8s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   8.3s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   5.7s
+[CV] END ................................C=10, kernel=linear; total time= 2.4min
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   9.0s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   9.2s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   4.1s
+[CV] END ................................C=10, kernel=linear; total time= 1.3min
+[CV] END ...............................................C=10; total time=   1.8s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   1.7s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   4.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   4.8s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   6.9s
+[CV] END ................................................C=1; total time=   1.1s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   4.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   3.7s
+[CV] END .....................max_depth=50, n_estimators=500; total time=   8.0s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.1min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   1.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   1.7s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   1.2s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   1.0s
+[CV] END ................................C=10, kernel=linear; total time=   5.7s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  12.3s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  28.0s
+[CV] END ..............................C=0.01, kernel=linear; total time= 3.2min
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  23.1s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   2.3s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   5.8s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   2.3s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   8.0s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   8.9s
+[CV] END ..................................C=100, kernel=rbf; total time= 1.5min
+[CV] END ...............................................C=10; total time=   1.4s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   1.8s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   2.3s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   1.3s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   1.5s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   5.4s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   4.1s
+[CV] END ...............................C=100, kernel=linear; total time= 1.1min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  20.9s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   4.4s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   1.3s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.8s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   3.3s
+[CV] END .....................max_depth=20, n_estimators=500; total time=   6.9s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   5.3s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   3.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   0.6s
+[CV] END ...................max_depth=None, n_estimators=500; total time=   3.5s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=   9.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   4.9s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   4.6s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   3.1s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   9.3s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   2.8s
+[CV] END ...............................C=0.1, kernel=linear; total time= 2.4min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time= 1.0min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   3.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   6.8s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   3.8s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   7.9s
+[CV] END ...............................................C=10; total time=   1.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   4.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   3.4s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   1.6s
+[CV] END .................................C=1, kernel=linear; total time=  25.1s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 1.5min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   0.7s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   2.2s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   0.8s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   1.9s
+[CV] END .....................max_depth=20, n_estimators=500; total time=   3.3s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   4.8s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=  14.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   4.6s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   6.4s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   4.8s
+[CV] END ....................................C=1, kernel=rbf; total time= 2.4min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  47.7s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=  12.8s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   4.0s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   5.4s
+[CV] END ...................................C=10, kernel=rbf; total time= 1.3min
+[CV] END ................................................C=1; total time=   1.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   6.4s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   5.3s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  12.9s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  18.9s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   4.1s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   2.8s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   4.2s
+[CV] END ..................................C=100, kernel=rbf; total time=  26.0s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   4.7s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   1.8s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   1.0s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   2.3s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   2.2s
+[CV] END ..............................................C=0.1; total time=   0.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   6.8s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=  15.4s
+[CV] END .....................max_depth=10, n_estimators=500; total time=  12.2s
+[CV] END ..................................C=100, kernel=rbf; total time= 2.6min
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  51.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   2.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   7.1s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   5.5s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   1.2s
+[CV] END .................................C=0.01, kernel=rbf; total time= 2.3min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 2.0min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   4.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   4.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   4.7s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  10.2s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  11.2s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   3.4s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   2.9s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   2.1s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END .................................C=0.01, kernel=rbf; total time=  37.0s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   0.5s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   1.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   1.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   1.5s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   1.6s
+[CV] END ...............................C=100, kernel=linear; total time=   8.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  19.3s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   2.6s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   7.6s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   5.5s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   2.3s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   3.0s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   4.5s
+[CV] END .................................C=1, kernel=linear; total time= 2.7min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  40.3s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  12.4s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   6.5s
+[CV] END ..............................................C=0.1; total time=   0.7s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   1.0s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   2.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   1.0s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   3.9s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   2.6s
+[CV] END ...................................C=10, kernel=rbf; total time=  35.4s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  40.7s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   1.7s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   3.7s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   2.1s
+[CV] END ..................................C=100, kernel=rbf; total time=   5.4s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time=  43.3s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   3.2s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   3.8s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   4.9s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   3.1s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=  16.9s
+[CV] END ..............................C=0.01, kernel=linear; total time= 2.8min
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=  11.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   3.5s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   4.1s
+[CV] END ....................................C=1, kernel=rbf; total time= 1.6min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  27.2s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   5.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   1.5s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   5.4s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   4.4s
+[CV] END ...............................C=100, kernel=linear; total time= 1.2min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  20.3s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   4.5s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   1.2s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   4.4s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   1.7s
+[CV] END ................................C=10, kernel=linear; total time=  23.5s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  20.2s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   3.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   1.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   3.0s
+[CV] END ..............................C=0.01, kernel=linear; total time=   3.0s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=   7.6s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   9.5s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   2.8s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.9s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   2.2s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   2.7s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   1.5s
+[CV] END .................................C=0.01, kernel=rbf; total time= 3.9min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  27.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   5.2s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   9.2s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   2.3s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   3.4s
+[CV] END .................................C=1, kernel=linear; total time= 1.9min
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  23.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   2.2s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   7.4s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   3.3s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   6.5s
+[CV] END ..................................C=100, kernel=rbf; total time= 1.5min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time= 1.0min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   4.3s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   3.1s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   1.7s
+[CV] END ................................C=10, kernel=linear; total time=  14.9s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=   6.5s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   3.2s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   2.3s
+[CV] END .....................max_depth=50, n_estimators=500; total time=   3.6s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=  28.7s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   8.9s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   4.9s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   2.1s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   5.1s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   1.6s
+[CV] END .................................C=0.01, kernel=rbf; total time= 3.5min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   4.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=  12.1s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   5.6s
+[CV] END ...............................C=100, kernel=linear; total time= 2.3min
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  28.7s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   2.7s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   2.8s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   3.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.3s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   1.7s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   2.5s
+[CV] END .................................C=1, kernel=linear; total time=  53.7s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  33.3s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   2.1s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   5.3s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   3.9s
+[CV] END .....................max_depth=50, n_estimators=500; total time=   7.8s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  14.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   3.9s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   1.5s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   0.7s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  10.9s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=   7.6s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  17.2s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   5.7s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   4.1s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 3.9min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8008497079129049
+Precision:	0.7006920415224913
+Recall:	0.6672158154859967
+F1:	0.6835443037974683
+ROC_AUC:	0.8418728987311048
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.7840
+Precision: 0.7036
+Recall: 0.5942
+F1: 0.6443
+ROC_AUC: 0.8359
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8024429102496017
+Precision:	0.7263969171483622
+Recall:	0.6210873146622735
+F1:	0.6696269982238011
+ROC_AUC:	0.8556489596298151
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.7815
+Precision: 0.7098
+Recall: 0.5689
+F1: 0.6316
+ROC_AUC: 0.8469
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8066914498141264
+Precision:	0.6982055464926591
+Recall:	0.7051070840197694
+F1:	0.7016393442622951
+ROC_AUC:	0.8565094792726446
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.7849
+Precision: 0.6877
+Recall: 0.6346
+F1: 0.6601
+ROC_AUC: 0.8385
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7939458311205523
+Precision:	0.6740858505564388
+Recall:	0.6985172981878089
+F1:	0.686084142394822
+ROC_AUC:	0.8491334121766435
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.7769
+Precision: 0.6707
+Recall: 0.6334
+F1: 0.6515
+ROC_AUC: 0.8374
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7843866171003717
+Precision:	0.6480117820324006
+Recall:	0.7248764415156508
+F1:	0.6842923794712286
+ROC_AUC:	0.8293524347606038
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.001}
+
+TEST METRICS:
+Accuracy: 0.7657
+Precision: 0.6432
+Recall: 0.6473
+F1: 0.6452
+ROC_AUC: 0.8164
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 123 | SUBSET 0.4
+MODEL: randomforest
+SCORE: 0.8469
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.2
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7875730217737653
+Precision:	0.6941838649155723
+Recall:	0.6095551894563427
+F1:	0.6491228070175439
+ROC_AUC:	0.8261621211260478
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.7599
+Precision: 0.6555
+Recall: 0.5702
+F1: 0.6099
+ROC_AUC: 0.8095
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7695167286245354
+Precision:	0.6754563894523327
+Recall:	0.5485996705107083
+F1:	0.6054545454545455
+ROC_AUC:	0.8254978490236684
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.7703
+Precision: 0.7071
+Recall: 0.5158
+F1: 0.5965
+ROC_AUC: 0.8251
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7727031332979288
+Precision:	0.6358118361153262
+Recall:	0.6902800658978583
+F1:	0.6619273301737757
+ROC_AUC:	0.8096844287905469
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.7478
+Precision: 0.6178
+Recall: 0.6131
+F1: 0.6155
+ROC_AUC: 0.7872
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7684545937334042
+Precision:	0.6359300476947536
+Recall:	0.6589785831960461
+F1:	0.6472491909385113
+ROC_AUC:	0.8131762147980974
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.7516
+Precision: 0.6283
+Recall: 0.6005
+F1: 0.6141
+ROC_AUC: 0.7961
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7477429633563463
+Precision:	0.6061093247588425
+Recall:	0.6210873146622735
+F1:	0.613506916192026
+ROC_AUC:	0.7936470023188196
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.001}
+
+TEST METRICS:
+Accuracy: 0.7499
+Precision: 0.6185
+Recall: 0.6271
+F1: 0.6227
+ROC_AUC: 0.7918
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 123 | SUBSET 0.2
+MODEL: randomforest
+SCORE: 0.8251
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SEED: 2137
+####################################################################################################
+
+####################################################################################################
+RUNNING SUBSET: full
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8224598930481284
+Precision:	0.736734693877551
+Recall:	0.6400709219858156
+F1:	0.6850094876660342
+ROC_AUC:	0.8777098063493098
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.8269
+Precision: 0.7907
+Recall: 0.6581
+F1: 0.7183
+ROC_AUC: 0.8906
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8080213903743315
+Precision:	0.7104722792607803
+Recall:	0.6134751773049646
+F1:	0.6584205518553758
+ROC_AUC:	0.8701275075212059
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.8172
+Precision: 0.7545
+Recall: 0.6742
+F1: 0.7121
+ROC_AUC: 0.8782
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.818716577540107
+Precision:	0.7167630057803468
+Recall:	0.6595744680851063
+F1:	0.6869806094182825
+ROC_AUC:	0.8766067413899841
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.8064
+Precision: 0.7127
+Recall: 0.7081
+F1: 0.7104
+ROC_AUC: 0.8780
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  59.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  18.6s
+[CV] END .....................max_depth=10, n_estimators=500; total time=  10.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   2.2s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   8.7s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   3.8s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   5.2s
+[CV] END .....................max_depth=50, n_estimators=300; total time=  12.3s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  56.3s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=  11.0s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   2.9s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   2.2s
+[CV] END ...................max_depth=None, n_estimators=300; total time=  13.0s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 2.2min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   7.3s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   6.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   6.4s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  16.0s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  27.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   6.2s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   1.8s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   4.0s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   1.4s
+[CV] END ...............................C=0.1, kernel=linear; total time=  42.7s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  31.7s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   7.4s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   4.5s
+[CV] END ..............................C=0.01, kernel=linear; total time=  30.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  16.4s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   1.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   0.7s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   2.8s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   2.4s
+[CV] END ...............................................C=10; total time=   0.4s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   3.5s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   9.3s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   9.2s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   8.1s
+[CV] END ...............................C=100, kernel=linear; total time= 6.6min
+[CV] END ..............................................C=0.1; total time=   0.7s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   5.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   9.4s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   7.3s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  20.6s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  33.2s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   3.3s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   7.7s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   5.8s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  21.0s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  20.8s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=  11.7s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   5.9s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   3.8s
+[CV] END .................................C=1, kernel=linear; total time= 1.4min
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 4.1min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   2.7s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   6.1s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   6.9s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   8.3s
+[CV] END ..............................C=0.01, kernel=linear; total time= 1.7min
+[CV] END ................................................C=1; total time=   1.5s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   8.9s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   2.6s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.7s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   4.3s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   1.3s
+[CV] END .................................C=0.01, kernel=rbf; total time= 1.9min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time= 1.7min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   6.4s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   1.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   4.7s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   2.9s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   4.3s
+[CV] END ....................................C=1, kernel=rbf; total time= 1.9min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  17.5s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   7.3s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   4.0s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   8.8s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   4.5s
+[CV] END ................................C=10, kernel=linear; total time= 2.0min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  42.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   4.1s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   3.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   2.2s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   5.1s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   2.4s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   6.3s
+[CV] END ...................................C=10, kernel=rbf; total time= 2.0min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8165775401069518
+Precision:	0.7268993839835729
+Recall:	0.6276595744680851
+F1:	0.6736441484300666
+ROC_AUC:	0.8760698033082446
+
+==== BEST PARAMETERS ====
+{'C': 0.1}
+
+TEST METRICS:
+Accuracy: 0.8145
+Precision: 0.7434
+Recall: 0.6823
+F1: 0.7115
+ROC_AUC: 0.8898
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8053475935828877
+Precision:	0.676056338028169
+Recall:	0.6808510638297872
+F1:	0.6784452296819788
+ROC_AUC:	0.8738677462448274
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.01}
+
+TEST METRICS:
+Accuracy: 0.8075
+Precision: 0.7143
+Recall: 0.7097
+F1: 0.7120
+ROC_AUC: 0.8723
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 2137 | SUBSET full
+MODEL: xgboost
+SCORE: 0.8906
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.8
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8128342245989305
+Precision:	0.7247899159663865
+Recall:	0.6117021276595744
+F1:	0.6634615384615384
+ROC_AUC:	0.8591396229079101
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.01, 'max_depth': 9, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.8161
+Precision: 0.7682
+Recall: 0.6468
+F1: 0.7023
+ROC_AUC: 0.8809
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8101604278074866
+Precision:	0.7317073170731707
+Recall:	0.5851063829787234
+F1:	0.6502463054187192
+ROC_AUC:	0.8620890489068456
+
+==== BEST PARAMETERS ====
+{'max_depth': 20, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.8129
+Precision: 0.7585
+Recall: 0.6484
+F1: 0.6991
+ROC_AUC: 0.8812
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8224598930481284
+Precision:	0.72568093385214
+Recall:	0.6613475177304965
+F1:	0.6920222634508348
+ROC_AUC:	0.8658102809727064
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+TEST METRICS:
+Accuracy: 0.8134
+Precision: 0.7311
+Recall: 0.7016
+F1: 0.7160
+ROC_AUC: 0.8765
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+/net/tscratch/people/plgvltkv/bio-transfer/.venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 2.0min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   5.5s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   4.6s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   3.2s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   4.7s
+[CV] END ...............................C=100, kernel=linear; total time= 1.9min
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8181818181818182
+Precision:	0.7372881355932204
+Recall:	0.6170212765957447
+F1:	0.6718146718146718
+ROC_AUC:	0.8679050861816169
+
+==== BEST PARAMETERS ====
+{'C': 0.1}
+
+TEST METRICS:
+Accuracy: 0.8140
+Precision: 0.7438
+Recall: 0.6790
+F1: 0.7099
+ROC_AUC: 0.8899
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7962566844919786
+Precision:	0.6631016042780749
+Recall:	0.6595744680851063
+F1:	0.6613333333333333
+ROC_AUC:	0.8512844427790991
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}
+
+TEST METRICS:
+Accuracy: 0.8064
+Precision: 0.7120
+Recall: 0.7097
+F1: 0.7108
+ROC_AUC: 0.8650
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 2137 | SUBSET 0.8
+MODEL: linear
+SCORE: 0.8899
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.6
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8106951871657754
+Precision:	0.7169421487603306
+Recall:	0.6152482269503546
+F1:	0.6622137404580153
+ROC_AUC:	0.8556532588272349
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.8231
+Precision: 0.7738
+Recall: 0.6677
+F1: 0.7169
+ROC_AUC: 0.8809
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8026737967914439
+Precision:	0.7200902934537246
+Recall:	0.5656028368794326
+F1:	0.6335650446871897
+ROC_AUC:	0.8513407839431755
+
+==== BEST PARAMETERS ====
+{'max_depth': 50, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.8150
+Precision: 0.7584
+Recall: 0.6581
+F1: 0.7047
+ROC_AUC: 0.8728
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8133689839572192
+Precision:	0.7301927194860813
+Recall:	0.6046099290780141
+F1:	0.6614936954413191
+ROC_AUC:	0.8704696273608985
+
+==== BEST PARAMETERS ====
+{'C': 1, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.8259
+Precision: 0.7670
+Recall: 0.6903
+F1: 0.7267
+ROC_AUC: 0.8817
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7941176470588235
+Precision:	0.6744639376218323
+Recall:	0.6134751773049646
+F1:	0.6425255338904364
+ROC_AUC:	0.8478652808097923
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.8085
+Precision: 0.7159
+Recall: 0.7113
+F1: 0.7136
+ROC_AUC: 0.8669
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7866310160427807
+Precision:	0.6633663366336634
+Recall:	0.5939716312056738
+F1:	0.6267539756782039
+ROC_AUC:	0.838014401616109
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+
+TEST METRICS:
+Accuracy: 0.8112
+Precision: 0.7381
+Recall: 0.6774
+F1: 0.7065
+ROC_AUC: 0.8640
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 2137 | SUBSET 0.6
+MODEL: svm
+SCORE: 0.8817
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.4
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+/net/tscratch/people/plgvltkv/bio-transfer/.venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/net/tscratch/people/plgvltkv/bio-transfer/.venv/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:781: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8074866310160428
+Precision:	0.7064777327935222
+Recall:	0.6187943262411347
+F1:	0.6597353497164461
+ROC_AUC:	0.8545223626904739
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.01, 'max_depth': 9, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.8118
+Precision: 0.7446
+Recall: 0.6677
+F1: 0.7041
+ROC_AUC: 0.8672
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8037433155080214
+Precision:	0.724373576309795
+Recall:	0.5638297872340425
+F1:	0.634097706879362
+ROC_AUC:	0.8464920497865822
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+TEST METRICS:
+Accuracy: 0.8075
+Precision: 0.7548
+Recall: 0.6306
+F1: 0.6872
+ROC_AUC: 0.8632
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.8074866310160428
+Precision:	0.7307692307692307
+Recall:	0.5726950354609929
+F1:	0.6421471172962226
+ROC_AUC:	0.865312035015694
+
+==== BEST PARAMETERS ====
+{'C': 1, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.8215
+Precision: 0.7544
+Recall: 0.6935
+F1: 0.7227
+ROC_AUC: 0.8765
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7967914438502673
+Precision:	0.6940928270042194
+Recall:	0.5833333333333334
+F1:	0.6339113680154143
+ROC_AUC:	0.8427294103591716
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.8004
+Precision: 0.7014
+Recall: 0.7048
+F1: 0.7031
+ROC_AUC: 0.8622
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7855614973262032
+Precision:	0.6831460674157304
+Recall:	0.5390070921985816
+F1:	0.6025768087215064
+ROC_AUC:	0.8229828505642263
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.0001}
+
+TEST METRICS:
+Accuracy: 0.7999
+Precision: 0.7208
+Recall: 0.6581
+F1: 0.6880
+ROC_AUC: 0.8513
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 2137 | SUBSET 0.4
+MODEL: svm
+SCORE: 0.8765
+--------------------------------------------------------------------------------
+
+####################################################################################################
+RUNNING SUBSET: 0.2
+####################################################################################################
+
+================================================================================
+TRAINING MODEL: xgboost
+================================================================================
+Fitting 1 folds for each of 48 candidates, totalling 48 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7935828877005348
+Precision:	0.6995515695067265
+Recall:	0.5531914893617021
+F1:	0.6178217821782178
+ROC_AUC:	0.8412910136522107
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 500}
+
+TEST METRICS:
+Accuracy: 0.7966
+Precision: 0.7402
+Recall: 0.6065
+F1: 0.6667
+ROC_AUC: 0.8505
+
+================================================================================
+TRAINING MODEL: randomforest
+================================================================================
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7903743315508022
+Precision:	0.7216494845360825
+Recall:	0.49645390070921985
+F1:	0.5882352941176471
+ROC_AUC:	0.8342870602673965
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 300}
+
+TEST METRICS:
+Accuracy: 0.7972
+Precision: 0.7740
+Recall: 0.5581
+F1: 0.6485
+ROC_AUC: 0.8605
+
+================================================================================
+TRAINING MODEL: svm
+================================================================================
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7855614973262032
+Precision:	0.6815144766146993
+Recall:	0.5425531914893617
+F1:	0.6041461006910168
+ROC_AUC:	0.8348457202437196
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+TEST METRICS:
+Accuracy: 0.8048
+Precision: 0.7367
+Recall: 0.6500
+F1: 0.6907
+ROC_AUC: 0.8564
+
+================================================================================
+TRAINING MODEL: linear
+================================================================================
+Fitting 1 folds for each of 3 candidates, totalling 3 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7764705882352941
+Precision:	0.6514522821576764
+Recall:	0.5567375886524822
+F1:	0.6003824091778203
+ROC_AUC:	0.8272946466390798
+
+==== BEST PARAMETERS ====
+{'C': 1}
+
+TEST METRICS:
+Accuracy: 0.7880
+Precision: 0.6869
+Recall: 0.6758
+F1: 0.6813
+ROC_AUC: 0.8483
+
+================================================================================
+TRAINING MODEL: mlp
+================================================================================
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7679144385026738
+Precision:	0.6173285198555957
+Recall:	0.6063829787234043
+F1:	0.6118067978533095
+ROC_AUC:	0.8052170560316272
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.001}
+
+TEST METRICS:
+Accuracy: 0.7810
+Precision: 0.6621
+Recall: 0.7081
+F1: 0.6843
+ROC_AUC: 0.8377
+
+--------------------------------------------------------------------------------
+BEST MODEL FOR SEED 2137 | SUBSET 0.2
+MODEL: randomforest
+SCORE: 0.8605
+--------------------------------------------------------------------------------
+
+################################################################################
+FINISHED ALL EXPERIMENTS
+################################################################################
+
+Saved results to:
+results/BACE1_all_results_classification.csv
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   1.4s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   5.4s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   1.8s
+[CV] END ....................................C=1, kernel=rbf; total time=  36.5s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 1.6min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   2.5s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   3.1s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   2.1s
+[CV] END ..................................C=100, kernel=rbf; total time=  13.5s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  30.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   6.8s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   4.0s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   3.7s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   2.5s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 1.3min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  33.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   2.2s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   5.8s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   5.5s
+[CV] END ..............................C=0.01, kernel=linear; total time=  44.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  30.1s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   0.5s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   1.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   1.7s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   2.7s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   2.5s
+[CV] END ..............................................C=0.1; total time=   0.2s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  41.3s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  14.5s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   4.7s
+[CV] END .....................max_depth=20, n_estimators=300; total time=  10.4s
+[CV] END ..................................C=100, kernel=rbf; total time= 2.7min
+[CV] END ................................................C=1; total time=   1.9s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   6.7s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   2.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   1.3s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.4s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   5.7s
+[CV] END .....................max_depth=50, n_estimators=500; total time=  13.5s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  26.3s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   4.7s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   1.4s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   2.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   4.8s
+[CV] END .....................max_depth=50, n_estimators=500; total time=   8.8s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=  58.2s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   2.0s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   1.1s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   0.9s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   1.3s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   2.5s
+[CV] END ................................................C=1; total time=   0.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time= 1.2min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   4.7s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   5.2s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   1.9s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   2.9s
+[CV] END ....................................C=1, kernel=rbf; total time= 1.4min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  49.3s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  10.0s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   1.6s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  51.6s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  22.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   3.6s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.5s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   2.1s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   2.8s
+[CV] END ...............................................C=10; total time=   0.4s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  20.3s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   8.7s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   4.5s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.9s
+[CV] END .................................C=0.01, kernel=rbf; total time= 1.4min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  19.2s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   6.3s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   3.1s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   1.0s
+[CV] END ...............................C=0.1, kernel=linear; total time=  24.8s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  26.7s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=   6.7s
+[CV] END .....................max_depth=20, n_estimators=500; total time=   3.3s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   3.5s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time= 1.1min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   3.7s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=  14.3s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   2.0s
+[CV] END ...............................C=0.1, kernel=linear; total time= 2.1min
+[CV] END ..............................................C=0.1; total time=   1.1s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   4.1s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   9.8s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   4.6s
+[CV] END ...................................C=10, kernel=rbf; total time= 1.2min
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=  21.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   1.8s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   4.2s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.9s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   1.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   1.4s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   2.9s
+[CV] END ...............................C=100, kernel=linear; total time=  37.8s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  11.4s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   1.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   4.4s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   0.6s
+[CV] END ...............................C=0.1, kernel=linear; total time=   8.7s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   5.2s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 3.0min
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   1.4s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   6.0s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   1.6s
+[CV] END ...............................C=0.1, kernel=linear; total time=  47.9s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  30.6s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   7.6s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=500; total time=   4.2s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   5.0s
+[CV] END ................................................C=1; total time=   0.8s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   2.5s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   1.3s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   1.1s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   3.0s
+[CV] END ..............................C=0.01, kernel=linear; total time=   9.8s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=   5.4s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  53.0s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=500; total time=  14.1s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   7.4s
+[CV] END ..............................................C=0.1; total time=   0.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   4.6s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   3.3s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   2.0s
+[CV] END ................................C=10, kernel=linear; total time=  21.4s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  14.0s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=   5.6s
+[CV] END ......................max_depth=5, n_estimators=500; total time=   1.6s
+[CV] END ...............................C=100, kernel=linear; total time=   3.7s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=   7.1s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  52.1s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   8.4s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   6.7s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   6.0s
+[CV] END ..................................C=100, kernel=rbf; total time= 1.4min
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  55.4s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=300; total time=   3.3s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   2.4s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=300; total time=   2.2s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END .................................C=0.01, kernel=rbf; total time=  53.3s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   0.6s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   3.3s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=500; total time=   1.7s
+[CV] END ......................max_depth=5, n_estimators=100; total time=   0.4s
+[CV] END .................................C=0.01, kernel=rbf; total time=  12.3s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=   8.6s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time= 1.2min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   3.9s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   7.6s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   4.1s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   2.7s
+[CV] END .................................C=1, kernel=linear; total time=  47.8s
+[CV] END .hidden_layer_sizes=(256,), learning_rate_init=0.01; total time=  35.1s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=300; total time=   5.8s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=500; total time=   4.9s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   1.7s
+[CV] END .................................C=1, kernel=linear; total time=  42.7s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.001; total time=   9.0s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=500; total time=   4.8s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=300; total time=   2.0s
+[CV] END .....................max_depth=50, n_estimators=100; total time=   0.8s
+[CV] END ....................................C=1, kernel=rbf; total time=  12.9s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.001; total time=  10.2s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=100; total time=   1.7s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=300; total time=   6.1s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   4.5s
+[CV] END ...................max_depth=None, n_estimators=500; total time=  14.5s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time= 1.5min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   2.1s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=300; total time=   2.8s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   2.6s
+[CV] END .....................max_depth=20, n_estimators=300; total time=   4.1s
+[CV] END ..................................C=100, kernel=rbf; total time=  51.4s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.01; total time=  15.6s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   1.3s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   1.2s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   2.1s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   0.8s
+[CV] END ...................max_depth=None, n_estimators=500; total time=   4.1s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  11.2s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  34.5s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=500; total time=  16.7s
+[CV] END .....................max_depth=50, n_estimators=300; total time=   8.9s
+[CV] END ...............................................C=10; total time=   1.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=500; total time=   4.5s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=500; total time=   3.7s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   5.2s
+[CV] END ...............................................C=10; total time=   0.9s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   0.8s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   1.0s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   0.5s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   1.7s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=100; total time=   0.6s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=300; total time=   1.6s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   1.5s
+[CV] END ...................................C=10, kernel=rbf; total time=  10.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  17.0s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.0001; total time=  49.7s
+[CV] END .learning_rate=0.001, max_depth=9, n_estimators=100; total time=   3.1s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=100; total time=   3.2s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=300; total time=   5.5s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   2.9s
+[CV] END ................................C=10, kernel=linear; total time=  57.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=   8.5s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   1.4s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   1.7s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=100; total time=   0.9s
+[CV] END ..learning_rate=0.05, max_depth=5, n_estimators=100; total time=   1.1s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   4.2s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   2.9s
+[CV] END ...................................C=10, kernel=rbf; total time=  52.7s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  44.5s
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=300; total time=   1.2s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   5.4s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   0.7s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  13.2s
+[CV] END hidden_layer_sizes=(256, 128), learning_rate_init=0.0001; total time=  25.8s
+[CV] END ...............................................C=10; total time=   2.1s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   2.8s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=100; total time=   3.2s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=  13.1s
+[CV] END .....................max_depth=20, n_estimators=100; total time=   3.4s
+[CV] END ..................................C=0.1, kernel=rbf; total time= 2.8min
+[CV] END ...............................................C=10; total time=   2.3s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=100; total time=   2.0s
+[CV] END ..learning_rate=0.01, max_depth=5, n_estimators=500; total time=   6.7s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=300; total time=   3.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=500; total time=   6.5s
+[CV] END ..............................C=0.01, kernel=linear; total time=  52.5s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time= 2.1min
+[CV] END ..learning_rate=0.01, max_depth=3, n_estimators=500; total time=   3.8s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=500; total time=   3.2s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   3.5s
+[CV] END .....................max_depth=20, n_estimators=500; total time=   6.8s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=   6.8s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   2.9s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   4.7s
+[CV] END .....................max_depth=50, n_estimators=500; total time=   4.1s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=  31.9s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  34.7s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=  10.9s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=500; total time=   7.7s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   6.5s
+[CV] END ...............................C=100, kernel=linear; total time= 3.6min
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  24.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=7, n_estimators=500; total time=   8.2s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   1.7s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   8.8s
+[CV] END ................................................C=1; total time=   1.1s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   2.8s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=500; total time=   7.1s
+[CV] END .....................max_depth=10, n_estimators=500; total time=   4.7s
+[CV] END ..............................................C=0.1; total time=   0.4s
+[CV] END .learning_rate=0.001, max_depth=3, n_estimators=300; total time=   1.4s
+[CV] END ..learning_rate=0.01, max_depth=9, n_estimators=300; total time=   2.9s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   0.7s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   0.8s
+[CV] END .................................C=1, kernel=linear; total time=   7.1s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time=  55.9s
+[CV] END hidden_layer_sizes=(128, 64), learning_rate_init=0.01; total time=  13.4s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   5.4s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   3.0s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   2.3s
+[CV] END ...learning_rate=0.1, max_depth=5, n_estimators=500; total time=   5.0s
+[CV] END .....................max_depth=20, n_estimators=500; total time=  11.3s
+[CV] END .hidden_layer_sizes=(128,), learning_rate_init=0.01; total time=  15.0s
+[CV] END .learning_rate=0.001, max_depth=5, n_estimators=300; total time=   3.7s
+[CV] END ..learning_rate=0.05, max_depth=3, n_estimators=300; total time=   2.1s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=100; total time=   1.6s
+[CV] END ...learning_rate=0.1, max_depth=7, n_estimators=100; total time=   1.2s
+[CV] END ...................max_depth=None, n_estimators=500; total time=   8.4s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=  12.8s
+[CV] END .learning_rate=0.001, max_depth=7, n_estimators=300; total time=   2.8s
+[CV] END ..learning_rate=0.05, max_depth=7, n_estimators=100; total time=   0.8s
+[CV] END ..learning_rate=0.05, max_depth=9, n_estimators=300; total time=   2.0s
+[CV] END ......................max_depth=5, n_estimators=300; total time=   1.1s
+[CV] END ................................C=10, kernel=linear; total time=   6.8s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=  13.9s
