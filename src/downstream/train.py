@@ -66,7 +66,7 @@ def tune_hyperparams(
         scoring=scoring,
         cv=ps,
         verbose=2,
-        n_jobs=1,
+        n_jobs=-1,
     )
 
     grid.fit(X, y)
