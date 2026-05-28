@@ -1,0 +1,24 @@
+Fitting 1 folds for each of 6 candidates, totalling 6 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7573872472783826
+Precision:	0.7407407407407407
+Recall:	0.6378986866791745
+F1:	0.6854838709677419
+ROC_AUC:	0.8262260526374802
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+==== TEST RESULTS ====
+Accuracy: 0.8234
+Precision: 0.7300
+Recall: 0.7350
+F1: 0.7325
+ROC_AUC: 0.8839
+[CV] END .................................C=1, kernel=linear; total time=  30.8s
+[CV] END ................................C=10, kernel=linear; total time=  29.5s
+[CV] END ...................................C=10, kernel=rbf; total time=  42.3s
+[CV] END ....................................C=1, kernel=rbf; total time=  38.9s
+[CV] END ...............................C=0.1, kernel=linear; total time=  31.8s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  41.5s
