@@ -122,7 +122,7 @@ class MultiTargetGINE(nn.Module):
     def set_target_embedding_mean(self, mean: torch.Tensor):
         self.target_embedding_mean.copy_(mean)
 
-    def forward(
+    def _encode_graph(
         self,
         x: torch.Tensor,
         edge_index: torch.Tensor,
@@ -147,6 +147,32 @@ class MultiTargetGINE(nn.Module):
             )
 
         graph_emb = self.readout(x, batch)
+
+        return graph_emb, target_embeddings
+
+    def encode_graph(
+        self,
+        x: torch.Tensor,
+        edge_index: torch.Tensor,
+        edge_attr: torch.Tensor,
+        batch: torch.Tensor,
+        target_esm_embeddings: torch.Tensor,
+    ):
+        return self._encode_graph(
+            x, edge_index, edge_attr, batch, target_esm_embeddings
+        )[0]
+
+    def forward(
+        self,
+        x: torch.Tensor,
+        edge_index: torch.Tensor,
+        edge_attr: torch.Tensor,
+        batch: torch.Tensor,
+        target_esm_embeddings: torch.Tensor,
+    ):
+        graph_emb, target_embeddings = self._encode_graph(
+            x, edge_index, edge_attr, batch, target_esm_embeddings
+        )
 
         y = self.head1(graph_emb)
         y = self.head_film1(y, target_embeddings)

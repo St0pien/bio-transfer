@@ -1,17 +1,26 @@
 import numpy as np
 import pandas as pd
+import torch
 from rdkit import Chem
 from rdkit.Chem import AllChem, DataStructs
 from sklearn.base import clone
 from sklearn.model_selection import GridSearchCV, PredefinedSplit
+from torch_geometric.loader import DataLoader
+from tqdm import tqdm
 
+from data.gnn_dataset import smiles_to_graph
 from downstream.eval import (
     eval_downstream_classification_model,
     eval_downstream_regression_model,
 )
+from model.multi_target_gnn import MultiTargetGINE
 
 
-def parse_csv(csv_path: str, smiles_col="canonical_smiles", y_col="pchembl_value"):
+def parse_csv(
+    csv_path: str,
+    smiles_col="canonical_smiles",
+    y_col="pchembl_value",
+):
     df = pd.read_csv(csv_path)
 
     smiles = df[smiles_col].to_numpy()
@@ -36,8 +45,48 @@ def smiles_to_ecfp(smiles, radius=2, n_bits=2048):
     return np.array(fps)
 
 
+def smiles_to_embeddings(
+    smiles: list[str],
+    target_embedding: torch.Tensor,
+    gnn: MultiTargetGINE,
+    batch_size=64,
+):
+    dataset = [smiles_to_graph(s) for s in smiles]
+    loader = DataLoader(
+        dataset,
+        batch_size=batch_size,
+        shuffle=False,
+    )
+
+    all_embeddings = []
+    with torch.no_grad():
+        for batch in tqdm(loader, desc="Precomputing compound embeddings"):
+            batch = batch.to(target_embedding.device)
+            emb = gnn.encode_graph(
+                x=batch.x,
+                edge_index=batch.edge_index,
+                edge_attr=batch.edge_attr,
+                batch=batch.batch,
+                target_esm_embeddings=target_embedding.unsqueeze(0).repeat(
+                    batch.batch.shape[0], 1
+                ),
+            )
+
+            all_embeddings.append(emb.cpu())
+
+    return torch.cat(all_embeddings).numpy()
+
+
 def tune_hyperparams(
-    model, csv_train: str, csv_val: str, param_grid, task="regression", threshold=None
+    model,
+    csv_train: str,
+    csv_val: str,
+    param_grid,
+    task="regression",
+    threshold=None,
+    gnn: MultiTargetGINE = None,
+    target_embedding: torch.Tensor = None,
+    gnn_batch_size=None,
 ):
     smiles_train, y_train = parse_csv(csv_train)
     smiles_val, y_val = parse_csv(csv_val)
@@ -49,8 +98,22 @@ def tune_hyperparams(
         y_train = (y_train >= threshold).astype(int)
         y_val = (y_val >= threshold).astype(int)
 
-    X_train = smiles_to_ecfp(smiles_train)
-    X_val = smiles_to_ecfp(smiles_val)
+    if gnn is None:
+        X_train = smiles_to_ecfp(smiles_train)
+        X_val = smiles_to_ecfp(smiles_val)
+    else:
+        X_train = smiles_to_embeddings(
+            smiles_train,
+            target_embedding=target_embedding,
+            gnn=gnn,
+            batch_size=gnn_batch_size,
+        )
+        X_val = smiles_to_embeddings(
+            smiles_val,
+            target_embedding=target_embedding,
+            gnn=gnn,
+            batch_size=gnn_batch_size,
+        )
 
     X = np.vstack([X_train, X_val])
     y = np.concatenate([y_train, y_val])

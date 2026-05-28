@@ -1,18 +1,27 @@
 import argparse
 from statistics import LinearRegression
 
+import torch
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier, MLPRegressor
 from sklearn.svm import SVC, SVR
 from xgboost import XGBClassifier, XGBRegressor
-from downstream.grid_params import XGB, RND_FOREST, SVM, LINEAR, MLP
 
+from data.downloading import fetch_protein_seqeuence, fetch_uniprot_from_chembl
 from downstream.eval import (
     eval_downstream_classification_model,
     eval_downstream_regression_model,
 )
-from downstream.train import parse_csv, smiles_to_ecfp, tune_hyperparams
+from downstream.grid_params import LINEAR, MLP, RND_FOREST, SVM, XGB
+from downstream.train import (
+    parse_csv,
+    smiles_to_ecfp,
+    smiles_to_embeddings,
+    tune_hyperparams,
+)
+from model.esm_target_embedder import ESMTargetEmbedder
+from model.multi_target_gnn import MultiTargetGINE
 
 
 def get_model_and_grid(model_name: str, task: str):
@@ -124,6 +133,19 @@ def parse_args():
         help="Threshold for converting regression labels to binary.",
     )
 
+    parser.add_argument(
+        "--gnn",
+        default=None,
+        help="Path to GNN encoder checkpoint for transfer learning",
+    )
+
+    parser.add_argument(
+        "-gnn-batch-size",
+        type=int,
+        default=64,
+        help="Batch size for gnn encoding in transfer learning",
+    )
+
     args = parser.parse_args()
     return args
 
@@ -133,6 +155,28 @@ def main():
 
     model, param_grid = get_model_and_grid(args.model, args.task)
 
+    if args.gnn is not None:
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        gnn = MultiTargetGINE.from_pretrained(args.gnn).to(device)
+        gnn.eval()
+
+        print(f"[+] Loaded GNN encoder from {args.gnn}")
+
+        with open(args.train_csv) as f:
+            f.readline()
+            target_chembl_id = f.readline().split(",")[-1].strip()
+
+        print(f"[+] Fetching protein sequence for {target_chembl_id}")
+        target_sequence = fetch_protein_seqeuence(
+            fetch_uniprot_from_chembl(target_chembl_id)
+        )
+
+        print("[+] Preparing target embedding")
+        esm_embedder = ESMTargetEmbedder(device=device)
+        target_embedding = esm_embedder.get_target_embeddings(
+            {target_chembl_id: target_sequence}
+        )[target_chembl_id]
+
     best_model, _ = tune_hyperparams(
         model=model,
         csv_train=args.train_csv,
@@ -140,6 +184,9 @@ def main():
         param_grid=param_grid,
         task=args.task,
         threshold=args.threshold,
+        gnn=gnn if args.gnn is not None else None,
+        target_embedding=target_embedding if args.gnn is not None else None,
+        gnn_batch_size=args.gnn_batch_size,
     )
 
     smiles_test, y_test = parse_csv(args.test_csv)
@@ -147,7 +194,15 @@ def main():
     if args.task == "classification":
         y_test = (y_test >= args.threshold).astype(int)
 
-    X_test = smiles_to_ecfp(smiles_test)
+    if args.gnn is None:
+        X_test = smiles_to_ecfp(smiles_test)
+    else:
+        X_test = smiles_to_embeddings(
+            smiles_test,
+            target_embedding=target_embedding,
+            gnn=gnn,
+            batch_size=args.gnn_batch_size,
+        )
 
     if args.task == "regression":
         metrics = eval_downstream_regression_model(
