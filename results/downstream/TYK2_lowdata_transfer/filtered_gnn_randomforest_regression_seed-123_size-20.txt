@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: filtered_gnn
+checkpoint: checkpoints\filtered_gnn.pt
+model: randomforest
+task: regression
+seed: 123
+size: 20
+threshold: 
+seconds: 14.1
+
+==== VALIDATION METRICS ====
+R2: 0.068444
+RMSE: 1.186664
+MAE: 0.983316
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+R2: 0.073924
+RMSE: 1.173785
+MAE: 0.973422

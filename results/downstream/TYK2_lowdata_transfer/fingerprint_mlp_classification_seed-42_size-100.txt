@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: mlp
+task: classification
+seed: 42
+size: 100
+threshold: 7.5
+seconds: 325.7
+
+==== VALIDATION METRICS ====
+Accuracy: 0.786318
+Precision: 0.824074
+Recall: 0.793462
+F1: 0.808478
+ROC_AUC: 0.871377
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}
+
+==== TEST RESULTS ====
+Accuracy: 0.784442
+Precision: 0.832727
+Recall: 0.768456
+F1: 0.799302
+ROC_AUC: 0.873007

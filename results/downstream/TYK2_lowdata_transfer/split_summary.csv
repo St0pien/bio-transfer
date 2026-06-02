@@ -1,0 +1,16 @@
+seed,size,full_train_size,percent_of_train,inactive_count,active_count,train_csv
+42,10,3717,0.269034,5,5,data\splits\downstream\42\10\TYK2_train.csv
+42,20,3717,0.538068,9,11,data\splits\downstream\42\20\TYK2_train.csv
+42,50,3717,1.345171,24,26,data\splits\downstream\42\50\TYK2_train.csv
+42,100,3717,2.690342,47,53,data\splits\downstream\42\100\TYK2_train.csv
+42,500,3717,13.451708,237,263,data\splits\downstream\42\500\TYK2_train.csv
+123,10,3270,0.30581,5,5,data\splits\downstream\123\10\TYK2_train.csv
+123,20,3270,0.611621,9,11,data\splits\downstream\123\20\TYK2_train.csv
+123,50,3270,1.529052,23,27,data\splits\downstream\123\50\TYK2_train.csv
+123,100,3270,3.058104,45,55,data\splits\downstream\123\100\TYK2_train.csv
+123,500,3270,15.29052,226,274,data\splits\downstream\123\500\TYK2_train.csv
+2137,10,3667,0.272702,4,6,data\splits\downstream\2137\10\TYK2_train.csv
+2137,20,3667,0.545405,9,11,data\splits\downstream\2137\20\TYK2_train.csv
+2137,50,3667,1.363512,21,29,data\splits\downstream\2137\50\TYK2_train.csv
+2137,100,3667,2.727025,43,57,data\splits\downstream\2137\100\TYK2_train.csv
+2137,500,3667,13.635124,214,286,data\splits\downstream\2137\500\TYK2_train.csv

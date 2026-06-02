@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: gnn
+checkpoint: checkpoints\gnn.pt
+model: mlp
+task: regression
+seed: 123
+size: 10
+threshold: 
+seconds: 9.0
+
+==== VALIDATION METRICS ====
+R2: -11.752329
+RMSE: 4.390540
+MAE: 3.560911
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}
+
+==== TEST RESULTS ====
+R2: -11.570388
+RMSE: 4.324534
+MAE: 3.532797

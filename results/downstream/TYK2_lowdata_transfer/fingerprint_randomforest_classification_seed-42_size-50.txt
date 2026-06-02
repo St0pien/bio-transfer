@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: randomforest
+task: classification
+seed: 42
+size: 50
+threshold: 7.5
+seconds: 1.1
+
+==== VALIDATION METRICS ====
+Accuracy: 0.733108
+Precision: 0.836158
+Recall: 0.659733
+F1: 0.737542
+ROC_AUC: 0.809484
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+Accuracy: 0.705717
+Precision: 0.783133
+Recall: 0.654362
+F1: 0.712980
+ROC_AUC: 0.787955

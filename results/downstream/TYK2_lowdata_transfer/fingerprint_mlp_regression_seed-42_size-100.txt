@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: mlp
+task: regression
+seed: 42
+size: 100
+threshold: 
+seconds: 284.4
+
+==== VALIDATION METRICS ====
+R2: -0.157484
+RMSE: 1.321655
+MAE: 1.051928
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}
+
+==== TEST RESULTS ====
+R2: -0.063241
+RMSE: 1.266929
+MAE: 1.000708

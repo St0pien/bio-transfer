@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: filtered_gnn
+checkpoint: checkpoints\filtered_gnn.pt
+model: mlp
+task: classification
+seed: 123
+size: 500
+threshold: 7.5
+seconds: 20.0
+
+==== VALIDATION METRICS ====
+Accuracy: 0.712236
+Precision: 0.695870
+Recall: 0.801153
+F1: 0.744809
+ROC_AUC: 0.794122
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}
+
+==== TEST RESULTS ====
+Accuracy: 0.695051
+Precision: 0.682927
+Recall: 0.801090
+F1: 0.737304
+ROC_AUC: 0.780914

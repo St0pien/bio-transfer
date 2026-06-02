@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: gnn
+checkpoint: checkpoints\gnn.pt
+model: xgboost
+task: classification
+seed: 2137
+size: 10
+threshold: 7.5
+seconds: 0.8
+
+==== VALIDATION METRICS ====
+Accuracy: 0.590438
+Precision: 0.571292
+Recall: 0.900452
+F1: 0.699063
+ROC_AUC: 0.654451
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+Accuracy: 0.494264
+Precision: 0.459930
+Recall: 0.860870
+F1: 0.599546
+ROC_AUC: 0.606405

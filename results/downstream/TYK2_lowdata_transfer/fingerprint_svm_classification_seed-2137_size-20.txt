@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: svm
+task: classification
+seed: 2137
+size: 20
+threshold: 7.5
+seconds: 10.1
+
+==== VALIDATION METRICS ====
+Accuracy: 0.528287
+Precision: 0.528287
+Recall: 1.000000
+F1: 0.691345
+ROC_AUC: 0.237215
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'rbf'}
+
+==== TEST RESULTS ====
+Accuracy: 0.439771
+Precision: 0.439771
+Recall: 1.000000
+F1: 0.610890
+ROC_AUC: 0.194868

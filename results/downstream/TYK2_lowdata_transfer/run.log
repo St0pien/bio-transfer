@@ -1,0 +1,1524 @@
+[2026-06-01 22:48:50] Starting/resuming TYK2 low-data transfer run. Expected outputs: 360; already complete: 0
+[2026-06-01 22:48:50] No commit/push mode. Results only in C:\Users\bartek\Desktop\Studia\ROK_IV\SEM2\UMwPL\bio-transfer\bio-transfer\results\downstream\TYK2_lowdata_transfer
+[2026-06-01 22:48:50] torch=2.12.0+cu132, cuda_available=True, cuda=13.2
+[2026-06-01 22:48:50] gpu=NVIDIA GeForce RTX 5070 Ti
+[2026-06-01 22:48:50] Fetching/preparing target embedding for CHEMBL3553
+[2026-06-01 22:48:52] Target embedding ready
+[2026-06-01 22:48:52] Preparing features feature=fingerprint seed=42 size=10
+[2026-06-01 22:48:53] [1/360] START fingerprint_randomforest_classification_seed-42_size-10.txt
+[2026-06-01 22:48:56] [1/360] OK fingerprint_randomforest_classification_seed-42_size-10.txt (2.8s); summary rows=10
+[2026-06-01 22:48:56] [2/360] START fingerprint_randomforest_regression_seed-42_size-10.txt
+[2026-06-01 22:49:27] [2/360] OK fingerprint_randomforest_regression_seed-42_size-10.txt (31.5s); summary rows=16
+[2026-06-01 22:49:27] [3/360] START fingerprint_xgboost_classification_seed-42_size-10.txt
+[2026-06-01 22:49:29] [3/360] OK fingerprint_xgboost_classification_seed-42_size-10.txt (1.9s); summary rows=26
+[2026-06-01 22:49:29] [4/360] START fingerprint_xgboost_regression_seed-42_size-10.txt
+[2026-06-01 22:49:30] [4/360] OK fingerprint_xgboost_regression_seed-42_size-10.txt (1.1s); summary rows=32
+[2026-06-01 22:49:30] [5/360] START fingerprint_svm_classification_seed-42_size-10.txt
+[2026-06-01 22:49:35] [5/360] OK fingerprint_svm_classification_seed-42_size-10.txt (4.4s); summary rows=42
+[2026-06-01 22:49:35] [6/360] START fingerprint_svm_regression_seed-42_size-10.txt
+[2026-06-01 22:49:37] [6/360] OK fingerprint_svm_regression_seed-42_size-10.txt (1.8s); summary rows=48
+[2026-06-01 22:49:37] [7/360] START fingerprint_mlp_classification_seed-42_size-10.txt
+[2026-06-01 22:50:27] [7/360] OK fingerprint_mlp_classification_seed-42_size-10.txt (50.6s); summary rows=58
+[2026-06-01 22:50:27] [8/360] START fingerprint_mlp_regression_seed-42_size-10.txt
+[2026-06-01 22:52:13] [8/360] OK fingerprint_mlp_regression_seed-42_size-10.txt (106.4s); summary rows=64
+[2026-06-01 22:52:14] Preparing features feature=fingerprint seed=42 size=20
+[2026-06-01 22:52:14] [9/360] START fingerprint_randomforest_classification_seed-42_size-20.txt
+[2026-06-01 22:52:16] [9/360] OK fingerprint_randomforest_classification_seed-42_size-20.txt (2.2s); summary rows=74
+[2026-06-01 22:52:16] [10/360] START fingerprint_randomforest_regression_seed-42_size-20.txt
+[2026-06-01 22:52:47] [10/360] OK fingerprint_randomforest_regression_seed-42_size-20.txt (30.8s); summary rows=80
+[2026-06-01 22:52:47] [11/360] START fingerprint_xgboost_classification_seed-42_size-20.txt
+[2026-06-01 22:52:47] [11/360] OK fingerprint_xgboost_classification_seed-42_size-20.txt (0.6s); summary rows=90
+[2026-06-01 22:52:47] [12/360] START fingerprint_xgboost_regression_seed-42_size-20.txt
+[2026-06-01 22:52:48] [12/360] OK fingerprint_xgboost_regression_seed-42_size-20.txt (1.1s); summary rows=96
+[2026-06-01 22:52:48] [13/360] START fingerprint_svm_classification_seed-42_size-20.txt
+[2026-06-01 22:52:55] [13/360] OK fingerprint_svm_classification_seed-42_size-20.txt (6.4s); summary rows=106
+[2026-06-01 22:52:55] [14/360] START fingerprint_svm_regression_seed-42_size-20.txt
+[2026-06-01 22:52:57] [14/360] OK fingerprint_svm_regression_seed-42_size-20.txt (1.8s); summary rows=112
+[2026-06-01 22:52:57] [15/360] START fingerprint_mlp_classification_seed-42_size-20.txt
+[2026-06-01 22:53:31] [15/360] OK fingerprint_mlp_classification_seed-42_size-20.txt (34.5s); summary rows=122
+[2026-06-01 22:53:31] [16/360] START fingerprint_mlp_regression_seed-42_size-20.txt
+[2026-06-01 22:54:59] [16/360] OK fingerprint_mlp_regression_seed-42_size-20.txt (87.9s); summary rows=128
+[2026-06-01 22:54:59] Preparing features feature=fingerprint seed=42 size=50
+[2026-06-01 22:54:59] [17/360] START fingerprint_randomforest_classification_seed-42_size-50.txt
+[2026-06-01 22:55:00] [17/360] OK fingerprint_randomforest_classification_seed-42_size-50.txt (1.1s); summary rows=138
+[2026-06-01 22:55:00] [18/360] START fingerprint_randomforest_regression_seed-42_size-50.txt
+[2026-06-01 22:55:19] [18/360] OK fingerprint_randomforest_regression_seed-42_size-50.txt (19.1s); summary rows=144
+[2026-06-01 22:55:19] [19/360] START fingerprint_xgboost_classification_seed-42_size-50.txt
+[2026-06-01 22:55:20] [19/360] OK fingerprint_xgboost_classification_seed-42_size-50.txt (0.6s); summary rows=154
+[2026-06-01 22:55:20] [20/360] START fingerprint_xgboost_regression_seed-42_size-50.txt
+[2026-06-01 22:55:22] [20/360] OK fingerprint_xgboost_regression_seed-42_size-50.txt (1.6s); summary rows=160
+[2026-06-01 22:55:22] [21/360] START fingerprint_svm_classification_seed-42_size-50.txt
+[2026-06-01 22:55:30] [21/360] OK fingerprint_svm_classification_seed-42_size-50.txt (8.7s); summary rows=170
+[2026-06-01 22:55:30] [22/360] START fingerprint_svm_regression_seed-42_size-50.txt
+[2026-06-01 22:55:32] [22/360] OK fingerprint_svm_regression_seed-42_size-50.txt (2.1s); summary rows=176
+[2026-06-01 22:55:32] [23/360] START fingerprint_mlp_classification_seed-42_size-50.txt
+[2026-06-01 23:01:01] [23/360] OK fingerprint_mlp_classification_seed-42_size-50.txt (328.5s); summary rows=186
+[2026-06-01 23:01:01] [24/360] START fingerprint_mlp_regression_seed-42_size-50.txt
+[2026-06-01 23:02:46] [24/360] OK fingerprint_mlp_regression_seed-42_size-50.txt (104.6s); summary rows=192
+[2026-06-01 23:02:46] Preparing features feature=fingerprint seed=42 size=100
+[2026-06-01 23:02:46] [25/360] START fingerprint_randomforest_classification_seed-42_size-100.txt
+[2026-06-01 23:02:48] [25/360] OK fingerprint_randomforest_classification_seed-42_size-100.txt (2.1s); summary rows=202
+[2026-06-01 23:02:48] [26/360] START fingerprint_randomforest_regression_seed-42_size-100.txt
+[2026-06-01 23:03:24] [26/360] OK fingerprint_randomforest_regression_seed-42_size-100.txt (36.7s); summary rows=208
+[2026-06-01 23:03:24] [27/360] START fingerprint_xgboost_classification_seed-42_size-100.txt
+[2026-06-01 23:03:27] [27/360] OK fingerprint_xgboost_classification_seed-42_size-100.txt (2.8s); summary rows=218
+[2026-06-01 23:03:27] [28/360] START fingerprint_xgboost_regression_seed-42_size-100.txt
+[2026-06-01 23:03:30] [28/360] OK fingerprint_xgboost_regression_seed-42_size-100.txt (2.3s); summary rows=224
+[2026-06-01 23:03:30] [29/360] START fingerprint_svm_classification_seed-42_size-100.txt
+[2026-06-01 23:03:38] [29/360] OK fingerprint_svm_classification_seed-42_size-100.txt (8.3s); summary rows=234
+[2026-06-01 23:03:38] [30/360] START fingerprint_svm_regression_seed-42_size-100.txt
+[2026-06-01 23:03:40] [30/360] OK fingerprint_svm_regression_seed-42_size-100.txt (2.6s); summary rows=240
+[2026-06-01 23:03:40] [31/360] START fingerprint_mlp_classification_seed-42_size-100.txt
+[2026-06-01 23:09:06] [31/360] OK fingerprint_mlp_classification_seed-42_size-100.txt (325.7s); summary rows=250
+[2026-06-01 23:09:06] [32/360] START fingerprint_mlp_regression_seed-42_size-100.txt
+[2026-06-01 23:13:51] [32/360] OK fingerprint_mlp_regression_seed-42_size-100.txt (284.4s); summary rows=256
+[2026-06-01 23:13:51] Preparing features feature=fingerprint seed=42 size=500
+[2026-06-01 23:13:51] [33/360] START fingerprint_randomforest_classification_seed-42_size-500.txt
+[2026-06-01 23:13:54] [33/360] OK fingerprint_randomforest_classification_seed-42_size-500.txt (2.8s); summary rows=266
+[2026-06-01 23:13:54] [34/360] START fingerprint_randomforest_regression_seed-42_size-500.txt
+[2026-06-01 23:14:35] [34/360] OK fingerprint_randomforest_regression_seed-42_size-500.txt (41.8s); summary rows=272
+[2026-06-01 23:14:35] [35/360] START fingerprint_xgboost_classification_seed-42_size-500.txt
+[2026-06-01 23:14:38] [35/360] OK fingerprint_xgboost_classification_seed-42_size-500.txt (2.3s); summary rows=282
+[2026-06-01 23:14:38] [36/360] START fingerprint_xgboost_regression_seed-42_size-500.txt
+[2026-06-01 23:14:42] [36/360] OK fingerprint_xgboost_regression_seed-42_size-500.txt (4.0s); summary rows=288
+[2026-06-01 23:14:42] [37/360] START fingerprint_svm_classification_seed-42_size-500.txt
+[2026-06-01 23:15:04] [37/360] OK fingerprint_svm_classification_seed-42_size-500.txt (22.1s); summary rows=298
+[2026-06-01 23:15:04] [38/360] START fingerprint_svm_regression_seed-42_size-500.txt
+[2026-06-01 23:15:11] [38/360] OK fingerprint_svm_regression_seed-42_size-500.txt (6.7s); summary rows=304
+[2026-06-01 23:15:11] [39/360] START fingerprint_mlp_classification_seed-42_size-500.txt
+[2026-06-01 23:18:58] [39/360] OK fingerprint_mlp_classification_seed-42_size-500.txt (227.8s); summary rows=314
+[2026-06-01 23:18:58] [40/360] START fingerprint_mlp_regression_seed-42_size-500.txt
+[2026-06-01 23:25:53] Restarting with fixed no-commit runner v2.
+[2026-06-01 23:26:00] Resuming TYK2 low-data transfer runner v2. Expected outputs: 360; already complete: 39
+[2026-06-01 23:26:00] No commit/push mode. Results only in C:\Users\bartek\Desktop\Studia\ROK_IV\SEM2\UMwPL\bio-transfer\bio-transfer\results\downstream\TYK2_lowdata_transfer
+[2026-06-01 23:26:00] torch=2.12.0+cu132, cuda_available=True, cuda=13.2
+[2026-06-01 23:26:00] gpu=NVIDIA GeForce RTX 5070 Ti
+[2026-06-01 23:26:00] Fetching/preparing target embedding for CHEMBL3553
+[2026-06-01 23:26:03] Target embedding ready
+[2026-06-01 23:26:03] Preparing train features feature=fingerprint seed=42 size=10
+[2026-06-01 23:26:03] Preparing val/test features feature=fingerprint seed=42
+[2026-06-01 23:26:04] [1/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-10.txt
+[2026-06-01 23:26:04] [2/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-10.txt
+[2026-06-01 23:26:04] [3/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-10.txt
+[2026-06-01 23:26:04] [4/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-10.txt
+[2026-06-01 23:26:04] [5/360] SKIP complete fingerprint_svm_classification_seed-42_size-10.txt
+[2026-06-01 23:26:04] [6/360] SKIP complete fingerprint_svm_regression_seed-42_size-10.txt
+[2026-06-01 23:26:04] [7/360] SKIP complete fingerprint_mlp_classification_seed-42_size-10.txt
+[2026-06-01 23:26:04] [8/360] SKIP complete fingerprint_mlp_regression_seed-42_size-10.txt
+[2026-06-01 23:26:04] Preparing train features feature=fingerprint seed=42 size=20
+[2026-06-01 23:26:04] [9/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-20.txt
+[2026-06-01 23:26:04] [10/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-20.txt
+[2026-06-01 23:26:04] [11/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-20.txt
+[2026-06-01 23:26:04] [12/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-20.txt
+[2026-06-01 23:26:04] [13/360] SKIP complete fingerprint_svm_classification_seed-42_size-20.txt
+[2026-06-01 23:26:04] [14/360] SKIP complete fingerprint_svm_regression_seed-42_size-20.txt
+[2026-06-01 23:26:04] [15/360] SKIP complete fingerprint_mlp_classification_seed-42_size-20.txt
+[2026-06-01 23:26:04] [16/360] SKIP complete fingerprint_mlp_regression_seed-42_size-20.txt
+[2026-06-01 23:26:04] Preparing train features feature=fingerprint seed=42 size=50
+[2026-06-01 23:26:04] [17/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-50.txt
+[2026-06-01 23:26:04] [18/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-50.txt
+[2026-06-01 23:26:04] [19/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-50.txt
+[2026-06-01 23:26:04] [20/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-50.txt
+[2026-06-01 23:26:04] [21/360] SKIP complete fingerprint_svm_classification_seed-42_size-50.txt
+[2026-06-01 23:26:04] [22/360] SKIP complete fingerprint_svm_regression_seed-42_size-50.txt
+[2026-06-01 23:26:04] [23/360] SKIP complete fingerprint_mlp_classification_seed-42_size-50.txt
+[2026-06-01 23:26:04] [24/360] SKIP complete fingerprint_mlp_regression_seed-42_size-50.txt
+[2026-06-01 23:26:04] Preparing train features feature=fingerprint seed=42 size=100
+[2026-06-01 23:26:04] [25/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-100.txt
+[2026-06-01 23:26:04] [26/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-100.txt
+[2026-06-01 23:26:04] [27/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-100.txt
+[2026-06-01 23:26:04] [28/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-100.txt
+[2026-06-01 23:26:04] [29/360] SKIP complete fingerprint_svm_classification_seed-42_size-100.txt
+[2026-06-01 23:26:04] [30/360] SKIP complete fingerprint_svm_regression_seed-42_size-100.txt
+[2026-06-01 23:26:04] [31/360] SKIP complete fingerprint_mlp_classification_seed-42_size-100.txt
+[2026-06-01 23:26:04] [32/360] SKIP complete fingerprint_mlp_regression_seed-42_size-100.txt
+[2026-06-01 23:26:04] Preparing train features feature=fingerprint seed=42 size=500
+[2026-06-01 23:26:05] [33/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-500.txt
+[2026-06-01 23:26:05] [34/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-500.txt
+[2026-06-01 23:26:05] [35/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-500.txt
+[2026-06-01 23:26:05] [36/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-500.txt
+[2026-06-01 23:26:05] [37/360] SKIP complete fingerprint_svm_classification_seed-42_size-500.txt
+[2026-06-01 23:26:05] [38/360] SKIP complete fingerprint_svm_regression_seed-42_size-500.txt
+[2026-06-01 23:26:05] [39/360] SKIP complete fingerprint_mlp_classification_seed-42_size-500.txt
+[2026-06-01 23:26:05] [40/360] START fingerprint_mlp_regression_seed-42_size-500.txt
+[2026-06-01 23:33:58] [40/360] OK fingerprint_mlp_regression_seed-42_size-500.txt (473.2s); summary rows=320
+[2026-06-01 23:33:58] Preparing train features feature=fingerprint seed=123 size=10
+[2026-06-01 23:33:58] Preparing val/test features feature=fingerprint seed=123
+[2026-06-01 23:33:58] [41/360] START fingerprint_randomforest_classification_seed-123_size-10.txt
+[2026-06-01 23:34:00] [41/360] OK fingerprint_randomforest_classification_seed-123_size-10.txt (1.9s); summary rows=330
+[2026-06-01 23:34:00] [42/360] START fingerprint_randomforest_regression_seed-123_size-10.txt
+[2026-06-01 23:34:28] [42/360] OK fingerprint_randomforest_regression_seed-123_size-10.txt (27.3s); summary rows=336
+[2026-06-01 23:34:28] [43/360] START fingerprint_xgboost_classification_seed-123_size-10.txt
+[2026-06-01 23:34:29] [43/360] OK fingerprint_xgboost_classification_seed-123_size-10.txt (1.6s); summary rows=346
+[2026-06-01 23:34:29] [44/360] START fingerprint_xgboost_regression_seed-123_size-10.txt
+[2026-06-01 23:34:30] [44/360] OK fingerprint_xgboost_regression_seed-123_size-10.txt (0.9s); summary rows=352
+[2026-06-01 23:34:30] [45/360] START fingerprint_svm_classification_seed-123_size-10.txt
+[2026-06-01 23:34:35] [45/360] OK fingerprint_svm_classification_seed-123_size-10.txt (5.2s); summary rows=362
+[2026-06-01 23:34:35] [46/360] START fingerprint_svm_regression_seed-123_size-10.txt
+[2026-06-01 23:34:38] [46/360] OK fingerprint_svm_regression_seed-123_size-10.txt (2.2s); summary rows=368
+[2026-06-01 23:34:38] [47/360] START fingerprint_mlp_classification_seed-123_size-10.txt
+[2026-06-01 23:35:25] [47/360] OK fingerprint_mlp_classification_seed-123_size-10.txt (47.8s); summary rows=378
+[2026-06-01 23:35:25] [48/360] START fingerprint_mlp_regression_seed-123_size-10.txt
+[2026-06-01 23:37:22] [48/360] OK fingerprint_mlp_regression_seed-123_size-10.txt (116.7s); summary rows=384
+[2026-06-01 23:37:22] Preparing train features feature=fingerprint seed=123 size=20
+[2026-06-01 23:37:22] [49/360] START fingerprint_randomforest_classification_seed-123_size-20.txt
+[2026-06-01 23:37:23] [49/360] OK fingerprint_randomforest_classification_seed-123_size-20.txt (0.9s); summary rows=394
+[2026-06-01 23:37:23] [50/360] START fingerprint_randomforest_regression_seed-123_size-20.txt
+[2026-06-01 23:37:50] [50/360] OK fingerprint_randomforest_regression_seed-123_size-20.txt (26.5s); summary rows=400
+[2026-06-01 23:37:50] [51/360] START fingerprint_xgboost_classification_seed-123_size-20.txt
+[2026-06-01 23:37:51] [51/360] OK fingerprint_xgboost_classification_seed-123_size-20.txt (1.0s); summary rows=410
+[2026-06-01 23:37:51] [52/360] START fingerprint_xgboost_regression_seed-123_size-20.txt
+[2026-06-01 23:37:52] [52/360] OK fingerprint_xgboost_regression_seed-123_size-20.txt (1.1s); summary rows=416
+[2026-06-01 23:37:52] [53/360] START fingerprint_svm_classification_seed-123_size-20.txt
+[2026-06-01 23:37:57] [53/360] OK fingerprint_svm_classification_seed-123_size-20.txt (5.4s); summary rows=426
+[2026-06-01 23:37:57] [54/360] START fingerprint_svm_regression_seed-123_size-20.txt
+[2026-06-01 23:37:59] [54/360] OK fingerprint_svm_regression_seed-123_size-20.txt (2.3s); summary rows=432
+[2026-06-01 23:37:59] [55/360] START fingerprint_mlp_classification_seed-123_size-20.txt
+[2026-06-01 23:41:00] [55/360] OK fingerprint_mlp_classification_seed-123_size-20.txt (180.9s); summary rows=442
+[2026-06-01 23:41:00] [56/360] START fingerprint_mlp_regression_seed-123_size-20.txt
+[2026-06-01 23:42:35] [56/360] OK fingerprint_mlp_regression_seed-123_size-20.txt (94.7s); summary rows=448
+[2026-06-01 23:42:35] Preparing train features feature=fingerprint seed=123 size=50
+[2026-06-01 23:42:35] [57/360] START fingerprint_randomforest_classification_seed-123_size-50.txt
+[2026-06-01 23:42:36] [57/360] OK fingerprint_randomforest_classification_seed-123_size-50.txt (1.2s); summary rows=458
+[2026-06-01 23:42:36] [58/360] START fingerprint_randomforest_regression_seed-123_size-50.txt
+[2026-06-01 23:42:44] [58/360] OK fingerprint_randomforest_regression_seed-123_size-50.txt (7.7s); summary rows=464
+[2026-06-01 23:42:44] [59/360] START fingerprint_xgboost_classification_seed-123_size-50.txt
+[2026-06-01 23:42:45] [59/360] OK fingerprint_xgboost_classification_seed-123_size-50.txt (1.3s); summary rows=474
+[2026-06-01 23:42:45] [60/360] START fingerprint_xgboost_regression_seed-123_size-50.txt
+[2026-06-01 23:42:47] [60/360] OK fingerprint_xgboost_regression_seed-123_size-50.txt (1.4s); summary rows=480
+[2026-06-01 23:42:47] [61/360] START fingerprint_svm_classification_seed-123_size-50.txt
+[2026-06-01 23:42:57] [61/360] OK fingerprint_svm_classification_seed-123_size-50.txt (10.7s); summary rows=490
+[2026-06-01 23:42:57] [62/360] START fingerprint_svm_regression_seed-123_size-50.txt
+[2026-06-01 23:43:00] [62/360] OK fingerprint_svm_regression_seed-123_size-50.txt (2.6s); summary rows=496
+[2026-06-01 23:43:00] [63/360] START fingerprint_mlp_classification_seed-123_size-50.txt
+[2026-06-01 23:47:11] [63/360] OK fingerprint_mlp_classification_seed-123_size-50.txt (250.6s); summary rows=506
+[2026-06-01 23:47:11] [64/360] START fingerprint_mlp_regression_seed-123_size-50.txt
+[2026-06-01 23:49:12] [64/360] OK fingerprint_mlp_regression_seed-123_size-50.txt (121.3s); summary rows=512
+[2026-06-01 23:49:12] Preparing train features feature=fingerprint seed=123 size=100
+[2026-06-01 23:49:12] [65/360] START fingerprint_randomforest_classification_seed-123_size-100.txt
+[2026-06-01 23:49:14] [65/360] OK fingerprint_randomforest_classification_seed-123_size-100.txt (2.2s); summary rows=522
+[2026-06-01 23:49:14] [66/360] START fingerprint_randomforest_regression_seed-123_size-100.txt
+[2026-06-01 23:49:29] [66/360] OK fingerprint_randomforest_regression_seed-123_size-100.txt (14.6s); summary rows=528
+[2026-06-01 23:49:29] [67/360] START fingerprint_xgboost_classification_seed-123_size-100.txt
+[2026-06-01 23:49:32] [67/360] OK fingerprint_xgboost_classification_seed-123_size-100.txt (3.0s); summary rows=538
+[2026-06-01 23:49:32] [68/360] START fingerprint_xgboost_regression_seed-123_size-100.txt
+[2026-06-01 23:49:35] [68/360] OK fingerprint_xgboost_regression_seed-123_size-100.txt (3.0s); summary rows=544
+[2026-06-01 23:49:35] [69/360] START fingerprint_svm_classification_seed-123_size-100.txt
+[2026-06-01 23:49:45] [69/360] OK fingerprint_svm_classification_seed-123_size-100.txt (10.3s); summary rows=554
+[2026-06-01 23:49:45] [70/360] START fingerprint_svm_regression_seed-123_size-100.txt
+[2026-06-01 23:49:48] [70/360] OK fingerprint_svm_regression_seed-123_size-100.txt (3.2s); summary rows=560
+[2026-06-01 23:49:48] [71/360] START fingerprint_mlp_classification_seed-123_size-100.txt
+[2026-06-01 23:53:40] [71/360] OK fingerprint_mlp_classification_seed-123_size-100.txt (231.4s); summary rows=570
+[2026-06-01 23:53:40] [72/360] START fingerprint_mlp_regression_seed-123_size-100.txt
+[2026-06-01 23:58:04] [72/360] OK fingerprint_mlp_regression_seed-123_size-100.txt (264.7s); summary rows=576
+[2026-06-01 23:58:04] Preparing train features feature=fingerprint seed=123 size=500
+[2026-06-01 23:58:05] [73/360] START fingerprint_randomforest_classification_seed-123_size-500.txt
+[2026-06-01 23:58:07] [73/360] OK fingerprint_randomforest_classification_seed-123_size-500.txt (2.0s); summary rows=586
+[2026-06-01 23:58:07] [74/360] START fingerprint_randomforest_regression_seed-123_size-500.txt
+[2026-06-01 23:59:21] [74/360] OK fingerprint_randomforest_regression_seed-123_size-500.txt (73.8s); summary rows=592
+[2026-06-01 23:59:21] [75/360] START fingerprint_xgboost_classification_seed-123_size-500.txt
+[2026-06-01 23:59:24] [75/360] OK fingerprint_xgboost_classification_seed-123_size-500.txt (3.7s); summary rows=602
+[2026-06-01 23:59:24] [76/360] START fingerprint_xgboost_regression_seed-123_size-500.txt
+[2026-06-01 23:59:27] [76/360] OK fingerprint_xgboost_regression_seed-123_size-500.txt (2.8s); summary rows=608
+[2026-06-01 23:59:27] [77/360] START fingerprint_svm_classification_seed-123_size-500.txt
+[2026-06-01 23:59:50] [77/360] OK fingerprint_svm_classification_seed-123_size-500.txt (22.8s); summary rows=618
+[2026-06-01 23:59:50] [78/360] START fingerprint_svm_regression_seed-123_size-500.txt
+[2026-06-01 23:59:58] [78/360] OK fingerprint_svm_regression_seed-123_size-500.txt (7.9s); summary rows=624
+[2026-06-01 23:59:58] [79/360] START fingerprint_mlp_classification_seed-123_size-500.txt
+[2026-06-02 00:08:13] [79/360] OK fingerprint_mlp_classification_seed-123_size-500.txt (495.2s); summary rows=634
+[2026-06-02 00:08:13] [80/360] START fingerprint_mlp_regression_seed-123_size-500.txt
+[2026-06-02 00:17:10] [80/360] OK fingerprint_mlp_regression_seed-123_size-500.txt (536.4s); summary rows=640
+[2026-06-02 00:17:10] Preparing train features feature=fingerprint seed=2137 size=10
+[2026-06-02 00:17:10] Preparing val/test features feature=fingerprint seed=2137
+[2026-06-02 00:17:10] [81/360] START fingerprint_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 00:17:14] [81/360] OK fingerprint_randomforest_classification_seed-2137_size-10.txt (3.5s); summary rows=650
+[2026-06-02 00:17:14] [82/360] START fingerprint_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 00:17:27] [82/360] OK fingerprint_randomforest_regression_seed-2137_size-10.txt (13.1s); summary rows=656
+[2026-06-02 00:17:27] [83/360] START fingerprint_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 00:17:29] [83/360] OK fingerprint_xgboost_classification_seed-2137_size-10.txt (1.7s); summary rows=666
+[2026-06-02 00:17:29] [84/360] START fingerprint_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 00:17:30] [84/360] OK fingerprint_xgboost_regression_seed-2137_size-10.txt (0.9s); summary rows=672
+[2026-06-02 00:17:30] [85/360] START fingerprint_svm_classification_seed-2137_size-10.txt
+[2026-06-02 00:17:40] [85/360] OK fingerprint_svm_classification_seed-2137_size-10.txt (10.1s); summary rows=682
+[2026-06-02 00:17:40] [86/360] START fingerprint_svm_regression_seed-2137_size-10.txt
+[2026-06-02 00:17:42] [86/360] OK fingerprint_svm_regression_seed-2137_size-10.txt (2.1s); summary rows=688
+[2026-06-02 00:17:42] [87/360] START fingerprint_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 00:21:17] [87/360] OK fingerprint_mlp_classification_seed-2137_size-10.txt (214.6s); summary rows=698
+[2026-06-02 00:21:17] [88/360] START fingerprint_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 00:22:52] [88/360] OK fingerprint_mlp_regression_seed-2137_size-10.txt (95.4s); summary rows=704
+[2026-06-02 00:22:52] Preparing train features feature=fingerprint seed=2137 size=20
+[2026-06-02 00:22:52] [89/360] START fingerprint_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 00:22:55] [89/360] OK fingerprint_randomforest_classification_seed-2137_size-20.txt (2.5s); summary rows=714
+[2026-06-02 00:22:55] [90/360] START fingerprint_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 00:23:08] [90/360] OK fingerprint_randomforest_regression_seed-2137_size-20.txt (12.9s); summary rows=720
+[2026-06-02 00:23:08] [91/360] START fingerprint_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 00:23:09] [91/360] OK fingerprint_xgboost_classification_seed-2137_size-20.txt (1.7s); summary rows=730
+[2026-06-02 00:23:09] [92/360] START fingerprint_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 00:23:11] [92/360] OK fingerprint_xgboost_regression_seed-2137_size-20.txt (1.6s); summary rows=736
+[2026-06-02 00:23:11] [93/360] START fingerprint_svm_classification_seed-2137_size-20.txt
+[2026-06-02 00:23:21] [93/360] OK fingerprint_svm_classification_seed-2137_size-20.txt (10.1s); summary rows=746
+[2026-06-02 00:23:21] [94/360] START fingerprint_svm_regression_seed-2137_size-20.txt
+[2026-06-02 00:23:23] [94/360] OK fingerprint_svm_regression_seed-2137_size-20.txt (2.2s); summary rows=752
+[2026-06-02 00:23:23] [95/360] START fingerprint_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 00:24:08] [95/360] OK fingerprint_mlp_classification_seed-2137_size-20.txt (44.4s); summary rows=762
+[2026-06-02 00:24:08] [96/360] START fingerprint_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 00:25:49] [96/360] OK fingerprint_mlp_regression_seed-2137_size-20.txt (101.6s); summary rows=768
+[2026-06-02 00:25:49] Preparing train features feature=fingerprint seed=2137 size=50
+[2026-06-02 00:25:49] [97/360] START fingerprint_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 00:25:51] [97/360] OK fingerprint_randomforest_classification_seed-2137_size-50.txt (1.3s); summary rows=778
+[2026-06-02 00:25:51] [98/360] START fingerprint_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 00:26:30] [98/360] OK fingerprint_randomforest_regression_seed-2137_size-50.txt (39.0s); summary rows=784
+[2026-06-02 00:26:30] [99/360] START fingerprint_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 00:26:30] [99/360] OK fingerprint_xgboost_classification_seed-2137_size-50.txt (0.6s); summary rows=794
+[2026-06-02 00:26:30] [100/360] START fingerprint_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 00:26:31] [100/360] OK fingerprint_xgboost_regression_seed-2137_size-50.txt (1.1s); summary rows=800
+[2026-06-02 00:26:31] [101/360] START fingerprint_svm_classification_seed-2137_size-50.txt
+[2026-06-02 00:26:41] [101/360] OK fingerprint_svm_classification_seed-2137_size-50.txt (9.4s); summary rows=810
+[2026-06-02 00:26:41] [102/360] START fingerprint_svm_regression_seed-2137_size-50.txt
+[2026-06-02 00:26:44] [102/360] OK fingerprint_svm_regression_seed-2137_size-50.txt (3.1s); summary rows=816
+[2026-06-02 00:26:44] [103/360] START fingerprint_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 00:30:18] [103/360] OK fingerprint_mlp_classification_seed-2137_size-50.txt (213.6s); summary rows=826
+[2026-06-02 00:30:18] [104/360] START fingerprint_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 00:33:14] [104/360] OK fingerprint_mlp_regression_seed-2137_size-50.txt (176.4s); summary rows=832
+[2026-06-02 00:33:14] Preparing train features feature=fingerprint seed=2137 size=100
+[2026-06-02 00:33:14] [105/360] START fingerprint_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 00:33:16] [105/360] OK fingerprint_randomforest_classification_seed-2137_size-100.txt (2.2s); summary rows=842
+[2026-06-02 00:33:16] [106/360] START fingerprint_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 00:33:29] [106/360] OK fingerprint_randomforest_regression_seed-2137_size-100.txt (12.7s); summary rows=848
+[2026-06-02 00:33:29] [107/360] START fingerprint_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 00:33:34] [107/360] OK fingerprint_xgboost_classification_seed-2137_size-100.txt (4.9s); summary rows=858
+[2026-06-02 00:33:34] [108/360] START fingerprint_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 00:33:37] [108/360] OK fingerprint_xgboost_regression_seed-2137_size-100.txt (3.0s); summary rows=864
+[2026-06-02 00:33:37] [109/360] START fingerprint_svm_classification_seed-2137_size-100.txt
+[2026-06-02 00:33:49] [109/360] OK fingerprint_svm_classification_seed-2137_size-100.txt (12.0s); summary rows=874
+[2026-06-02 00:33:49] [110/360] START fingerprint_svm_regression_seed-2137_size-100.txt
+[2026-06-02 00:33:52] [110/360] OK fingerprint_svm_regression_seed-2137_size-100.txt (2.9s); summary rows=880
+[2026-06-02 00:33:52] [111/360] START fingerprint_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 00:37:29] [111/360] OK fingerprint_mlp_classification_seed-2137_size-100.txt (217.4s); summary rows=890
+[2026-06-02 00:37:29] [112/360] START fingerprint_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 00:45:51] [112/360] OK fingerprint_mlp_regression_seed-2137_size-100.txt (502.3s); summary rows=896
+[2026-06-02 00:45:51] Preparing train features feature=fingerprint seed=2137 size=500
+[2026-06-02 00:45:52] [113/360] START fingerprint_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 00:45:55] [113/360] OK fingerprint_randomforest_classification_seed-2137_size-500.txt (2.9s); summary rows=906
+[2026-06-02 00:45:55] [114/360] START fingerprint_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 00:47:05] [114/360] OK fingerprint_randomforest_regression_seed-2137_size-500.txt (70.1s); summary rows=912
+[2026-06-02 00:47:05] [115/360] START fingerprint_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 00:47:08] [115/360] OK fingerprint_xgboost_classification_seed-2137_size-500.txt (3.3s); summary rows=922
+[2026-06-02 00:47:08] [116/360] START fingerprint_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 00:47:11] [116/360] OK fingerprint_xgboost_regression_seed-2137_size-500.txt (3.0s); summary rows=928
+[2026-06-02 00:47:11] [117/360] START fingerprint_svm_classification_seed-2137_size-500.txt
+[2026-06-02 00:47:36] [117/360] OK fingerprint_svm_classification_seed-2137_size-500.txt (24.6s); summary rows=938
+[2026-06-02 00:47:36] [118/360] START fingerprint_svm_regression_seed-2137_size-500.txt
+[2026-06-02 00:47:43] [118/360] OK fingerprint_svm_regression_seed-2137_size-500.txt (7.2s); summary rows=944
+[2026-06-02 00:47:43] [119/360] START fingerprint_mlp_classification_seed-2137_size-500.txt
+[2026-06-02 00:50:32] [119/360] OK fingerprint_mlp_classification_seed-2137_size-500.txt (169.3s); summary rows=954
+[2026-06-02 00:50:32] [120/360] START fingerprint_mlp_regression_seed-2137_size-500.txt
+[2026-06-02 00:59:16] [120/360] OK fingerprint_mlp_regression_seed-2137_size-500.txt (523.9s); summary rows=960
+[2026-06-02 00:59:16] Loading GNN checkpoint: checkpoints\gnn.pt
+[2026-06-02 00:59:16] Loaded gnn
+[2026-06-02 00:59:16] Preparing train features feature=gnn seed=42 size=10
+[2026-06-02 00:59:16] Preparing val/test features feature=gnn seed=42
+[2026-06-02 00:59:18] [121/360] START gnn_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 00:59:22] [121/360] OK gnn_randomforest_classification_seed-42_size-10.txt (4.3s); summary rows=970
+[2026-06-02 00:59:22] [122/360] START gnn_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 01:00:03] [122/360] OK gnn_randomforest_regression_seed-42_size-10.txt (40.5s); summary rows=976
+[2026-06-02 01:00:03] [123/360] START gnn_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 01:00:05] [123/360] OK gnn_xgboost_classification_seed-42_size-10.txt (1.7s); summary rows=986
+[2026-06-02 01:00:05] [124/360] START gnn_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 01:00:05] [124/360] OK gnn_xgboost_regression_seed-42_size-10.txt (0.9s); summary rows=992
+[2026-06-02 01:00:05] [125/360] START gnn_svm_classification_seed-42_size-10.txt
+[2026-06-02 01:00:06] [125/360] OK gnn_svm_classification_seed-42_size-10.txt (0.8s); summary rows=1002
+[2026-06-02 01:00:06] [126/360] START gnn_svm_regression_seed-42_size-10.txt
+[2026-06-02 01:00:07] [126/360] OK gnn_svm_regression_seed-42_size-10.txt (0.4s); summary rows=1008
+[2026-06-02 01:00:07] [127/360] START gnn_mlp_classification_seed-42_size-10.txt
+[2026-06-02 01:00:31] [127/360] OK gnn_mlp_classification_seed-42_size-10.txt (24.0s); summary rows=1018
+[2026-06-02 01:00:31] [128/360] START gnn_mlp_regression_seed-42_size-10.txt
+[2026-06-02 01:00:42] [128/360] OK gnn_mlp_regression_seed-42_size-10.txt (11.6s); summary rows=1024
+[2026-06-02 01:00:42] Preparing train features feature=gnn seed=42 size=20
+[2026-06-02 01:00:42] [129/360] START gnn_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 01:00:44] [129/360] OK gnn_randomforest_classification_seed-42_size-20.txt (1.8s); summary rows=1034
+[2026-06-02 01:00:44] [130/360] START gnn_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 01:01:00] [130/360] OK gnn_randomforest_regression_seed-42_size-20.txt (16.2s); summary rows=1040
+[2026-06-02 01:01:00] [131/360] START gnn_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 01:01:02] [131/360] OK gnn_xgboost_classification_seed-42_size-20.txt (1.2s); summary rows=1050
+[2026-06-02 01:01:02] [132/360] START gnn_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 01:01:02] [132/360] OK gnn_xgboost_regression_seed-42_size-20.txt (0.8s); summary rows=1056
+[2026-06-02 01:01:02] [133/360] START gnn_svm_classification_seed-42_size-20.txt
+[2026-06-02 01:01:04] [133/360] OK gnn_svm_classification_seed-42_size-20.txt (1.0s); summary rows=1066
+[2026-06-02 01:01:04] [134/360] START gnn_svm_regression_seed-42_size-20.txt
+[2026-06-02 01:01:04] [134/360] OK gnn_svm_regression_seed-42_size-20.txt (0.4s); summary rows=1072
+[2026-06-02 01:01:04] [135/360] START gnn_mlp_classification_seed-42_size-20.txt
+[2026-06-02 01:01:14] [135/360] OK gnn_mlp_classification_seed-42_size-20.txt (10.3s); summary rows=1082
+[2026-06-02 01:01:14] [136/360] START gnn_mlp_regression_seed-42_size-20.txt
+[2026-06-02 01:01:18] [136/360] OK gnn_mlp_regression_seed-42_size-20.txt (3.3s); summary rows=1088
+[2026-06-02 01:01:18] Preparing train features feature=gnn seed=42 size=50
+[2026-06-02 01:01:18] [137/360] START gnn_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 01:01:22] [137/360] OK gnn_randomforest_classification_seed-42_size-50.txt (4.3s); summary rows=1098
+[2026-06-02 01:01:22] [138/360] START gnn_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 01:02:02] [138/360] OK gnn_randomforest_regression_seed-42_size-50.txt (39.9s); summary rows=1104
+[2026-06-02 01:02:02] [139/360] START gnn_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 01:02:03] [139/360] OK gnn_xgboost_classification_seed-42_size-50.txt (0.7s); summary rows=1114
+[2026-06-02 01:02:03] [140/360] START gnn_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 01:02:04] [140/360] OK gnn_xgboost_regression_seed-42_size-50.txt (1.7s); summary rows=1120
+[2026-06-02 01:02:04] [141/360] START gnn_svm_classification_seed-42_size-50.txt
+[2026-06-02 01:02:05] [141/360] OK gnn_svm_classification_seed-42_size-50.txt (0.8s); summary rows=1130
+[2026-06-02 01:02:05] [142/360] START gnn_svm_regression_seed-42_size-50.txt
+[2026-06-02 01:02:06] [142/360] OK gnn_svm_regression_seed-42_size-50.txt (0.4s); summary rows=1136
+[2026-06-02 01:02:06] [143/360] START gnn_mlp_classification_seed-42_size-50.txt
+[2026-06-02 01:02:14] [143/360] OK gnn_mlp_classification_seed-42_size-50.txt (8.3s); summary rows=1146
+[2026-06-02 01:02:14] [144/360] START gnn_mlp_regression_seed-42_size-50.txt
+[2026-06-02 01:02:25] [144/360] OK gnn_mlp_regression_seed-42_size-50.txt (10.9s); summary rows=1152
+[2026-06-02 01:02:25] Preparing train features feature=gnn seed=42 size=100
+[2026-06-02 01:02:25] [145/360] START gnn_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 01:02:30] [145/360] OK gnn_randomforest_classification_seed-42_size-100.txt (4.7s); summary rows=1162
+[2026-06-02 01:02:30] [146/360] START gnn_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 01:03:14] [146/360] OK gnn_randomforest_regression_seed-42_size-100.txt (43.7s); summary rows=1168
+[2026-06-02 01:03:14] [147/360] START gnn_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 01:03:15] [147/360] OK gnn_xgboost_classification_seed-42_size-100.txt (1.8s); summary rows=1178
+[2026-06-02 01:03:15] [148/360] START gnn_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 01:03:21] [148/360] OK gnn_xgboost_regression_seed-42_size-100.txt (5.8s); summary rows=1184
+[2026-06-02 01:03:21] [149/360] START gnn_svm_classification_seed-42_size-100.txt
+[2026-06-02 01:03:23] [149/360] OK gnn_svm_classification_seed-42_size-100.txt (1.2s); summary rows=1194
+[2026-06-02 01:03:23] [150/360] START gnn_svm_regression_seed-42_size-100.txt
+[2026-06-02 01:03:23] [150/360] OK gnn_svm_regression_seed-42_size-100.txt (0.5s); summary rows=1200
+[2026-06-02 01:03:23] [151/360] START gnn_mlp_classification_seed-42_size-100.txt
+[2026-06-02 01:03:39] [151/360] OK gnn_mlp_classification_seed-42_size-100.txt (15.4s); summary rows=1210
+[2026-06-02 01:03:39] [152/360] START gnn_mlp_regression_seed-42_size-100.txt
+[2026-06-02 01:03:51] [152/360] OK gnn_mlp_regression_seed-42_size-100.txt (12.5s); summary rows=1216
+[2026-06-02 01:03:51] Preparing train features feature=gnn seed=42 size=500
+[2026-06-02 01:03:52] [153/360] START gnn_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 01:03:59] [153/360] OK gnn_randomforest_classification_seed-42_size-500.txt (7.6s); summary rows=1226
+[2026-06-02 01:03:59] [154/360] START gnn_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 01:05:39] [154/360] OK gnn_randomforest_regression_seed-42_size-500.txt (100.1s); summary rows=1232
+[2026-06-02 01:05:39] [155/360] START gnn_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 01:05:50] [155/360] OK gnn_xgboost_classification_seed-42_size-500.txt (10.7s); summary rows=1242
+[2026-06-02 01:05:50] [156/360] START gnn_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 01:06:20] [156/360] OK gnn_xgboost_regression_seed-42_size-500.txt (30.2s); summary rows=1248
+[2026-06-02 01:06:20] [157/360] START gnn_svm_classification_seed-42_size-500.txt
+[2026-06-02 01:06:23] [157/360] OK gnn_svm_classification_seed-42_size-500.txt (2.3s); summary rows=1258
+[2026-06-02 01:06:23] [158/360] START gnn_svm_regression_seed-42_size-500.txt
+[2026-06-02 01:38:15] [158/360] OK gnn_svm_regression_seed-42_size-500.txt (1912.7s); summary rows=1264
+[2026-06-02 01:38:15] [159/360] START gnn_mlp_classification_seed-42_size-500.txt
+[2026-06-02 01:38:54] [159/360] OK gnn_mlp_classification_seed-42_size-500.txt (38.7s); summary rows=1274
+[2026-06-02 01:38:54] [160/360] START gnn_mlp_regression_seed-42_size-500.txt
+[2026-06-02 01:39:34] [160/360] OK gnn_mlp_regression_seed-42_size-500.txt (40.0s); summary rows=1280
+[2026-06-02 01:39:34] Preparing train features feature=gnn seed=123 size=10
+[2026-06-02 01:39:34] Preparing val/test features feature=gnn seed=123
+[2026-06-02 01:39:37] [161/360] START gnn_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 01:39:40] [161/360] OK gnn_randomforest_classification_seed-123_size-10.txt (2.7s); summary rows=1290
+[2026-06-02 01:39:40] [162/360] START gnn_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 01:40:33] [162/360] OK gnn_randomforest_regression_seed-123_size-10.txt (53.3s); summary rows=1296
+[2026-06-02 01:40:33] [163/360] START gnn_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 01:40:34] [163/360] OK gnn_xgboost_classification_seed-123_size-10.txt (0.8s); summary rows=1306
+[2026-06-02 01:40:34] [164/360] START gnn_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 01:40:35] [164/360] OK gnn_xgboost_regression_seed-123_size-10.txt (0.9s); summary rows=1312
+[2026-06-02 01:40:35] [165/360] START gnn_svm_classification_seed-123_size-10.txt
+[2026-06-02 01:40:36] [165/360] OK gnn_svm_classification_seed-123_size-10.txt (1.0s); summary rows=1322
+[2026-06-02 01:40:36] [166/360] START gnn_svm_regression_seed-123_size-10.txt
+[2026-06-02 01:41:39] [166/360] OK gnn_svm_regression_seed-123_size-10.txt (62.6s); summary rows=1328
+[2026-06-02 01:41:39] [167/360] START gnn_mlp_classification_seed-123_size-10.txt
+[2026-06-02 01:41:47] [167/360] OK gnn_mlp_classification_seed-123_size-10.txt (8.5s); summary rows=1338
+[2026-06-02 01:41:47] [168/360] START gnn_mlp_regression_seed-123_size-10.txt
+[2026-06-02 01:41:56] [168/360] OK gnn_mlp_regression_seed-123_size-10.txt (9.0s); summary rows=1344
+[2026-06-02 01:41:56] Preparing train features feature=gnn seed=123 size=20
+[2026-06-02 01:41:56] [169/360] START gnn_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 01:41:58] [169/360] OK gnn_randomforest_classification_seed-123_size-20.txt (1.8s); summary rows=1354
+[2026-06-02 01:41:58] [170/360] START gnn_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 01:42:50] [170/360] OK gnn_randomforest_regression_seed-123_size-20.txt (52.2s); summary rows=1360
+[2026-06-02 01:42:50] [171/360] START gnn_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 01:42:51] [171/360] OK gnn_xgboost_classification_seed-123_size-20.txt (0.6s); summary rows=1370
+[2026-06-02 01:42:51] [172/360] START gnn_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 01:42:59] [172/360] OK gnn_xgboost_regression_seed-123_size-20.txt (7.7s); summary rows=1376
+[2026-06-02 01:42:59] [173/360] START gnn_svm_classification_seed-123_size-20.txt
+[2026-06-02 01:43:06] [173/360] OK gnn_svm_classification_seed-123_size-20.txt (6.9s); summary rows=1386
+[2026-06-02 01:43:06] [174/360] START gnn_svm_regression_seed-123_size-20.txt
+[2026-06-02 01:43:06] [174/360] OK gnn_svm_regression_seed-123_size-20.txt (0.5s); summary rows=1392
+[2026-06-02 01:43:06] [175/360] START gnn_mlp_classification_seed-123_size-20.txt
+[2026-06-02 01:43:18] [175/360] OK gnn_mlp_classification_seed-123_size-20.txt (11.7s); summary rows=1402
+[2026-06-02 01:43:18] [176/360] START gnn_mlp_regression_seed-123_size-20.txt
+[2026-06-02 01:43:27] [176/360] OK gnn_mlp_regression_seed-123_size-20.txt (9.3s); summary rows=1408
+[2026-06-02 01:43:27] Preparing train features feature=gnn seed=123 size=50
+[2026-06-02 01:43:27] [177/360] START gnn_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 01:43:32] [177/360] OK gnn_randomforest_classification_seed-123_size-50.txt (4.5s); summary rows=1418
+[2026-06-02 01:43:32] [178/360] START gnn_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 01:44:26] [178/360] OK gnn_randomforest_regression_seed-123_size-50.txt (54.5s); summary rows=1424
+[2026-06-02 01:44:26] [179/360] START gnn_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 01:44:27] [179/360] OK gnn_xgboost_classification_seed-123_size-50.txt (1.2s); summary rows=1434
+[2026-06-02 01:44:27] [180/360] START gnn_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 01:44:29] [180/360] OK gnn_xgboost_regression_seed-123_size-50.txt (2.0s); summary rows=1440
+[2026-06-02 01:44:29] [181/360] START gnn_svm_classification_seed-123_size-50.txt
+[2026-06-02 01:44:39] [181/360] OK gnn_svm_classification_seed-123_size-50.txt (9.9s); summary rows=1450
+[2026-06-02 01:44:39] [182/360] START gnn_svm_regression_seed-123_size-50.txt
+[2026-06-02 01:44:40] [182/360] OK gnn_svm_regression_seed-123_size-50.txt (0.5s); summary rows=1456
+[2026-06-02 01:44:40] [183/360] START gnn_mlp_classification_seed-123_size-50.txt
+[2026-06-02 01:44:51] [183/360] OK gnn_mlp_classification_seed-123_size-50.txt (10.6s); summary rows=1466
+[2026-06-02 01:44:51] [184/360] START gnn_mlp_regression_seed-123_size-50.txt
+[2026-06-02 01:45:02] [184/360] OK gnn_mlp_regression_seed-123_size-50.txt (11.8s); summary rows=1472
+[2026-06-02 01:45:02] Preparing train features feature=gnn seed=123 size=100
+[2026-06-02 01:45:03] [185/360] START gnn_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 01:45:05] [185/360] OK gnn_randomforest_classification_seed-123_size-100.txt (2.0s); summary rows=1482
+[2026-06-02 01:45:05] [186/360] START gnn_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 01:46:03] [186/360] OK gnn_randomforest_regression_seed-123_size-100.txt (58.5s); summary rows=1488
+[2026-06-02 01:46:03] [187/360] START gnn_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 01:46:05] [187/360] OK gnn_xgboost_classification_seed-123_size-100.txt (1.7s); summary rows=1498
+[2026-06-02 01:46:05] [188/360] START gnn_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 01:46:11] [188/360] OK gnn_xgboost_regression_seed-123_size-100.txt (5.7s); summary rows=1504
+[2026-06-02 01:46:11] [189/360] START gnn_svm_classification_seed-123_size-100.txt
+[2026-06-02 01:46:12] [189/360] OK gnn_svm_classification_seed-123_size-100.txt (1.2s); summary rows=1514
+[2026-06-02 01:46:12] [190/360] START gnn_svm_regression_seed-123_size-100.txt
+[2026-06-02 01:46:12] [190/360] OK gnn_svm_regression_seed-123_size-100.txt (0.6s); summary rows=1520
+[2026-06-02 01:46:12] [191/360] START gnn_mlp_classification_seed-123_size-100.txt
+[2026-06-02 01:46:24] [191/360] OK gnn_mlp_classification_seed-123_size-100.txt (11.6s); summary rows=1530
+[2026-06-02 01:46:24] [192/360] START gnn_mlp_regression_seed-123_size-100.txt
+[2026-06-02 01:46:42] [192/360] OK gnn_mlp_regression_seed-123_size-100.txt (17.7s); summary rows=1536
+[2026-06-02 01:46:42] Preparing train features feature=gnn seed=123 size=500
+[2026-06-02 01:46:42] [193/360] START gnn_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 01:46:50] [193/360] OK gnn_randomforest_classification_seed-123_size-500.txt (7.9s); summary rows=1546
+[2026-06-02 01:46:50] [194/360] START gnn_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 01:47:35] [194/360] OK gnn_randomforest_regression_seed-123_size-500.txt (44.4s); summary rows=1552
+[2026-06-02 01:47:35] [195/360] START gnn_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 01:47:46] [195/360] OK gnn_xgboost_classification_seed-123_size-500.txt (11.1s); summary rows=1562
+[2026-06-02 01:47:46] [196/360] START gnn_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 01:48:15] [196/360] OK gnn_xgboost_regression_seed-123_size-500.txt (29.1s); summary rows=1568
+[2026-06-02 01:48:15] [197/360] START gnn_svm_classification_seed-123_size-500.txt
+[2026-06-02 01:48:18] [197/360] OK gnn_svm_classification_seed-123_size-500.txt (2.6s); summary rows=1578
+[2026-06-02 01:48:18] [198/360] START gnn_svm_regression_seed-123_size-500.txt
+[2026-06-02 02:40:22] [198/360] OK gnn_svm_regression_seed-123_size-500.txt (3124.1s); summary rows=1584
+[2026-06-02 02:40:22] [199/360] START gnn_mlp_classification_seed-123_size-500.txt
+[2026-06-02 02:40:40] [199/360] OK gnn_mlp_classification_seed-123_size-500.txt (18.3s); summary rows=1594
+[2026-06-02 02:40:40] [200/360] START gnn_mlp_regression_seed-123_size-500.txt
+[2026-06-02 02:40:55] [200/360] OK gnn_mlp_regression_seed-123_size-500.txt (15.2s); summary rows=1600
+[2026-06-02 02:40:55] Preparing train features feature=gnn seed=2137 size=10
+[2026-06-02 02:40:55] Preparing val/test features feature=gnn seed=2137
+[2026-06-02 02:40:57] [201/360] START gnn_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 02:41:02] [201/360] OK gnn_randomforest_classification_seed-2137_size-10.txt (4.9s); summary rows=1610
+[2026-06-02 02:41:02] [202/360] START gnn_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 02:41:17] [202/360] OK gnn_randomforest_regression_seed-2137_size-10.txt (14.6s); summary rows=1616
+[2026-06-02 02:41:17] [203/360] START gnn_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 02:41:17] [203/360] OK gnn_xgboost_classification_seed-2137_size-10.txt (0.8s); summary rows=1626
+[2026-06-02 02:41:17] [204/360] START gnn_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 02:41:18] [204/360] OK gnn_xgboost_regression_seed-2137_size-10.txt (0.8s); summary rows=1632
+[2026-06-02 02:41:18] [205/360] START gnn_svm_classification_seed-2137_size-10.txt
+[2026-06-02 02:41:19] [205/360] OK gnn_svm_classification_seed-2137_size-10.txt (0.9s); summary rows=1642
+[2026-06-02 02:41:19] [206/360] START gnn_svm_regression_seed-2137_size-10.txt
+[2026-06-02 02:41:20] [206/360] OK gnn_svm_regression_seed-2137_size-10.txt (0.4s); summary rows=1648
+[2026-06-02 02:41:20] [207/360] START gnn_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 02:41:24] [207/360] OK gnn_mlp_classification_seed-2137_size-10.txt (4.4s); summary rows=1658
+[2026-06-02 02:41:24] [208/360] START gnn_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 02:41:30] [208/360] OK gnn_mlp_regression_seed-2137_size-10.txt (5.9s); summary rows=1664
+[2026-06-02 02:41:30] Preparing train features feature=gnn seed=2137 size=20
+[2026-06-02 02:41:30] [209/360] START gnn_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 02:41:32] [209/360] OK gnn_randomforest_classification_seed-2137_size-20.txt (1.5s); summary rows=1674
+[2026-06-02 02:41:32] [210/360] START gnn_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 02:41:46] [210/360] OK gnn_randomforest_regression_seed-2137_size-20.txt (14.2s); summary rows=1680
+[2026-06-02 02:41:46] [211/360] START gnn_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 02:41:46] [211/360] OK gnn_xgboost_classification_seed-2137_size-20.txt (0.5s); summary rows=1690
+[2026-06-02 02:41:46] [212/360] START gnn_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 02:41:47] [212/360] OK gnn_xgboost_regression_seed-2137_size-20.txt (0.6s); summary rows=1696
+[2026-06-02 02:41:47] [213/360] START gnn_svm_classification_seed-2137_size-20.txt
+[2026-06-02 02:41:48] [213/360] OK gnn_svm_classification_seed-2137_size-20.txt (1.1s); summary rows=1706
+[2026-06-02 02:41:48] [214/360] START gnn_svm_regression_seed-2137_size-20.txt
+[2026-06-02 02:41:49] [214/360] OK gnn_svm_regression_seed-2137_size-20.txt (0.4s); summary rows=1712
+[2026-06-02 02:41:49] [215/360] START gnn_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 02:41:54] [215/360] OK gnn_mlp_classification_seed-2137_size-20.txt (5.2s); summary rows=1722
+[2026-06-02 02:41:54] [216/360] START gnn_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 02:42:01] [216/360] OK gnn_mlp_regression_seed-2137_size-20.txt (7.5s); summary rows=1728
+[2026-06-02 02:42:01] Preparing train features feature=gnn seed=2137 size=50
+[2026-06-02 02:42:02] [217/360] START gnn_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 02:42:05] [217/360] OK gnn_randomforest_classification_seed-2137_size-50.txt (3.5s); summary rows=1738
+[2026-06-02 02:42:05] [218/360] START gnn_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 02:42:46] [218/360] OK gnn_randomforest_regression_seed-2137_size-50.txt (40.6s); summary rows=1744
+[2026-06-02 02:42:46] [219/360] START gnn_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 02:42:46] [219/360] OK gnn_xgboost_classification_seed-2137_size-50.txt (0.7s); summary rows=1754
+[2026-06-02 02:42:47] [220/360] START gnn_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 02:42:48] [220/360] OK gnn_xgboost_regression_seed-2137_size-50.txt (2.0s); summary rows=1760
+[2026-06-02 02:42:48] [221/360] START gnn_svm_classification_seed-2137_size-50.txt
+[2026-06-02 02:42:50] [221/360] OK gnn_svm_classification_seed-2137_size-50.txt (1.2s); summary rows=1770
+[2026-06-02 02:42:50] [222/360] START gnn_svm_regression_seed-2137_size-50.txt
+[2026-06-02 02:42:50] [222/360] OK gnn_svm_regression_seed-2137_size-50.txt (0.4s); summary rows=1776
+[2026-06-02 02:42:50] [223/360] START gnn_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 02:43:02] [223/360] OK gnn_mlp_classification_seed-2137_size-50.txt (11.1s); summary rows=1786
+[2026-06-02 02:43:02] [224/360] START gnn_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 02:43:10] [224/360] OK gnn_mlp_regression_seed-2137_size-50.txt (8.1s); summary rows=1792
+[2026-06-02 02:43:10] Preparing train features feature=gnn seed=2137 size=100
+[2026-06-02 02:43:10] [225/360] START gnn_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 02:43:13] [225/360] OK gnn_randomforest_classification_seed-2137_size-100.txt (3.7s); summary rows=1802
+[2026-06-02 02:43:13] [226/360] START gnn_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 02:43:27] [226/360] OK gnn_randomforest_regression_seed-2137_size-100.txt (13.2s); summary rows=1808
+[2026-06-02 02:43:27] [227/360] START gnn_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 02:43:28] [227/360] OK gnn_xgboost_classification_seed-2137_size-100.txt (1.7s); summary rows=1818
+[2026-06-02 02:43:28] [228/360] START gnn_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 02:43:33] [228/360] OK gnn_xgboost_regression_seed-2137_size-100.txt (4.3s); summary rows=1824
+[2026-06-02 02:43:33] [229/360] START gnn_svm_classification_seed-2137_size-100.txt
+[2026-06-02 02:43:34] [229/360] OK gnn_svm_classification_seed-2137_size-100.txt (1.4s); summary rows=1834
+[2026-06-02 02:43:34] [230/360] START gnn_svm_regression_seed-2137_size-100.txt
+[2026-06-02 02:43:35] [230/360] OK gnn_svm_regression_seed-2137_size-100.txt (0.5s); summary rows=1840
+[2026-06-02 02:43:35] [231/360] START gnn_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 02:43:42] [231/360] OK gnn_mlp_classification_seed-2137_size-100.txt (6.9s); summary rows=1850
+[2026-06-02 02:43:42] [232/360] START gnn_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 02:43:56] [232/360] OK gnn_mlp_regression_seed-2137_size-100.txt (14.1s); summary rows=1856
+[2026-06-02 02:43:56] Preparing train features feature=gnn seed=2137 size=500
+[2026-06-02 02:43:56] [233/360] START gnn_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 02:44:02] [233/360] OK gnn_randomforest_classification_seed-2137_size-500.txt (5.6s); summary rows=1866
+[2026-06-02 02:44:02] [234/360] START gnn_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 02:45:25] [234/360] OK gnn_randomforest_regression_seed-2137_size-500.txt (82.8s); summary rows=1872
+[2026-06-02 02:45:25] [235/360] START gnn_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 02:45:34] [235/360] OK gnn_xgboost_classification_seed-2137_size-500.txt (8.8s); summary rows=1882
+[2026-06-02 02:45:34] [236/360] START gnn_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 02:45:55] [236/360] OK gnn_xgboost_regression_seed-2137_size-500.txt (21.6s); summary rows=1888
+[2026-06-02 02:45:55] [237/360] START gnn_svm_classification_seed-2137_size-500.txt
+[2026-06-02 02:45:57] [237/360] OK gnn_svm_classification_seed-2137_size-500.txt (2.1s); summary rows=1898
+[2026-06-02 02:45:57] [238/360] START gnn_svm_regression_seed-2137_size-500.txt
+[2026-06-02 03:37:54] [238/360] OK gnn_svm_regression_seed-2137_size-500.txt (3116.7s); summary rows=1904
+[2026-06-02 03:37:54] [239/360] START gnn_mlp_classification_seed-2137_size-500.txt
+[2026-06-02 03:38:22] [239/360] OK gnn_mlp_classification_seed-2137_size-500.txt (27.4s); summary rows=1914
+[2026-06-02 03:38:22] [240/360] START gnn_mlp_regression_seed-2137_size-500.txt
+[2026-06-02 03:38:44] [240/360] OK gnn_mlp_regression_seed-2137_size-500.txt (22.2s); summary rows=1920
+[2026-06-02 03:38:44] Loading GNN checkpoint: checkpoints\filtered_gnn.pt
+[2026-06-02 03:38:44] Loaded filtered_gnn
+[2026-06-02 03:38:44] Preparing train features feature=filtered_gnn seed=42 size=10
+[2026-06-02 03:38:44] Preparing val/test features feature=filtered_gnn seed=42
+[2026-06-02 03:38:46] [241/360] START filtered_gnn_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 03:38:48] [241/360] OK filtered_gnn_randomforest_classification_seed-42_size-10.txt (2.0s); summary rows=1930
+[2026-06-02 03:38:48] [242/360] START filtered_gnn_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 03:39:25] [242/360] OK filtered_gnn_randomforest_regression_seed-42_size-10.txt (36.9s); summary rows=1936
+[2026-06-02 03:39:25] [243/360] START filtered_gnn_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 03:39:25] [243/360] OK filtered_gnn_xgboost_classification_seed-42_size-10.txt (0.7s); summary rows=1946
+[2026-06-02 03:39:25] [244/360] START filtered_gnn_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 03:39:26] [244/360] OK filtered_gnn_xgboost_regression_seed-42_size-10.txt (0.7s); summary rows=1952
+[2026-06-02 03:39:26] [245/360] START filtered_gnn_svm_classification_seed-42_size-10.txt
+[2026-06-02 03:39:27] [245/360] OK filtered_gnn_svm_classification_seed-42_size-10.txt (1.1s); summary rows=1962
+[2026-06-02 03:39:27] [246/360] START filtered_gnn_svm_regression_seed-42_size-10.txt
+[2026-06-02 03:39:28] [246/360] OK filtered_gnn_svm_regression_seed-42_size-10.txt (0.4s); summary rows=1968
+[2026-06-02 03:39:28] [247/360] START filtered_gnn_mlp_classification_seed-42_size-10.txt
+[2026-06-02 03:39:44] [247/360] OK filtered_gnn_mlp_classification_seed-42_size-10.txt (16.3s); summary rows=1978
+[2026-06-02 03:39:44] [248/360] START filtered_gnn_mlp_regression_seed-42_size-10.txt
+[2026-06-02 03:39:58] [248/360] OK filtered_gnn_mlp_regression_seed-42_size-10.txt (14.4s); summary rows=1984
+[2026-06-02 03:39:58] Preparing train features feature=filtered_gnn seed=42 size=20
+[2026-06-02 03:39:59] [249/360] START filtered_gnn_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 03:40:00] [249/360] OK filtered_gnn_randomforest_classification_seed-42_size-20.txt (1.3s); summary rows=1994
+[2026-06-02 03:40:00] [250/360] START filtered_gnn_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 03:40:37] [250/360] OK filtered_gnn_randomforest_regression_seed-42_size-20.txt (36.7s); summary rows=2000
+[2026-06-02 03:40:37] [251/360] START filtered_gnn_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 03:40:37] [251/360] OK filtered_gnn_xgboost_classification_seed-42_size-20.txt (0.4s); summary rows=2010
+[2026-06-02 03:40:37] [252/360] START filtered_gnn_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 03:40:38] [252/360] OK filtered_gnn_xgboost_regression_seed-42_size-20.txt (0.6s); summary rows=2016
+[2026-06-02 03:40:38] [253/360] START filtered_gnn_svm_classification_seed-42_size-20.txt
+[2026-06-02 03:40:39] [253/360] OK filtered_gnn_svm_classification_seed-42_size-20.txt (0.8s); summary rows=2026
+[2026-06-02 03:40:39] [254/360] START filtered_gnn_svm_regression_seed-42_size-20.txt
+[2026-06-02 03:40:39] [254/360] OK filtered_gnn_svm_regression_seed-42_size-20.txt (0.4s); summary rows=2032
+[2026-06-02 03:40:39] [255/360] START filtered_gnn_mlp_classification_seed-42_size-20.txt
+[2026-06-02 03:40:44] [255/360] OK filtered_gnn_mlp_classification_seed-42_size-20.txt (4.5s); summary rows=2042
+[2026-06-02 03:40:44] [256/360] START filtered_gnn_mlp_regression_seed-42_size-20.txt
+[2026-06-02 03:40:51] [256/360] OK filtered_gnn_mlp_regression_seed-42_size-20.txt (7.0s); summary rows=2048
+[2026-06-02 03:40:51] Preparing train features feature=filtered_gnn seed=42 size=50
+[2026-06-02 03:40:51] [257/360] START filtered_gnn_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 03:40:52] [257/360] OK filtered_gnn_randomforest_classification_seed-42_size-50.txt (1.4s); summary rows=2058
+[2026-06-02 03:40:52] [258/360] START filtered_gnn_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 03:41:31] [258/360] OK filtered_gnn_randomforest_regression_seed-42_size-50.txt (38.8s); summary rows=2064
+[2026-06-02 03:41:31] [259/360] START filtered_gnn_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 03:41:32] [259/360] OK filtered_gnn_xgboost_classification_seed-42_size-50.txt (1.0s); summary rows=2074
+[2026-06-02 03:41:32] [260/360] START filtered_gnn_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 03:41:33] [260/360] OK filtered_gnn_xgboost_regression_seed-42_size-50.txt (1.4s); summary rows=2080
+[2026-06-02 03:41:33] [261/360] START filtered_gnn_svm_classification_seed-42_size-50.txt
+[2026-06-02 09:04:08] Manual restart after apparent stall at 261/360.
+[2026-06-02 09:04:29] Resuming TYK2 low-data transfer runner v2. Expected outputs: 360; already complete: 260
+[2026-06-02 09:04:29] No commit/push mode. Results only in C:\Users\bartek\Desktop\Studia\ROK_IV\SEM2\UMwPL\bio-transfer\bio-transfer\results\downstream\TYK2_lowdata_transfer
+[2026-06-02 09:04:29] torch=2.12.0+cu132, cuda_available=True, cuda=13.2
+[2026-06-02 09:04:29] gpu=NVIDIA GeForce RTX 5070 Ti
+[2026-06-02 09:04:29] Fetching/preparing target embedding for CHEMBL3553
+[2026-06-02 09:04:33] Target embedding ready
+[2026-06-02 09:04:33] Preparing train features feature=fingerprint seed=42 size=10
+[2026-06-02 09:04:33] Preparing val/test features feature=fingerprint seed=42
+[2026-06-02 09:04:33] [1/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 09:04:33] [2/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 09:04:33] [3/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 09:04:33] [4/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 09:04:33] [5/360] SKIP complete fingerprint_svm_classification_seed-42_size-10.txt
+[2026-06-02 09:04:33] [6/360] SKIP complete fingerprint_svm_regression_seed-42_size-10.txt
+[2026-06-02 09:04:33] [7/360] SKIP complete fingerprint_mlp_classification_seed-42_size-10.txt
+[2026-06-02 09:04:33] [8/360] SKIP complete fingerprint_mlp_regression_seed-42_size-10.txt
+[2026-06-02 09:04:33] Preparing train features feature=fingerprint seed=42 size=20
+[2026-06-02 09:04:33] [9/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 09:04:33] [10/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 09:04:33] [11/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 09:04:33] [12/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 09:04:33] [13/360] SKIP complete fingerprint_svm_classification_seed-42_size-20.txt
+[2026-06-02 09:04:33] [14/360] SKIP complete fingerprint_svm_regression_seed-42_size-20.txt
+[2026-06-02 09:04:33] [15/360] SKIP complete fingerprint_mlp_classification_seed-42_size-20.txt
+[2026-06-02 09:04:33] [16/360] SKIP complete fingerprint_mlp_regression_seed-42_size-20.txt
+[2026-06-02 09:04:33] Preparing train features feature=fingerprint seed=42 size=50
+[2026-06-02 09:04:33] [17/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 09:04:33] [18/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 09:04:33] [19/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 09:04:33] [20/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 09:04:33] [21/360] SKIP complete fingerprint_svm_classification_seed-42_size-50.txt
+[2026-06-02 09:04:33] [22/360] SKIP complete fingerprint_svm_regression_seed-42_size-50.txt
+[2026-06-02 09:04:33] [23/360] SKIP complete fingerprint_mlp_classification_seed-42_size-50.txt
+[2026-06-02 09:04:33] [24/360] SKIP complete fingerprint_mlp_regression_seed-42_size-50.txt
+[2026-06-02 09:04:33] Preparing train features feature=fingerprint seed=42 size=100
+[2026-06-02 09:04:33] [25/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 09:04:33] [26/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 09:04:33] [27/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 09:04:33] [28/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 09:04:33] [29/360] SKIP complete fingerprint_svm_classification_seed-42_size-100.txt
+[2026-06-02 09:04:33] [30/360] SKIP complete fingerprint_svm_regression_seed-42_size-100.txt
+[2026-06-02 09:04:33] [31/360] SKIP complete fingerprint_mlp_classification_seed-42_size-100.txt
+[2026-06-02 09:04:33] [32/360] SKIP complete fingerprint_mlp_regression_seed-42_size-100.txt
+[2026-06-02 09:04:33] Preparing train features feature=fingerprint seed=42 size=500
+[2026-06-02 09:04:33] [33/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 09:04:33] [34/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 09:04:33] [35/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 09:04:33] [36/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 09:04:33] [37/360] SKIP complete fingerprint_svm_classification_seed-42_size-500.txt
+[2026-06-02 09:04:33] [38/360] SKIP complete fingerprint_svm_regression_seed-42_size-500.txt
+[2026-06-02 09:04:33] [39/360] SKIP complete fingerprint_mlp_classification_seed-42_size-500.txt
+[2026-06-02 09:04:33] [40/360] SKIP complete fingerprint_mlp_regression_seed-42_size-500.txt
+[2026-06-02 09:04:33] Preparing train features feature=fingerprint seed=123 size=10
+[2026-06-02 09:04:33] Preparing val/test features feature=fingerprint seed=123
+[2026-06-02 09:04:34] [41/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 09:04:34] [42/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 09:04:34] [43/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 09:04:34] [44/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 09:04:34] [45/360] SKIP complete fingerprint_svm_classification_seed-123_size-10.txt
+[2026-06-02 09:04:34] [46/360] SKIP complete fingerprint_svm_regression_seed-123_size-10.txt
+[2026-06-02 09:04:34] [47/360] SKIP complete fingerprint_mlp_classification_seed-123_size-10.txt
+[2026-06-02 09:04:34] [48/360] SKIP complete fingerprint_mlp_regression_seed-123_size-10.txt
+[2026-06-02 09:04:34] Preparing train features feature=fingerprint seed=123 size=20
+[2026-06-02 09:04:34] [49/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 09:04:34] [50/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 09:04:34] [51/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 09:04:34] [52/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 09:04:34] [53/360] SKIP complete fingerprint_svm_classification_seed-123_size-20.txt
+[2026-06-02 09:04:34] [54/360] SKIP complete fingerprint_svm_regression_seed-123_size-20.txt
+[2026-06-02 09:04:34] [55/360] SKIP complete fingerprint_mlp_classification_seed-123_size-20.txt
+[2026-06-02 09:04:34] [56/360] SKIP complete fingerprint_mlp_regression_seed-123_size-20.txt
+[2026-06-02 09:04:34] Preparing train features feature=fingerprint seed=123 size=50
+[2026-06-02 09:04:34] [57/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 09:04:34] [58/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 09:04:34] [59/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 09:04:34] [60/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 09:04:34] [61/360] SKIP complete fingerprint_svm_classification_seed-123_size-50.txt
+[2026-06-02 09:04:34] [62/360] SKIP complete fingerprint_svm_regression_seed-123_size-50.txt
+[2026-06-02 09:04:34] [63/360] SKIP complete fingerprint_mlp_classification_seed-123_size-50.txt
+[2026-06-02 09:04:34] [64/360] SKIP complete fingerprint_mlp_regression_seed-123_size-50.txt
+[2026-06-02 09:04:34] Preparing train features feature=fingerprint seed=123 size=100
+[2026-06-02 09:04:34] [65/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 09:04:34] [66/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 09:04:34] [67/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 09:04:34] [68/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 09:04:34] [69/360] SKIP complete fingerprint_svm_classification_seed-123_size-100.txt
+[2026-06-02 09:04:34] [70/360] SKIP complete fingerprint_svm_regression_seed-123_size-100.txt
+[2026-06-02 09:04:34] [71/360] SKIP complete fingerprint_mlp_classification_seed-123_size-100.txt
+[2026-06-02 09:04:34] [72/360] SKIP complete fingerprint_mlp_regression_seed-123_size-100.txt
+[2026-06-02 09:04:34] Preparing train features feature=fingerprint seed=123 size=500
+[2026-06-02 09:04:34] [73/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 09:04:34] [74/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 09:04:34] [75/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 09:04:34] [76/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 09:04:34] [77/360] SKIP complete fingerprint_svm_classification_seed-123_size-500.txt
+[2026-06-02 09:04:34] [78/360] SKIP complete fingerprint_svm_regression_seed-123_size-500.txt
+[2026-06-02 09:04:34] [79/360] SKIP complete fingerprint_mlp_classification_seed-123_size-500.txt
+[2026-06-02 09:04:34] [80/360] SKIP complete fingerprint_mlp_regression_seed-123_size-500.txt
+[2026-06-02 09:04:34] Preparing train features feature=fingerprint seed=2137 size=10
+[2026-06-02 09:04:34] Preparing val/test features feature=fingerprint seed=2137
+[2026-06-02 09:04:35] [81/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [82/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [83/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [84/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [85/360] SKIP complete fingerprint_svm_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [86/360] SKIP complete fingerprint_svm_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [87/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:35] [88/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:35] Preparing train features feature=fingerprint seed=2137 size=20
+[2026-06-02 09:04:35] [89/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [90/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [91/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [92/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [93/360] SKIP complete fingerprint_svm_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [94/360] SKIP complete fingerprint_svm_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [95/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:35] [96/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:35] Preparing train features feature=fingerprint seed=2137 size=50
+[2026-06-02 09:04:35] [97/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [98/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [99/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [100/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [101/360] SKIP complete fingerprint_svm_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [102/360] SKIP complete fingerprint_svm_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [103/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:35] [104/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:35] Preparing train features feature=fingerprint seed=2137 size=100
+[2026-06-02 09:04:35] [105/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [106/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [107/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [108/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [109/360] SKIP complete fingerprint_svm_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [110/360] SKIP complete fingerprint_svm_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [111/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:35] [112/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:35] Preparing train features feature=fingerprint seed=2137 size=500
+[2026-06-02 09:04:35] [113/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [114/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [115/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [116/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [117/360] SKIP complete fingerprint_svm_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [118/360] SKIP complete fingerprint_svm_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [119/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:35] [120/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:35] Loading GNN checkpoint: checkpoints\gnn.pt
+[2026-06-02 09:04:35] Loaded gnn
+[2026-06-02 09:04:35] Preparing train features feature=gnn seed=42 size=10
+[2026-06-02 09:04:35] Preparing val/test features feature=gnn seed=42
+[2026-06-02 09:04:37] [121/360] SKIP complete gnn_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 09:04:37] [122/360] SKIP complete gnn_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 09:04:37] [123/360] SKIP complete gnn_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 09:04:37] [124/360] SKIP complete gnn_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 09:04:37] [125/360] SKIP complete gnn_svm_classification_seed-42_size-10.txt
+[2026-06-02 09:04:37] [126/360] SKIP complete gnn_svm_regression_seed-42_size-10.txt
+[2026-06-02 09:04:37] [127/360] SKIP complete gnn_mlp_classification_seed-42_size-10.txt
+[2026-06-02 09:04:37] [128/360] SKIP complete gnn_mlp_regression_seed-42_size-10.txt
+[2026-06-02 09:04:37] Preparing train features feature=gnn seed=42 size=20
+[2026-06-02 09:04:37] [129/360] SKIP complete gnn_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 09:04:37] [130/360] SKIP complete gnn_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 09:04:37] [131/360] SKIP complete gnn_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 09:04:37] [132/360] SKIP complete gnn_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 09:04:37] [133/360] SKIP complete gnn_svm_classification_seed-42_size-20.txt
+[2026-06-02 09:04:37] [134/360] SKIP complete gnn_svm_regression_seed-42_size-20.txt
+[2026-06-02 09:04:37] [135/360] SKIP complete gnn_mlp_classification_seed-42_size-20.txt
+[2026-06-02 09:04:37] [136/360] SKIP complete gnn_mlp_regression_seed-42_size-20.txt
+[2026-06-02 09:04:37] Preparing train features feature=gnn seed=42 size=50
+[2026-06-02 09:04:37] [137/360] SKIP complete gnn_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 09:04:37] [138/360] SKIP complete gnn_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 09:04:37] [139/360] SKIP complete gnn_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 09:04:37] [140/360] SKIP complete gnn_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 09:04:37] [141/360] SKIP complete gnn_svm_classification_seed-42_size-50.txt
+[2026-06-02 09:04:37] [142/360] SKIP complete gnn_svm_regression_seed-42_size-50.txt
+[2026-06-02 09:04:37] [143/360] SKIP complete gnn_mlp_classification_seed-42_size-50.txt
+[2026-06-02 09:04:37] [144/360] SKIP complete gnn_mlp_regression_seed-42_size-50.txt
+[2026-06-02 09:04:37] Preparing train features feature=gnn seed=42 size=100
+[2026-06-02 09:04:37] [145/360] SKIP complete gnn_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 09:04:37] [146/360] SKIP complete gnn_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 09:04:37] [147/360] SKIP complete gnn_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 09:04:37] [148/360] SKIP complete gnn_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 09:04:37] [149/360] SKIP complete gnn_svm_classification_seed-42_size-100.txt
+[2026-06-02 09:04:37] [150/360] SKIP complete gnn_svm_regression_seed-42_size-100.txt
+[2026-06-02 09:04:37] [151/360] SKIP complete gnn_mlp_classification_seed-42_size-100.txt
+[2026-06-02 09:04:37] [152/360] SKIP complete gnn_mlp_regression_seed-42_size-100.txt
+[2026-06-02 09:04:37] Preparing train features feature=gnn seed=42 size=500
+[2026-06-02 09:04:37] [153/360] SKIP complete gnn_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 09:04:37] [154/360] SKIP complete gnn_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 09:04:37] [155/360] SKIP complete gnn_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 09:04:37] [156/360] SKIP complete gnn_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 09:04:37] [157/360] SKIP complete gnn_svm_classification_seed-42_size-500.txt
+[2026-06-02 09:04:37] [158/360] SKIP complete gnn_svm_regression_seed-42_size-500.txt
+[2026-06-02 09:04:37] [159/360] SKIP complete gnn_mlp_classification_seed-42_size-500.txt
+[2026-06-02 09:04:37] [160/360] SKIP complete gnn_mlp_regression_seed-42_size-500.txt
+[2026-06-02 09:04:37] Preparing train features feature=gnn seed=123 size=10
+[2026-06-02 09:04:37] Preparing val/test features feature=gnn seed=123
+[2026-06-02 09:04:39] [161/360] SKIP complete gnn_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 09:04:39] [162/360] SKIP complete gnn_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 09:04:39] [163/360] SKIP complete gnn_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 09:04:39] [164/360] SKIP complete gnn_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 09:04:39] [165/360] SKIP complete gnn_svm_classification_seed-123_size-10.txt
+[2026-06-02 09:04:39] [166/360] SKIP complete gnn_svm_regression_seed-123_size-10.txt
+[2026-06-02 09:04:39] [167/360] SKIP complete gnn_mlp_classification_seed-123_size-10.txt
+[2026-06-02 09:04:39] [168/360] SKIP complete gnn_mlp_regression_seed-123_size-10.txt
+[2026-06-02 09:04:39] Preparing train features feature=gnn seed=123 size=20
+[2026-06-02 09:04:39] [169/360] SKIP complete gnn_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 09:04:39] [170/360] SKIP complete gnn_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 09:04:39] [171/360] SKIP complete gnn_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 09:04:39] [172/360] SKIP complete gnn_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 09:04:39] [173/360] SKIP complete gnn_svm_classification_seed-123_size-20.txt
+[2026-06-02 09:04:39] [174/360] SKIP complete gnn_svm_regression_seed-123_size-20.txt
+[2026-06-02 09:04:39] [175/360] SKIP complete gnn_mlp_classification_seed-123_size-20.txt
+[2026-06-02 09:04:39] [176/360] SKIP complete gnn_mlp_regression_seed-123_size-20.txt
+[2026-06-02 09:04:39] Preparing train features feature=gnn seed=123 size=50
+[2026-06-02 09:04:39] [177/360] SKIP complete gnn_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 09:04:39] [178/360] SKIP complete gnn_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 09:04:39] [179/360] SKIP complete gnn_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 09:04:39] [180/360] SKIP complete gnn_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 09:04:39] [181/360] SKIP complete gnn_svm_classification_seed-123_size-50.txt
+[2026-06-02 09:04:39] [182/360] SKIP complete gnn_svm_regression_seed-123_size-50.txt
+[2026-06-02 09:04:39] [183/360] SKIP complete gnn_mlp_classification_seed-123_size-50.txt
+[2026-06-02 09:04:39] [184/360] SKIP complete gnn_mlp_regression_seed-123_size-50.txt
+[2026-06-02 09:04:39] Preparing train features feature=gnn seed=123 size=100
+[2026-06-02 09:04:39] [185/360] SKIP complete gnn_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 09:04:39] [186/360] SKIP complete gnn_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 09:04:39] [187/360] SKIP complete gnn_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 09:04:39] [188/360] SKIP complete gnn_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 09:04:39] [189/360] SKIP complete gnn_svm_classification_seed-123_size-100.txt
+[2026-06-02 09:04:39] [190/360] SKIP complete gnn_svm_regression_seed-123_size-100.txt
+[2026-06-02 09:04:39] [191/360] SKIP complete gnn_mlp_classification_seed-123_size-100.txt
+[2026-06-02 09:04:39] [192/360] SKIP complete gnn_mlp_regression_seed-123_size-100.txt
+[2026-06-02 09:04:39] Preparing train features feature=gnn seed=123 size=500
+[2026-06-02 09:04:40] [193/360] SKIP complete gnn_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 09:04:40] [194/360] SKIP complete gnn_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 09:04:40] [195/360] SKIP complete gnn_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 09:04:40] [196/360] SKIP complete gnn_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 09:04:40] [197/360] SKIP complete gnn_svm_classification_seed-123_size-500.txt
+[2026-06-02 09:04:40] [198/360] SKIP complete gnn_svm_regression_seed-123_size-500.txt
+[2026-06-02 09:04:40] [199/360] SKIP complete gnn_mlp_classification_seed-123_size-500.txt
+[2026-06-02 09:04:40] [200/360] SKIP complete gnn_mlp_regression_seed-123_size-500.txt
+[2026-06-02 09:04:40] Preparing train features feature=gnn seed=2137 size=10
+[2026-06-02 09:04:40] Preparing val/test features feature=gnn seed=2137
+[2026-06-02 09:04:41] [201/360] SKIP complete gnn_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [202/360] SKIP complete gnn_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [203/360] SKIP complete gnn_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [204/360] SKIP complete gnn_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [205/360] SKIP complete gnn_svm_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [206/360] SKIP complete gnn_svm_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [207/360] SKIP complete gnn_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 09:04:42] [208/360] SKIP complete gnn_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 09:04:42] Preparing train features feature=gnn seed=2137 size=20
+[2026-06-02 09:04:42] [209/360] SKIP complete gnn_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [210/360] SKIP complete gnn_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [211/360] SKIP complete gnn_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [212/360] SKIP complete gnn_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [213/360] SKIP complete gnn_svm_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [214/360] SKIP complete gnn_svm_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [215/360] SKIP complete gnn_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 09:04:42] [216/360] SKIP complete gnn_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 09:04:42] Preparing train features feature=gnn seed=2137 size=50
+[2026-06-02 09:04:42] [217/360] SKIP complete gnn_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [218/360] SKIP complete gnn_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [219/360] SKIP complete gnn_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [220/360] SKIP complete gnn_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [221/360] SKIP complete gnn_svm_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [222/360] SKIP complete gnn_svm_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [223/360] SKIP complete gnn_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 09:04:42] [224/360] SKIP complete gnn_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 09:04:42] Preparing train features feature=gnn seed=2137 size=100
+[2026-06-02 09:04:42] [225/360] SKIP complete gnn_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [226/360] SKIP complete gnn_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [227/360] SKIP complete gnn_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [228/360] SKIP complete gnn_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [229/360] SKIP complete gnn_svm_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [230/360] SKIP complete gnn_svm_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [231/360] SKIP complete gnn_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 09:04:42] [232/360] SKIP complete gnn_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 09:04:42] Preparing train features feature=gnn seed=2137 size=500
+[2026-06-02 09:04:42] [233/360] SKIP complete gnn_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [234/360] SKIP complete gnn_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [235/360] SKIP complete gnn_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [236/360] SKIP complete gnn_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [237/360] SKIP complete gnn_svm_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [238/360] SKIP complete gnn_svm_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [239/360] SKIP complete gnn_mlp_classification_seed-2137_size-500.txt
+[2026-06-02 09:04:42] [240/360] SKIP complete gnn_mlp_regression_seed-2137_size-500.txt
+[2026-06-02 09:04:42] Loading GNN checkpoint: checkpoints\filtered_gnn.pt
+[2026-06-02 09:04:42] Loaded filtered_gnn
+[2026-06-02 09:04:42] Preparing train features feature=filtered_gnn seed=42 size=10
+[2026-06-02 09:04:42] Preparing val/test features feature=filtered_gnn seed=42
+[2026-06-02 09:04:44] [241/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 09:04:44] [242/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 09:04:44] [243/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 09:04:44] [244/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 09:04:44] [245/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-10.txt
+[2026-06-02 09:04:44] [246/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-10.txt
+[2026-06-02 09:04:44] [247/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-10.txt
+[2026-06-02 09:04:44] [248/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-10.txt
+[2026-06-02 09:04:44] Preparing train features feature=filtered_gnn seed=42 size=20
+[2026-06-02 09:04:44] [249/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 09:04:44] [250/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 09:04:44] [251/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 09:04:44] [252/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 09:04:44] [253/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-20.txt
+[2026-06-02 09:04:44] [254/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-20.txt
+[2026-06-02 09:04:44] [255/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-20.txt
+[2026-06-02 09:04:44] [256/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-20.txt
+[2026-06-02 09:04:44] Preparing train features feature=filtered_gnn seed=42 size=50
+[2026-06-02 09:04:44] [257/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 09:04:44] [258/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 09:04:44] [259/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 09:04:44] [260/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 09:04:44] [261/360] START filtered_gnn_svm_classification_seed-42_size-50.txt
+[2026-06-02 09:04:50] [261/360] OK filtered_gnn_svm_classification_seed-42_size-50.txt (6.3s); summary rows=2090
+[2026-06-02 09:04:50] [262/360] START filtered_gnn_svm_regression_seed-42_size-50.txt
+[2026-06-02 09:04:51] [262/360] OK filtered_gnn_svm_regression_seed-42_size-50.txt (1.2s); summary rows=2096
+[2026-06-02 09:04:51] [263/360] START filtered_gnn_mlp_classification_seed-42_size-50.txt
+[2026-06-02 09:05:06] [263/360] OK filtered_gnn_mlp_classification_seed-42_size-50.txt (14.9s); summary rows=2106
+[2026-06-02 09:05:06] [264/360] START filtered_gnn_mlp_regression_seed-42_size-50.txt
+[2026-06-02 09:05:17] [264/360] OK filtered_gnn_mlp_regression_seed-42_size-50.txt (10.9s); summary rows=2112
+[2026-06-02 09:05:17] Preparing train features feature=filtered_gnn seed=42 size=100
+[2026-06-02 09:05:17] [265/360] START filtered_gnn_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 09:05:22] [265/360] OK filtered_gnn_randomforest_classification_seed-42_size-100.txt (4.1s); summary rows=2122
+[2026-06-02 09:05:22] [266/360] START filtered_gnn_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 09:06:07] [266/360] OK filtered_gnn_randomforest_regression_seed-42_size-100.txt (45.1s); summary rows=2128
+[2026-06-02 09:06:07] [267/360] START filtered_gnn_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 09:06:10] [267/360] OK filtered_gnn_xgboost_classification_seed-42_size-100.txt (2.8s); summary rows=2138
+[2026-06-02 09:06:10] [268/360] START filtered_gnn_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 09:06:14] [268/360] OK filtered_gnn_xgboost_regression_seed-42_size-100.txt (4.2s); summary rows=2144
+[2026-06-02 09:06:14] [269/360] START filtered_gnn_svm_classification_seed-42_size-100.txt
+[2026-06-02 09:06:15] [269/360] OK filtered_gnn_svm_classification_seed-42_size-100.txt (1.2s); summary rows=2154
+[2026-06-02 09:06:15] [270/360] START filtered_gnn_svm_regression_seed-42_size-100.txt
+[2026-06-02 09:06:16] [270/360] OK filtered_gnn_svm_regression_seed-42_size-100.txt (0.5s); summary rows=2160
+[2026-06-02 09:06:16] [271/360] START filtered_gnn_mlp_classification_seed-42_size-100.txt
+[2026-06-02 09:06:21] [271/360] OK filtered_gnn_mlp_classification_seed-42_size-100.txt (5.2s); summary rows=2170
+[2026-06-02 09:06:21] [272/360] START filtered_gnn_mlp_regression_seed-42_size-100.txt
+[2026-06-02 09:06:29] [272/360] OK filtered_gnn_mlp_regression_seed-42_size-100.txt (7.7s); summary rows=2176
+[2026-06-02 09:06:29] Preparing train features feature=filtered_gnn seed=42 size=500
+[2026-06-02 09:06:29] [273/360] START filtered_gnn_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 09:06:32] [273/360] OK filtered_gnn_randomforest_classification_seed-42_size-500.txt (2.8s); summary rows=2186
+[2026-06-02 09:06:32] [274/360] START filtered_gnn_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 09:07:51] [274/360] OK filtered_gnn_randomforest_regression_seed-42_size-500.txt (79.2s); summary rows=2192
+[2026-06-02 09:07:51] [275/360] START filtered_gnn_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 09:08:00] [275/360] OK filtered_gnn_xgboost_classification_seed-42_size-500.txt (8.3s); summary rows=2202
+[2026-06-02 09:08:00] [276/360] START filtered_gnn_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 09:08:22] [276/360] OK filtered_gnn_xgboost_regression_seed-42_size-500.txt (22.4s); summary rows=2208
+[2026-06-02 09:08:22] [277/360] START filtered_gnn_svm_classification_seed-42_size-500.txt
+[2026-06-02 09:08:24] [277/360] OK filtered_gnn_svm_classification_seed-42_size-500.txt (2.2s); summary rows=2218
+[2026-06-02 09:08:24] [278/360] START filtered_gnn_svm_regression_seed-42_size-500.txt
+[2026-06-02 09:33:18] [278/360] OK filtered_gnn_svm_regression_seed-42_size-500.txt (1493.4s); summary rows=2224
+[2026-06-02 09:33:18] [279/360] START filtered_gnn_mlp_classification_seed-42_size-500.txt
+[2026-06-02 09:33:28] [279/360] OK filtered_gnn_mlp_classification_seed-42_size-500.txt (10.4s); summary rows=2234
+[2026-06-02 09:33:28] [280/360] START filtered_gnn_mlp_regression_seed-42_size-500.txt
+[2026-06-02 09:33:41] [280/360] OK filtered_gnn_mlp_regression_seed-42_size-500.txt (13.2s); summary rows=2240
+[2026-06-02 09:33:41] Preparing train features feature=filtered_gnn seed=123 size=10
+[2026-06-02 09:33:41] Preparing val/test features feature=filtered_gnn seed=123
+[2026-06-02 09:33:43] [281/360] START filtered_gnn_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 09:33:46] [281/360] OK filtered_gnn_randomforest_classification_seed-123_size-10.txt (2.1s); summary rows=2250
+[2026-06-02 09:33:46] [282/360] START filtered_gnn_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 09:34:27] [282/360] OK filtered_gnn_randomforest_regression_seed-123_size-10.txt (41.0s); summary rows=2256
+[2026-06-02 09:34:27] [283/360] START filtered_gnn_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 09:34:28] [283/360] OK filtered_gnn_xgboost_classification_seed-123_size-10.txt (1.1s); summary rows=2266
+[2026-06-02 09:34:28] [284/360] START filtered_gnn_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 09:34:28] [284/360] OK filtered_gnn_xgboost_regression_seed-123_size-10.txt (0.8s); summary rows=2272
+[2026-06-02 09:34:28] [285/360] START filtered_gnn_svm_classification_seed-123_size-10.txt
+[2026-06-02 09:34:30] [285/360] OK filtered_gnn_svm_classification_seed-123_size-10.txt (1.5s); summary rows=2282
+[2026-06-02 09:34:30] [286/360] START filtered_gnn_svm_regression_seed-123_size-10.txt
+[2026-06-02 09:34:30] [286/360] OK filtered_gnn_svm_regression_seed-123_size-10.txt (0.4s); summary rows=2288
+[2026-06-02 09:34:30] [287/360] START filtered_gnn_mlp_classification_seed-123_size-10.txt
+[2026-06-02 09:34:34] [287/360] OK filtered_gnn_mlp_classification_seed-123_size-10.txt (3.4s); summary rows=2298
+[2026-06-02 09:34:34] [288/360] START filtered_gnn_mlp_regression_seed-123_size-10.txt
+[2026-06-02 09:34:44] [288/360] OK filtered_gnn_mlp_regression_seed-123_size-10.txt (10.2s); summary rows=2304
+[2026-06-02 09:34:44] Preparing train features feature=filtered_gnn seed=123 size=20
+[2026-06-02 09:34:44] [289/360] START filtered_gnn_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 09:34:46] [289/360] OK filtered_gnn_randomforest_classification_seed-123_size-20.txt (1.4s); summary rows=2314
+[2026-06-02 09:34:46] [290/360] START filtered_gnn_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 09:35:00] [290/360] OK filtered_gnn_randomforest_regression_seed-123_size-20.txt (14.1s); summary rows=2320
+[2026-06-02 09:35:00] [291/360] START filtered_gnn_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 09:35:01] [291/360] OK filtered_gnn_xgboost_classification_seed-123_size-20.txt (0.9s); summary rows=2330
+[2026-06-02 09:35:01] [292/360] START filtered_gnn_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 09:35:04] [292/360] OK filtered_gnn_xgboost_regression_seed-123_size-20.txt (2.9s); summary rows=2336
+[2026-06-02 09:35:04] [293/360] START filtered_gnn_svm_classification_seed-123_size-20.txt
+[2026-06-02 09:35:10] [293/360] OK filtered_gnn_svm_classification_seed-123_size-20.txt (6.0s); summary rows=2346
+[2026-06-02 09:35:10] [294/360] START filtered_gnn_svm_regression_seed-123_size-20.txt
+[2026-06-02 09:35:10] [294/360] OK filtered_gnn_svm_regression_seed-123_size-20.txt (0.4s); summary rows=2352
+[2026-06-02 09:35:10] [295/360] START filtered_gnn_mlp_classification_seed-123_size-20.txt
+[2026-06-02 09:35:26] [295/360] OK filtered_gnn_mlp_classification_seed-123_size-20.txt (15.7s); summary rows=2362
+[2026-06-02 09:35:26] [296/360] START filtered_gnn_mlp_regression_seed-123_size-20.txt
+[2026-06-02 09:35:40] [296/360] OK filtered_gnn_mlp_regression_seed-123_size-20.txt (14.4s); summary rows=2368
+[2026-06-02 09:35:40] Preparing train features feature=filtered_gnn seed=123 size=50
+[2026-06-02 09:35:40] [297/360] START filtered_gnn_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 09:35:42] [297/360] OK filtered_gnn_randomforest_classification_seed-123_size-50.txt (1.4s); summary rows=2378
+[2026-06-02 09:35:42] [298/360] START filtered_gnn_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 09:36:25] [298/360] OK filtered_gnn_randomforest_regression_seed-123_size-50.txt (43.4s); summary rows=2384
+[2026-06-02 09:36:25] [299/360] START filtered_gnn_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 09:36:26] [299/360] OK filtered_gnn_xgboost_classification_seed-123_size-50.txt (0.6s); summary rows=2394
+[2026-06-02 09:36:26] [300/360] START filtered_gnn_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 09:36:28] [300/360] OK filtered_gnn_xgboost_regression_seed-123_size-50.txt (1.4s); summary rows=2400
+[2026-06-02 09:36:28] [301/360] START filtered_gnn_svm_classification_seed-123_size-50.txt
+[2026-06-02 09:36:29] [301/360] OK filtered_gnn_svm_classification_seed-123_size-50.txt (1.4s); summary rows=2410
+[2026-06-02 09:36:29] [302/360] START filtered_gnn_svm_regression_seed-123_size-50.txt
+[2026-06-02 09:36:29] [302/360] OK filtered_gnn_svm_regression_seed-123_size-50.txt (0.4s); summary rows=2416
+[2026-06-02 09:36:29] [303/360] START filtered_gnn_mlp_classification_seed-123_size-50.txt
+[2026-06-02 09:36:37] [303/360] OK filtered_gnn_mlp_classification_seed-123_size-50.txt (7.8s); summary rows=2426
+[2026-06-02 09:36:37] [304/360] START filtered_gnn_mlp_regression_seed-123_size-50.txt
+[2026-06-02 09:36:59] [304/360] OK filtered_gnn_mlp_regression_seed-123_size-50.txt (21.7s); summary rows=2432
+[2026-06-02 09:36:59] Preparing train features feature=filtered_gnn seed=123 size=100
+[2026-06-02 09:36:59] [305/360] START filtered_gnn_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 09:37:03] [305/360] OK filtered_gnn_randomforest_classification_seed-123_size-100.txt (3.4s); summary rows=2442
+[2026-06-02 09:37:03] [306/360] START filtered_gnn_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 09:37:19] [306/360] OK filtered_gnn_randomforest_regression_seed-123_size-100.txt (16.4s); summary rows=2448
+[2026-06-02 09:37:19] [307/360] START filtered_gnn_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 09:37:21] [307/360] OK filtered_gnn_xgboost_classification_seed-123_size-100.txt (1.5s); summary rows=2458
+[2026-06-02 09:37:21] [308/360] START filtered_gnn_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 09:37:25] [308/360] OK filtered_gnn_xgboost_regression_seed-123_size-100.txt (4.1s); summary rows=2464
+[2026-06-02 09:37:25] [309/360] START filtered_gnn_svm_classification_seed-123_size-100.txt
+[2026-06-02 09:37:26] [309/360] OK filtered_gnn_svm_classification_seed-123_size-100.txt (1.3s); summary rows=2474
+[2026-06-02 09:37:26] [310/360] START filtered_gnn_svm_regression_seed-123_size-100.txt
+[2026-06-02 09:37:27] [310/360] OK filtered_gnn_svm_regression_seed-123_size-100.txt (0.5s); summary rows=2480
+[2026-06-02 09:37:27] [311/360] START filtered_gnn_mlp_classification_seed-123_size-100.txt
+[2026-06-02 09:37:45] [311/360] OK filtered_gnn_mlp_classification_seed-123_size-100.txt (18.1s); summary rows=2490
+[2026-06-02 09:37:45] [312/360] START filtered_gnn_mlp_regression_seed-123_size-100.txt
+[2026-06-02 09:37:57] [312/360] OK filtered_gnn_mlp_regression_seed-123_size-100.txt (12.4s); summary rows=2496
+[2026-06-02 09:37:57] Preparing train features feature=filtered_gnn seed=123 size=500
+[2026-06-02 09:37:58] [313/360] START filtered_gnn_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 09:38:04] [313/360] OK filtered_gnn_randomforest_classification_seed-123_size-500.txt (6.2s); summary rows=2506
+[2026-06-02 09:38:04] [314/360] START filtered_gnn_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 09:39:32] [314/360] OK filtered_gnn_randomforest_regression_seed-123_size-500.txt (88.5s); summary rows=2512
+[2026-06-02 09:39:32] [315/360] START filtered_gnn_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 09:39:41] [315/360] OK filtered_gnn_xgboost_classification_seed-123_size-500.txt (8.6s); summary rows=2522
+[2026-06-02 09:39:41] [316/360] START filtered_gnn_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 09:40:00] [316/360] OK filtered_gnn_xgboost_regression_seed-123_size-500.txt (18.9s); summary rows=2528
+[2026-06-02 09:40:00] [317/360] START filtered_gnn_svm_classification_seed-123_size-500.txt
+[2026-06-02 09:40:03] [317/360] OK filtered_gnn_svm_classification_seed-123_size-500.txt (2.5s); summary rows=2538
+[2026-06-02 09:40:03] [318/360] START filtered_gnn_svm_regression_seed-123_size-500.txt
+[2026-06-02 13:31:02] Manual restart after long stall at 318/360.
+[2026-06-02 13:31:24] Resuming TYK2 low-data transfer runner v2. Expected outputs: 360; already complete: 317
+[2026-06-02 13:31:24] No commit/push mode. Results only in C:\Users\bartek\Desktop\Studia\ROK_IV\SEM2\UMwPL\bio-transfer\bio-transfer\results\downstream\TYK2_lowdata_transfer
+[2026-06-02 13:31:24] torch=2.12.0+cu132, cuda_available=True, cuda=13.2
+[2026-06-02 13:31:24] gpu=NVIDIA GeForce RTX 5070 Ti
+[2026-06-02 13:31:24] Fetching/preparing target embedding for CHEMBL3553
+[2026-06-02 13:31:26] Target embedding ready
+[2026-06-02 13:31:26] Preparing train features feature=fingerprint seed=42 size=10
+[2026-06-02 13:31:26] Preparing val/test features feature=fingerprint seed=42
+[2026-06-02 13:31:26] [1/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 13:31:26] [2/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 13:31:26] [3/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 13:31:26] [4/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 13:31:26] [5/360] SKIP complete fingerprint_svm_classification_seed-42_size-10.txt
+[2026-06-02 13:31:26] [6/360] SKIP complete fingerprint_svm_regression_seed-42_size-10.txt
+[2026-06-02 13:31:26] [7/360] SKIP complete fingerprint_mlp_classification_seed-42_size-10.txt
+[2026-06-02 13:31:26] [8/360] SKIP complete fingerprint_mlp_regression_seed-42_size-10.txt
+[2026-06-02 13:31:26] Preparing train features feature=fingerprint seed=42 size=20
+[2026-06-02 13:31:26] [9/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 13:31:26] [10/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 13:31:26] [11/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 13:31:26] [12/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 13:31:26] [13/360] SKIP complete fingerprint_svm_classification_seed-42_size-20.txt
+[2026-06-02 13:31:26] [14/360] SKIP complete fingerprint_svm_regression_seed-42_size-20.txt
+[2026-06-02 13:31:26] [15/360] SKIP complete fingerprint_mlp_classification_seed-42_size-20.txt
+[2026-06-02 13:31:26] [16/360] SKIP complete fingerprint_mlp_regression_seed-42_size-20.txt
+[2026-06-02 13:31:26] Preparing train features feature=fingerprint seed=42 size=50
+[2026-06-02 13:31:26] [17/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 13:31:26] [18/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 13:31:26] [19/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 13:31:26] [20/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 13:31:26] [21/360] SKIP complete fingerprint_svm_classification_seed-42_size-50.txt
+[2026-06-02 13:31:26] [22/360] SKIP complete fingerprint_svm_regression_seed-42_size-50.txt
+[2026-06-02 13:31:26] [23/360] SKIP complete fingerprint_mlp_classification_seed-42_size-50.txt
+[2026-06-02 13:31:26] [24/360] SKIP complete fingerprint_mlp_regression_seed-42_size-50.txt
+[2026-06-02 13:31:26] Preparing train features feature=fingerprint seed=42 size=100
+[2026-06-02 13:31:26] [25/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 13:31:26] [26/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 13:31:26] [27/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 13:31:26] [28/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 13:31:26] [29/360] SKIP complete fingerprint_svm_classification_seed-42_size-100.txt
+[2026-06-02 13:31:26] [30/360] SKIP complete fingerprint_svm_regression_seed-42_size-100.txt
+[2026-06-02 13:31:26] [31/360] SKIP complete fingerprint_mlp_classification_seed-42_size-100.txt
+[2026-06-02 13:31:26] [32/360] SKIP complete fingerprint_mlp_regression_seed-42_size-100.txt
+[2026-06-02 13:31:26] Preparing train features feature=fingerprint seed=42 size=500
+[2026-06-02 13:31:27] [33/360] SKIP complete fingerprint_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 13:31:27] [34/360] SKIP complete fingerprint_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 13:31:27] [35/360] SKIP complete fingerprint_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 13:31:27] [36/360] SKIP complete fingerprint_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 13:31:27] [37/360] SKIP complete fingerprint_svm_classification_seed-42_size-500.txt
+[2026-06-02 13:31:27] [38/360] SKIP complete fingerprint_svm_regression_seed-42_size-500.txt
+[2026-06-02 13:31:27] [39/360] SKIP complete fingerprint_mlp_classification_seed-42_size-500.txt
+[2026-06-02 13:31:27] [40/360] SKIP complete fingerprint_mlp_regression_seed-42_size-500.txt
+[2026-06-02 13:31:27] Preparing train features feature=fingerprint seed=123 size=10
+[2026-06-02 13:31:27] Preparing val/test features feature=fingerprint seed=123
+[2026-06-02 13:31:27] [41/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 13:31:27] [42/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 13:31:27] [43/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 13:31:27] [44/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 13:31:27] [45/360] SKIP complete fingerprint_svm_classification_seed-123_size-10.txt
+[2026-06-02 13:31:27] [46/360] SKIP complete fingerprint_svm_regression_seed-123_size-10.txt
+[2026-06-02 13:31:27] [47/360] SKIP complete fingerprint_mlp_classification_seed-123_size-10.txt
+[2026-06-02 13:31:27] [48/360] SKIP complete fingerprint_mlp_regression_seed-123_size-10.txt
+[2026-06-02 13:31:27] Preparing train features feature=fingerprint seed=123 size=20
+[2026-06-02 13:31:27] [49/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 13:31:27] [50/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 13:31:27] [51/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 13:31:27] [52/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 13:31:27] [53/360] SKIP complete fingerprint_svm_classification_seed-123_size-20.txt
+[2026-06-02 13:31:27] [54/360] SKIP complete fingerprint_svm_regression_seed-123_size-20.txt
+[2026-06-02 13:31:27] [55/360] SKIP complete fingerprint_mlp_classification_seed-123_size-20.txt
+[2026-06-02 13:31:27] [56/360] SKIP complete fingerprint_mlp_regression_seed-123_size-20.txt
+[2026-06-02 13:31:27] Preparing train features feature=fingerprint seed=123 size=50
+[2026-06-02 13:31:27] [57/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 13:31:27] [58/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 13:31:27] [59/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 13:31:27] [60/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 13:31:27] [61/360] SKIP complete fingerprint_svm_classification_seed-123_size-50.txt
+[2026-06-02 13:31:27] [62/360] SKIP complete fingerprint_svm_regression_seed-123_size-50.txt
+[2026-06-02 13:31:27] [63/360] SKIP complete fingerprint_mlp_classification_seed-123_size-50.txt
+[2026-06-02 13:31:27] [64/360] SKIP complete fingerprint_mlp_regression_seed-123_size-50.txt
+[2026-06-02 13:31:27] Preparing train features feature=fingerprint seed=123 size=100
+[2026-06-02 13:31:27] [65/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 13:31:27] [66/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 13:31:27] [67/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 13:31:27] [68/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 13:31:27] [69/360] SKIP complete fingerprint_svm_classification_seed-123_size-100.txt
+[2026-06-02 13:31:27] [70/360] SKIP complete fingerprint_svm_regression_seed-123_size-100.txt
+[2026-06-02 13:31:27] [71/360] SKIP complete fingerprint_mlp_classification_seed-123_size-100.txt
+[2026-06-02 13:31:27] [72/360] SKIP complete fingerprint_mlp_regression_seed-123_size-100.txt
+[2026-06-02 13:31:27] Preparing train features feature=fingerprint seed=123 size=500
+[2026-06-02 13:31:27] [73/360] SKIP complete fingerprint_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 13:31:27] [74/360] SKIP complete fingerprint_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 13:31:27] [75/360] SKIP complete fingerprint_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 13:31:27] [76/360] SKIP complete fingerprint_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 13:31:27] [77/360] SKIP complete fingerprint_svm_classification_seed-123_size-500.txt
+[2026-06-02 13:31:27] [78/360] SKIP complete fingerprint_svm_regression_seed-123_size-500.txt
+[2026-06-02 13:31:27] [79/360] SKIP complete fingerprint_mlp_classification_seed-123_size-500.txt
+[2026-06-02 13:31:27] [80/360] SKIP complete fingerprint_mlp_regression_seed-123_size-500.txt
+[2026-06-02 13:31:27] Preparing train features feature=fingerprint seed=2137 size=10
+[2026-06-02 13:31:27] Preparing val/test features feature=fingerprint seed=2137
+[2026-06-02 13:31:28] [81/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [82/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [83/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [84/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [85/360] SKIP complete fingerprint_svm_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [86/360] SKIP complete fingerprint_svm_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [87/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:28] [88/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:28] Preparing train features feature=fingerprint seed=2137 size=20
+[2026-06-02 13:31:28] [89/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [90/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [91/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [92/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [93/360] SKIP complete fingerprint_svm_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [94/360] SKIP complete fingerprint_svm_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [95/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:28] [96/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:28] Preparing train features feature=fingerprint seed=2137 size=50
+[2026-06-02 13:31:28] [97/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [98/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [99/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [100/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [101/360] SKIP complete fingerprint_svm_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [102/360] SKIP complete fingerprint_svm_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [103/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:28] [104/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:28] Preparing train features feature=fingerprint seed=2137 size=100
+[2026-06-02 13:31:28] [105/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [106/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [107/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [108/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [109/360] SKIP complete fingerprint_svm_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [110/360] SKIP complete fingerprint_svm_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [111/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:28] [112/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:28] Preparing train features feature=fingerprint seed=2137 size=500
+[2026-06-02 13:31:28] [113/360] SKIP complete fingerprint_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [114/360] SKIP complete fingerprint_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [115/360] SKIP complete fingerprint_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [116/360] SKIP complete fingerprint_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [117/360] SKIP complete fingerprint_svm_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [118/360] SKIP complete fingerprint_svm_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [119/360] SKIP complete fingerprint_mlp_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:28] [120/360] SKIP complete fingerprint_mlp_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:28] Loading GNN checkpoint: checkpoints\gnn.pt
+[2026-06-02 13:31:28] Loaded gnn
+[2026-06-02 13:31:28] Preparing train features feature=gnn seed=42 size=10
+[2026-06-02 13:31:28] Preparing val/test features feature=gnn seed=42
+[2026-06-02 13:31:30] [121/360] SKIP complete gnn_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 13:31:30] [122/360] SKIP complete gnn_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 13:31:30] [123/360] SKIP complete gnn_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 13:31:30] [124/360] SKIP complete gnn_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 13:31:30] [125/360] SKIP complete gnn_svm_classification_seed-42_size-10.txt
+[2026-06-02 13:31:30] [126/360] SKIP complete gnn_svm_regression_seed-42_size-10.txt
+[2026-06-02 13:31:30] [127/360] SKIP complete gnn_mlp_classification_seed-42_size-10.txt
+[2026-06-02 13:31:30] [128/360] SKIP complete gnn_mlp_regression_seed-42_size-10.txt
+[2026-06-02 13:31:30] Preparing train features feature=gnn seed=42 size=20
+[2026-06-02 13:31:30] [129/360] SKIP complete gnn_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 13:31:30] [130/360] SKIP complete gnn_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 13:31:30] [131/360] SKIP complete gnn_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 13:31:30] [132/360] SKIP complete gnn_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 13:31:30] [133/360] SKIP complete gnn_svm_classification_seed-42_size-20.txt
+[2026-06-02 13:31:30] [134/360] SKIP complete gnn_svm_regression_seed-42_size-20.txt
+[2026-06-02 13:31:30] [135/360] SKIP complete gnn_mlp_classification_seed-42_size-20.txt
+[2026-06-02 13:31:30] [136/360] SKIP complete gnn_mlp_regression_seed-42_size-20.txt
+[2026-06-02 13:31:30] Preparing train features feature=gnn seed=42 size=50
+[2026-06-02 13:31:30] [137/360] SKIP complete gnn_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 13:31:30] [138/360] SKIP complete gnn_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 13:31:30] [139/360] SKIP complete gnn_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 13:31:30] [140/360] SKIP complete gnn_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 13:31:30] [141/360] SKIP complete gnn_svm_classification_seed-42_size-50.txt
+[2026-06-02 13:31:30] [142/360] SKIP complete gnn_svm_regression_seed-42_size-50.txt
+[2026-06-02 13:31:30] [143/360] SKIP complete gnn_mlp_classification_seed-42_size-50.txt
+[2026-06-02 13:31:30] [144/360] SKIP complete gnn_mlp_regression_seed-42_size-50.txt
+[2026-06-02 13:31:30] Preparing train features feature=gnn seed=42 size=100
+[2026-06-02 13:31:30] [145/360] SKIP complete gnn_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 13:31:30] [146/360] SKIP complete gnn_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 13:31:30] [147/360] SKIP complete gnn_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 13:31:30] [148/360] SKIP complete gnn_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 13:31:30] [149/360] SKIP complete gnn_svm_classification_seed-42_size-100.txt
+[2026-06-02 13:31:30] [150/360] SKIP complete gnn_svm_regression_seed-42_size-100.txt
+[2026-06-02 13:31:30] [151/360] SKIP complete gnn_mlp_classification_seed-42_size-100.txt
+[2026-06-02 13:31:30] [152/360] SKIP complete gnn_mlp_regression_seed-42_size-100.txt
+[2026-06-02 13:31:30] Preparing train features feature=gnn seed=42 size=500
+[2026-06-02 13:31:30] [153/360] SKIP complete gnn_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 13:31:30] [154/360] SKIP complete gnn_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 13:31:30] [155/360] SKIP complete gnn_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 13:31:30] [156/360] SKIP complete gnn_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 13:31:30] [157/360] SKIP complete gnn_svm_classification_seed-42_size-500.txt
+[2026-06-02 13:31:30] [158/360] SKIP complete gnn_svm_regression_seed-42_size-500.txt
+[2026-06-02 13:31:30] [159/360] SKIP complete gnn_mlp_classification_seed-42_size-500.txt
+[2026-06-02 13:31:30] [160/360] SKIP complete gnn_mlp_regression_seed-42_size-500.txt
+[2026-06-02 13:31:30] Preparing train features feature=gnn seed=123 size=10
+[2026-06-02 13:31:30] Preparing val/test features feature=gnn seed=123
+[2026-06-02 13:31:32] [161/360] SKIP complete gnn_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 13:31:32] [162/360] SKIP complete gnn_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 13:31:32] [163/360] SKIP complete gnn_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 13:31:32] [164/360] SKIP complete gnn_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 13:31:32] [165/360] SKIP complete gnn_svm_classification_seed-123_size-10.txt
+[2026-06-02 13:31:32] [166/360] SKIP complete gnn_svm_regression_seed-123_size-10.txt
+[2026-06-02 13:31:32] [167/360] SKIP complete gnn_mlp_classification_seed-123_size-10.txt
+[2026-06-02 13:31:32] [168/360] SKIP complete gnn_mlp_regression_seed-123_size-10.txt
+[2026-06-02 13:31:32] Preparing train features feature=gnn seed=123 size=20
+[2026-06-02 13:31:32] [169/360] SKIP complete gnn_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 13:31:32] [170/360] SKIP complete gnn_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 13:31:32] [171/360] SKIP complete gnn_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 13:31:32] [172/360] SKIP complete gnn_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 13:31:32] [173/360] SKIP complete gnn_svm_classification_seed-123_size-20.txt
+[2026-06-02 13:31:32] [174/360] SKIP complete gnn_svm_regression_seed-123_size-20.txt
+[2026-06-02 13:31:32] [175/360] SKIP complete gnn_mlp_classification_seed-123_size-20.txt
+[2026-06-02 13:31:32] [176/360] SKIP complete gnn_mlp_regression_seed-123_size-20.txt
+[2026-06-02 13:31:32] Preparing train features feature=gnn seed=123 size=50
+[2026-06-02 13:31:32] [177/360] SKIP complete gnn_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 13:31:32] [178/360] SKIP complete gnn_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 13:31:32] [179/360] SKIP complete gnn_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 13:31:32] [180/360] SKIP complete gnn_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 13:31:32] [181/360] SKIP complete gnn_svm_classification_seed-123_size-50.txt
+[2026-06-02 13:31:32] [182/360] SKIP complete gnn_svm_regression_seed-123_size-50.txt
+[2026-06-02 13:31:32] [183/360] SKIP complete gnn_mlp_classification_seed-123_size-50.txt
+[2026-06-02 13:31:32] [184/360] SKIP complete gnn_mlp_regression_seed-123_size-50.txt
+[2026-06-02 13:31:32] Preparing train features feature=gnn seed=123 size=100
+[2026-06-02 13:31:32] [185/360] SKIP complete gnn_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 13:31:32] [186/360] SKIP complete gnn_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 13:31:32] [187/360] SKIP complete gnn_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 13:31:32] [188/360] SKIP complete gnn_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 13:31:32] [189/360] SKIP complete gnn_svm_classification_seed-123_size-100.txt
+[2026-06-02 13:31:32] [190/360] SKIP complete gnn_svm_regression_seed-123_size-100.txt
+[2026-06-02 13:31:32] [191/360] SKIP complete gnn_mlp_classification_seed-123_size-100.txt
+[2026-06-02 13:31:32] [192/360] SKIP complete gnn_mlp_regression_seed-123_size-100.txt
+[2026-06-02 13:31:32] Preparing train features feature=gnn seed=123 size=500
+[2026-06-02 13:31:33] [193/360] SKIP complete gnn_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 13:31:33] [194/360] SKIP complete gnn_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 13:31:33] [195/360] SKIP complete gnn_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 13:31:33] [196/360] SKIP complete gnn_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 13:31:33] [197/360] SKIP complete gnn_svm_classification_seed-123_size-500.txt
+[2026-06-02 13:31:33] [198/360] SKIP complete gnn_svm_regression_seed-123_size-500.txt
+[2026-06-02 13:31:33] [199/360] SKIP complete gnn_mlp_classification_seed-123_size-500.txt
+[2026-06-02 13:31:33] [200/360] SKIP complete gnn_mlp_regression_seed-123_size-500.txt
+[2026-06-02 13:31:33] Preparing train features feature=gnn seed=2137 size=10
+[2026-06-02 13:31:33] Preparing val/test features feature=gnn seed=2137
+[2026-06-02 13:31:34] [201/360] SKIP complete gnn_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [202/360] SKIP complete gnn_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [203/360] SKIP complete gnn_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [204/360] SKIP complete gnn_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [205/360] SKIP complete gnn_svm_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [206/360] SKIP complete gnn_svm_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [207/360] SKIP complete gnn_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 13:31:34] [208/360] SKIP complete gnn_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 13:31:34] Preparing train features feature=gnn seed=2137 size=20
+[2026-06-02 13:31:34] [209/360] SKIP complete gnn_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [210/360] SKIP complete gnn_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [211/360] SKIP complete gnn_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [212/360] SKIP complete gnn_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [213/360] SKIP complete gnn_svm_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [214/360] SKIP complete gnn_svm_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [215/360] SKIP complete gnn_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 13:31:34] [216/360] SKIP complete gnn_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 13:31:34] Preparing train features feature=gnn seed=2137 size=50
+[2026-06-02 13:31:34] [217/360] SKIP complete gnn_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [218/360] SKIP complete gnn_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [219/360] SKIP complete gnn_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [220/360] SKIP complete gnn_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [221/360] SKIP complete gnn_svm_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [222/360] SKIP complete gnn_svm_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [223/360] SKIP complete gnn_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 13:31:34] [224/360] SKIP complete gnn_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 13:31:34] Preparing train features feature=gnn seed=2137 size=100
+[2026-06-02 13:31:34] [225/360] SKIP complete gnn_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [226/360] SKIP complete gnn_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [227/360] SKIP complete gnn_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [228/360] SKIP complete gnn_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [229/360] SKIP complete gnn_svm_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [230/360] SKIP complete gnn_svm_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [231/360] SKIP complete gnn_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 13:31:34] [232/360] SKIP complete gnn_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 13:31:34] Preparing train features feature=gnn seed=2137 size=500
+[2026-06-02 13:31:35] [233/360] SKIP complete gnn_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [234/360] SKIP complete gnn_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [235/360] SKIP complete gnn_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [236/360] SKIP complete gnn_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [237/360] SKIP complete gnn_svm_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [238/360] SKIP complete gnn_svm_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [239/360] SKIP complete gnn_mlp_classification_seed-2137_size-500.txt
+[2026-06-02 13:31:35] [240/360] SKIP complete gnn_mlp_regression_seed-2137_size-500.txt
+[2026-06-02 13:31:35] Loading GNN checkpoint: checkpoints\filtered_gnn.pt
+[2026-06-02 13:31:35] Loaded filtered_gnn
+[2026-06-02 13:31:35] Preparing train features feature=filtered_gnn seed=42 size=10
+[2026-06-02 13:31:35] Preparing val/test features feature=filtered_gnn seed=42
+[2026-06-02 13:31:36] [241/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-10.txt
+[2026-06-02 13:31:36] [242/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-10.txt
+[2026-06-02 13:31:36] [243/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-10.txt
+[2026-06-02 13:31:36] [244/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-10.txt
+[2026-06-02 13:31:36] [245/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-10.txt
+[2026-06-02 13:31:36] [246/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-10.txt
+[2026-06-02 13:31:36] [247/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-10.txt
+[2026-06-02 13:31:36] [248/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-10.txt
+[2026-06-02 13:31:36] Preparing train features feature=filtered_gnn seed=42 size=20
+[2026-06-02 13:31:36] [249/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-20.txt
+[2026-06-02 13:31:36] [250/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-20.txt
+[2026-06-02 13:31:36] [251/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-20.txt
+[2026-06-02 13:31:36] [252/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-20.txt
+[2026-06-02 13:31:36] [253/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-20.txt
+[2026-06-02 13:31:36] [254/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-20.txt
+[2026-06-02 13:31:36] [255/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-20.txt
+[2026-06-02 13:31:36] [256/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-20.txt
+[2026-06-02 13:31:36] Preparing train features feature=filtered_gnn seed=42 size=50
+[2026-06-02 13:31:36] [257/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-50.txt
+[2026-06-02 13:31:36] [258/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-50.txt
+[2026-06-02 13:31:36] [259/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-50.txt
+[2026-06-02 13:31:36] [260/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-50.txt
+[2026-06-02 13:31:36] [261/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-50.txt
+[2026-06-02 13:31:36] [262/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-50.txt
+[2026-06-02 13:31:37] [263/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-50.txt
+[2026-06-02 13:31:37] [264/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-50.txt
+[2026-06-02 13:31:37] Preparing train features feature=filtered_gnn seed=42 size=100
+[2026-06-02 13:31:37] [265/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-100.txt
+[2026-06-02 13:31:37] [266/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-100.txt
+[2026-06-02 13:31:37] [267/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-100.txt
+[2026-06-02 13:31:37] [268/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-100.txt
+[2026-06-02 13:31:37] [269/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-100.txt
+[2026-06-02 13:31:37] [270/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-100.txt
+[2026-06-02 13:31:37] [271/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-100.txt
+[2026-06-02 13:31:37] [272/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-100.txt
+[2026-06-02 13:31:37] Preparing train features feature=filtered_gnn seed=42 size=500
+[2026-06-02 13:31:37] [273/360] SKIP complete filtered_gnn_randomforest_classification_seed-42_size-500.txt
+[2026-06-02 13:31:37] [274/360] SKIP complete filtered_gnn_randomforest_regression_seed-42_size-500.txt
+[2026-06-02 13:31:37] [275/360] SKIP complete filtered_gnn_xgboost_classification_seed-42_size-500.txt
+[2026-06-02 13:31:37] [276/360] SKIP complete filtered_gnn_xgboost_regression_seed-42_size-500.txt
+[2026-06-02 13:31:37] [277/360] SKIP complete filtered_gnn_svm_classification_seed-42_size-500.txt
+[2026-06-02 13:31:37] [278/360] SKIP complete filtered_gnn_svm_regression_seed-42_size-500.txt
+[2026-06-02 13:31:37] [279/360] SKIP complete filtered_gnn_mlp_classification_seed-42_size-500.txt
+[2026-06-02 13:31:37] [280/360] SKIP complete filtered_gnn_mlp_regression_seed-42_size-500.txt
+[2026-06-02 13:31:37] Preparing train features feature=filtered_gnn seed=123 size=10
+[2026-06-02 13:31:37] Preparing val/test features feature=filtered_gnn seed=123
+[2026-06-02 13:31:39] [281/360] SKIP complete filtered_gnn_randomforest_classification_seed-123_size-10.txt
+[2026-06-02 13:31:39] [282/360] SKIP complete filtered_gnn_randomforest_regression_seed-123_size-10.txt
+[2026-06-02 13:31:39] [283/360] SKIP complete filtered_gnn_xgboost_classification_seed-123_size-10.txt
+[2026-06-02 13:31:39] [284/360] SKIP complete filtered_gnn_xgboost_regression_seed-123_size-10.txt
+[2026-06-02 13:31:39] [285/360] SKIP complete filtered_gnn_svm_classification_seed-123_size-10.txt
+[2026-06-02 13:31:39] [286/360] SKIP complete filtered_gnn_svm_regression_seed-123_size-10.txt
+[2026-06-02 13:31:39] [287/360] SKIP complete filtered_gnn_mlp_classification_seed-123_size-10.txt
+[2026-06-02 13:31:39] [288/360] SKIP complete filtered_gnn_mlp_regression_seed-123_size-10.txt
+[2026-06-02 13:31:39] Preparing train features feature=filtered_gnn seed=123 size=20
+[2026-06-02 13:31:39] [289/360] SKIP complete filtered_gnn_randomforest_classification_seed-123_size-20.txt
+[2026-06-02 13:31:39] [290/360] SKIP complete filtered_gnn_randomforest_regression_seed-123_size-20.txt
+[2026-06-02 13:31:39] [291/360] SKIP complete filtered_gnn_xgboost_classification_seed-123_size-20.txt
+[2026-06-02 13:31:39] [292/360] SKIP complete filtered_gnn_xgboost_regression_seed-123_size-20.txt
+[2026-06-02 13:31:39] [293/360] SKIP complete filtered_gnn_svm_classification_seed-123_size-20.txt
+[2026-06-02 13:31:39] [294/360] SKIP complete filtered_gnn_svm_regression_seed-123_size-20.txt
+[2026-06-02 13:31:39] [295/360] SKIP complete filtered_gnn_mlp_classification_seed-123_size-20.txt
+[2026-06-02 13:31:39] [296/360] SKIP complete filtered_gnn_mlp_regression_seed-123_size-20.txt
+[2026-06-02 13:31:39] Preparing train features feature=filtered_gnn seed=123 size=50
+[2026-06-02 13:31:39] [297/360] SKIP complete filtered_gnn_randomforest_classification_seed-123_size-50.txt
+[2026-06-02 13:31:39] [298/360] SKIP complete filtered_gnn_randomforest_regression_seed-123_size-50.txt
+[2026-06-02 13:31:39] [299/360] SKIP complete filtered_gnn_xgboost_classification_seed-123_size-50.txt
+[2026-06-02 13:31:39] [300/360] SKIP complete filtered_gnn_xgboost_regression_seed-123_size-50.txt
+[2026-06-02 13:31:39] [301/360] SKIP complete filtered_gnn_svm_classification_seed-123_size-50.txt
+[2026-06-02 13:31:39] [302/360] SKIP complete filtered_gnn_svm_regression_seed-123_size-50.txt
+[2026-06-02 13:31:39] [303/360] SKIP complete filtered_gnn_mlp_classification_seed-123_size-50.txt
+[2026-06-02 13:31:39] [304/360] SKIP complete filtered_gnn_mlp_regression_seed-123_size-50.txt
+[2026-06-02 13:31:39] Preparing train features feature=filtered_gnn seed=123 size=100
+[2026-06-02 13:31:39] [305/360] SKIP complete filtered_gnn_randomforest_classification_seed-123_size-100.txt
+[2026-06-02 13:31:39] [306/360] SKIP complete filtered_gnn_randomforest_regression_seed-123_size-100.txt
+[2026-06-02 13:31:39] [307/360] SKIP complete filtered_gnn_xgboost_classification_seed-123_size-100.txt
+[2026-06-02 13:31:39] [308/360] SKIP complete filtered_gnn_xgboost_regression_seed-123_size-100.txt
+[2026-06-02 13:31:39] [309/360] SKIP complete filtered_gnn_svm_classification_seed-123_size-100.txt
+[2026-06-02 13:31:39] [310/360] SKIP complete filtered_gnn_svm_regression_seed-123_size-100.txt
+[2026-06-02 13:31:39] [311/360] SKIP complete filtered_gnn_mlp_classification_seed-123_size-100.txt
+[2026-06-02 13:31:39] [312/360] SKIP complete filtered_gnn_mlp_regression_seed-123_size-100.txt
+[2026-06-02 13:31:39] Preparing train features feature=filtered_gnn seed=123 size=500
+[2026-06-02 13:31:39] [313/360] SKIP complete filtered_gnn_randomforest_classification_seed-123_size-500.txt
+[2026-06-02 13:31:39] [314/360] SKIP complete filtered_gnn_randomforest_regression_seed-123_size-500.txt
+[2026-06-02 13:31:39] [315/360] SKIP complete filtered_gnn_xgboost_classification_seed-123_size-500.txt
+[2026-06-02 13:31:39] [316/360] SKIP complete filtered_gnn_xgboost_regression_seed-123_size-500.txt
+[2026-06-02 13:31:39] [317/360] SKIP complete filtered_gnn_svm_classification_seed-123_size-500.txt
+[2026-06-02 13:31:39] [318/360] START filtered_gnn_svm_regression_seed-123_size-500.txt
+[2026-06-02 14:03:40] [318/360] OK filtered_gnn_svm_regression_seed-123_size-500.txt (1920.8s); summary rows=2544
+[2026-06-02 14:03:40] [319/360] START filtered_gnn_mlp_classification_seed-123_size-500.txt
+[2026-06-02 14:04:00] [319/360] OK filtered_gnn_mlp_classification_seed-123_size-500.txt (20.0s); summary rows=2554
+[2026-06-02 14:04:00] [320/360] START filtered_gnn_mlp_regression_seed-123_size-500.txt
+[2026-06-02 14:04:19] [320/360] OK filtered_gnn_mlp_regression_seed-123_size-500.txt (18.6s); summary rows=2560
+[2026-06-02 14:04:19] Preparing train features feature=filtered_gnn seed=2137 size=10
+[2026-06-02 14:04:19] Preparing val/test features feature=filtered_gnn seed=2137
+[2026-06-02 14:04:20] [321/360] START filtered_gnn_randomforest_classification_seed-2137_size-10.txt
+[2026-06-02 14:04:24] [321/360] OK filtered_gnn_randomforest_classification_seed-2137_size-10.txt (4.0s); summary rows=2570
+[2026-06-02 14:04:24] [322/360] START filtered_gnn_randomforest_regression_seed-2137_size-10.txt
+[2026-06-02 14:04:38] [322/360] OK filtered_gnn_randomforest_regression_seed-2137_size-10.txt (13.6s); summary rows=2576
+[2026-06-02 14:04:38] [323/360] START filtered_gnn_xgboost_classification_seed-2137_size-10.txt
+[2026-06-02 14:04:39] [323/360] OK filtered_gnn_xgboost_classification_seed-2137_size-10.txt (1.2s); summary rows=2586
+[2026-06-02 14:04:39] [324/360] START filtered_gnn_xgboost_regression_seed-2137_size-10.txt
+[2026-06-02 14:04:40] [324/360] OK filtered_gnn_xgboost_regression_seed-2137_size-10.txt (0.9s); summary rows=2592
+[2026-06-02 14:04:40] [325/360] START filtered_gnn_svm_classification_seed-2137_size-10.txt
+[2026-06-02 14:04:41] [325/360] OK filtered_gnn_svm_classification_seed-2137_size-10.txt (1.0s); summary rows=2602
+[2026-06-02 14:04:41] [326/360] START filtered_gnn_svm_regression_seed-2137_size-10.txt
+[2026-06-02 14:04:42] [326/360] OK filtered_gnn_svm_regression_seed-2137_size-10.txt (0.4s); summary rows=2608
+[2026-06-02 14:04:42] [327/360] START filtered_gnn_mlp_classification_seed-2137_size-10.txt
+[2026-06-02 14:04:44] [327/360] OK filtered_gnn_mlp_classification_seed-2137_size-10.txt (1.6s); summary rows=2618
+[2026-06-02 14:04:44] [328/360] START filtered_gnn_mlp_regression_seed-2137_size-10.txt
+[2026-06-02 14:04:49] [328/360] OK filtered_gnn_mlp_regression_seed-2137_size-10.txt (4.9s); summary rows=2624
+[2026-06-02 14:04:49] Preparing train features feature=filtered_gnn seed=2137 size=20
+[2026-06-02 14:04:49] [329/360] START filtered_gnn_randomforest_classification_seed-2137_size-20.txt
+[2026-06-02 14:04:50] [329/360] OK filtered_gnn_randomforest_classification_seed-2137_size-20.txt (1.3s); summary rows=2634
+[2026-06-02 14:04:50] [330/360] START filtered_gnn_randomforest_regression_seed-2137_size-20.txt
+[2026-06-02 14:05:03] [330/360] OK filtered_gnn_randomforest_regression_seed-2137_size-20.txt (13.0s); summary rows=2640
+[2026-06-02 14:05:03] [331/360] START filtered_gnn_xgboost_classification_seed-2137_size-20.txt
+[2026-06-02 14:05:03] [331/360] OK filtered_gnn_xgboost_classification_seed-2137_size-20.txt (0.4s); summary rows=2650
+[2026-06-02 14:05:03] [332/360] START filtered_gnn_xgboost_regression_seed-2137_size-20.txt
+[2026-06-02 14:05:04] [332/360] OK filtered_gnn_xgboost_regression_seed-2137_size-20.txt (0.6s); summary rows=2656
+[2026-06-02 14:05:04] [333/360] START filtered_gnn_svm_classification_seed-2137_size-20.txt
+[2026-06-02 14:05:05] [333/360] OK filtered_gnn_svm_classification_seed-2137_size-20.txt (1.3s); summary rows=2666
+[2026-06-02 14:05:05] [334/360] START filtered_gnn_svm_regression_seed-2137_size-20.txt
+[2026-06-02 14:05:06] [334/360] OK filtered_gnn_svm_regression_seed-2137_size-20.txt (0.4s); summary rows=2672
+[2026-06-02 14:05:06] [335/360] START filtered_gnn_mlp_classification_seed-2137_size-20.txt
+[2026-06-02 14:05:18] [335/360] OK filtered_gnn_mlp_classification_seed-2137_size-20.txt (11.9s); summary rows=2682
+[2026-06-02 14:05:18] [336/360] START filtered_gnn_mlp_regression_seed-2137_size-20.txt
+[2026-06-02 14:05:34] [336/360] OK filtered_gnn_mlp_regression_seed-2137_size-20.txt (15.9s); summary rows=2688
+[2026-06-02 14:05:34] Preparing train features feature=filtered_gnn seed=2137 size=50
+[2026-06-02 14:05:34] [337/360] START filtered_gnn_randomforest_classification_seed-2137_size-50.txt
+[2026-06-02 14:05:37] [337/360] OK filtered_gnn_randomforest_classification_seed-2137_size-50.txt (3.5s); summary rows=2698
+[2026-06-02 14:05:37] [338/360] START filtered_gnn_randomforest_regression_seed-2137_size-50.txt
+[2026-06-02 14:06:18] [338/360] OK filtered_gnn_randomforest_regression_seed-2137_size-50.txt (40.5s); summary rows=2704
+[2026-06-02 14:06:18] [339/360] START filtered_gnn_xgboost_classification_seed-2137_size-50.txt
+[2026-06-02 14:06:19] [339/360] OK filtered_gnn_xgboost_classification_seed-2137_size-50.txt (0.6s); summary rows=2714
+[2026-06-02 14:06:19] [340/360] START filtered_gnn_xgboost_regression_seed-2137_size-50.txt
+[2026-06-02 14:06:20] [340/360] OK filtered_gnn_xgboost_regression_seed-2137_size-50.txt (1.3s); summary rows=2720
+[2026-06-02 14:06:20] [341/360] START filtered_gnn_svm_classification_seed-2137_size-50.txt
+[2026-06-02 14:06:21] [341/360] OK filtered_gnn_svm_classification_seed-2137_size-50.txt (1.4s); summary rows=2730
+[2026-06-02 14:06:21] [342/360] START filtered_gnn_svm_regression_seed-2137_size-50.txt
+[2026-06-02 14:06:22] [342/360] OK filtered_gnn_svm_regression_seed-2137_size-50.txt (0.4s); summary rows=2736
+[2026-06-02 14:06:22] [343/360] START filtered_gnn_mlp_classification_seed-2137_size-50.txt
+[2026-06-02 14:06:25] [343/360] OK filtered_gnn_mlp_classification_seed-2137_size-50.txt (3.5s); summary rows=2746
+[2026-06-02 14:06:25] [344/360] START filtered_gnn_mlp_regression_seed-2137_size-50.txt
+[2026-06-02 14:06:35] [344/360] OK filtered_gnn_mlp_regression_seed-2137_size-50.txt (9.1s); summary rows=2752
+[2026-06-02 14:06:35] Preparing train features feature=filtered_gnn seed=2137 size=100
+[2026-06-02 14:06:35] [345/360] START filtered_gnn_randomforest_classification_seed-2137_size-100.txt
+[2026-06-02 14:06:36] [345/360] OK filtered_gnn_randomforest_classification_seed-2137_size-100.txt (1.5s); summary rows=2762
+[2026-06-02 14:06:36] [346/360] START filtered_gnn_randomforest_regression_seed-2137_size-100.txt
+[2026-06-02 14:06:52] [346/360] OK filtered_gnn_randomforest_regression_seed-2137_size-100.txt (15.8s); summary rows=2768
+[2026-06-02 14:06:52] [347/360] START filtered_gnn_xgboost_classification_seed-2137_size-100.txt
+[2026-06-02 14:06:53] [347/360] OK filtered_gnn_xgboost_classification_seed-2137_size-100.txt (1.1s); summary rows=2778
+[2026-06-02 14:06:53] [348/360] START filtered_gnn_xgboost_regression_seed-2137_size-100.txt
+[2026-06-02 14:06:58] [348/360] OK filtered_gnn_xgboost_regression_seed-2137_size-100.txt (4.0s); summary rows=2784
+[2026-06-02 14:06:58] [349/360] START filtered_gnn_svm_classification_seed-2137_size-100.txt
+[2026-06-02 14:06:59] [349/360] OK filtered_gnn_svm_classification_seed-2137_size-100.txt (1.3s); summary rows=2794
+[2026-06-02 14:06:59] [350/360] START filtered_gnn_svm_regression_seed-2137_size-100.txt
+[2026-06-02 14:06:59] [350/360] OK filtered_gnn_svm_regression_seed-2137_size-100.txt (0.5s); summary rows=2800
+[2026-06-02 14:06:59] [351/360] START filtered_gnn_mlp_classification_seed-2137_size-100.txt
+[2026-06-02 14:07:05] [351/360] OK filtered_gnn_mlp_classification_seed-2137_size-100.txt (5.6s); summary rows=2810
+[2026-06-02 14:07:05] [352/360] START filtered_gnn_mlp_regression_seed-2137_size-100.txt
+[2026-06-02 14:07:22] [352/360] OK filtered_gnn_mlp_regression_seed-2137_size-100.txt (17.0s); summary rows=2816
+[2026-06-02 14:07:22] Preparing train features feature=filtered_gnn seed=2137 size=500
+[2026-06-02 14:07:22] [353/360] START filtered_gnn_randomforest_classification_seed-2137_size-500.txt
+[2026-06-02 14:07:25] [353/360] OK filtered_gnn_randomforest_classification_seed-2137_size-500.txt (2.6s); summary rows=2826
+[2026-06-02 14:07:25] [354/360] START filtered_gnn_randomforest_regression_seed-2137_size-500.txt
+[2026-06-02 14:08:45] [354/360] OK filtered_gnn_randomforest_regression_seed-2137_size-500.txt (80.2s); summary rows=2832
+[2026-06-02 14:08:45] [355/360] START filtered_gnn_xgboost_classification_seed-2137_size-500.txt
+[2026-06-02 14:08:52] [355/360] OK filtered_gnn_xgboost_classification_seed-2137_size-500.txt (7.0s); summary rows=2842
+[2026-06-02 14:08:52] [356/360] START filtered_gnn_xgboost_regression_seed-2137_size-500.txt
+[2026-06-02 14:09:10] [356/360] OK filtered_gnn_xgboost_regression_seed-2137_size-500.txt (17.9s); summary rows=2848
+[2026-06-02 14:09:10] [357/360] START filtered_gnn_svm_classification_seed-2137_size-500.txt
+[2026-06-02 15:03:09] Manual restart after long stall at 357/360.
+[2026-06-02 15:03:16] Resuming TYK2 low-data transfer runner v2. Expected outputs: 360; already complete: 356
+[2026-06-02 15:03:16] No commit/push mode. Results only in C:\Users\bartek\Desktop\Studia\ROK_IV\SEM2\UMwPL\bio-transfer\bio-transfer\results\downstream\TYK2_lowdata_transfer
+[2026-06-02 15:03:16] torch=2.12.0+cu132, cuda_available=True, cuda=13.2
+[2026-06-02 15:03:16] gpu=NVIDIA GeForce RTX 5070 Ti
+[2026-06-02 15:03:16] Fetching/preparing target embedding for CHEMBL3553
