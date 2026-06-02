@@ -1,0 +1,14 @@
+Fitting 1 folds for each of 10 candidates, totalling 10 fits
+
+==== VALIDATION METRICS ====
+R2:	0.1801162532170335
+RMSE:	1.1283773364087257
+MAE:	0.9120906525205533
+
+==== BEST PARAMETERS ====
+{'C': 0.1, 'kernel': 'linear'}
+
+==== TEST RESULTS ====
+R2: 0.1930
+RMSE: 1.0599
+MAE: 0.8385

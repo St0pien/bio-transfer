@@ -1,0 +1,14 @@
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+R2:	-0.7845461373062346
+RMSE:	1.5344448728214428
+MAE:	1.221020571247289
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.01}
+
+==== TEST RESULTS ====
+R2: -0.5546
+RMSE: 1.5039
+MAE: 1.2031

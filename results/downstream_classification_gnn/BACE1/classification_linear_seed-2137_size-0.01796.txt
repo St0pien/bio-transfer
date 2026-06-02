@@ -1,0 +1,18 @@
+Fitting 1 folds for each of 1 candidates, totalling 1 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.7294117647058823
+Precision:	0.5638766519823789
+Recall:	0.45390070921985815
+F1:	0.5029469548133595
+ROC_AUC:	0.7156699032289596
+
+==== BEST PARAMETERS ====
+{}
+
+==== TEST RESULTS ====
+Accuracy: 0.7453
+Precision: 0.6487
+Recall: 0.5242
+F1: 0.5798
+ROC_AUC: 0.7761

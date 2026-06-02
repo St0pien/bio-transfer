@@ -1,0 +1,76 @@
+target,model,seed,train_size,rmse,mae,r2,best_params,file
+BACE1,xgboost,42,0.089799,0.9133430059816209,0.697437561644118,0.40075407226850424,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 500}",regression_xgboost_seed-42_size-0.089799.txt
+BACE1,randomforest,42,0.089799,0.8968264468159762,0.6856916582774049,0.4222311943432304,"{'max_depth': None, 'n_estimators': 100}",regression_randomforest_seed-42_size-0.089799.txt
+BACE1,svm,42,0.089799,0.8499221206871318,0.6559773710800457,0.48108581611936474,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-42_size-0.089799.txt
+BACE1,linear,42,0.089799,1.2981210422536837,0.9977094222166765,-0.21050797797592113,{},regression_linear_seed-42_size-0.089799.txt
+BACE1,mlp,42,0.089799,1.064913436452702,0.8101142389069081,0.18535970139381552,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",regression_mlp_seed-42_size-0.089799.txt
+BACE1,xgboost,42,0.01796,1.0273853022508648,0.8152004821005625,0.24176474544111426,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 300}",regression_xgboost_seed-42_size-0.01796.txt
+BACE1,randomforest,42,0.01796,0.9932960935481395,0.7727952573838807,0.2912472917426142,"{'max_depth': 5, 'n_estimators': 500}",regression_randomforest_seed-42_size-0.01796.txt
+BACE1,svm,42,0.01796,0.9602449844658958,0.7496389005757857,0.3376289062204898,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-42_size-0.01796.txt
+BACE1,linear,42,0.01796,1.036477574886246,0.8049253816009693,0.22828472453854787,{},regression_linear_seed-42_size-0.01796.txt
+BACE1,mlp,42,0.01796,1.1921471894177267,0.919848505006777,-0.020932513451615176,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",regression_mlp_seed-42_size-0.01796.txt
+BACE1,xgboost,42,0.00898,1.1244864300534538,0.9083470752529536,0.09166569971536553,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",regression_xgboost_seed-42_size-0.00898.txt
+BACE1,randomforest,42,0.00898,1.0832361155970769,0.8614868680987223,0.15708547271097706,"{'max_depth': 10, 'n_estimators': 300}",regression_randomforest_seed-42_size-0.00898.txt
+BACE1,svm,42,0.00898,1.0428639673091198,0.826234358799833,0.21874537620177936,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-42_size-0.00898.txt
+BACE1,linear,42,0.00898,1.053661332444308,0.8260735418676487,0.20248407956436998,{},regression_linear_seed-42_size-0.00898.txt
+BACE1,mlp,42,0.00898,1.1952417559002189,0.9255779737322478,-0.026239650128850434,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",regression_mlp_seed-42_size-0.00898.txt
+BACE1,xgboost,42,0.003592,1.0879361778748486,0.8669777326410134,0.14975494605519546,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",regression_xgboost_seed-42_size-0.003592.txt
+BACE1,randomforest,42,0.003592,1.0556113854907354,0.8348933461169756,0.19952935884701828,"{'max_depth': None, 'n_estimators': 500}",regression_randomforest_seed-42_size-0.003592.txt
+BACE1,svm,42,0.003592,1.0599356149838624,0.8385223669215021,0.19295779564079418,"{'C': 0.1, 'kernel': 'linear'}",regression_svm_seed-42_size-0.003592.txt
+BACE1,linear,42,0.003592,1.057519966909782,0.8320011025723316,0.19663218563081974,{},regression_linear_seed-42_size-0.003592.txt
+BACE1,mlp,42,0.003592,1.5705032635612861,1.2941352073982368,-0.7718010833491644,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",regression_mlp_seed-42_size-0.003592.txt
+BACE1,xgboost,42,0.001796,1.137675011687766,0.9096580426279217,0.07023388411449549,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",regression_xgboost_seed-42_size-0.001796.txt
+BACE1,randomforest,42,0.001796,1.1704810180348149,0.9690289789069985,0.015839281975285058,"{'max_depth': None, 'n_estimators': 100}",regression_randomforest_seed-42_size-0.001796.txt
+BACE1,svm,42,0.001796,1.1482318111617822,0.9387725672666791,0.052898715407861396,"{'C': 0.1, 'kernel': 'linear'}",regression_svm_seed-42_size-0.001796.txt
+BACE1,linear,42,0.001796,1.1501028627425556,0.9381384339613067,0.0498095845496187,{},regression_linear_seed-42_size-0.001796.txt
+BACE1,mlp,42,0.001796,2.221922345451523,1.9576365193120793,-2.5464597043199366,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",regression_mlp_seed-42_size-0.001796.txt
+BACE1,xgboost,123,0.089799,0.9819461722216518,0.7625313771708627,0.33728275007589514,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 300}",regression_xgboost_seed-123_size-0.089799.txt
+BACE1,randomforest,123,0.089799,0.9631679647929408,0.7588872772130075,0.3623872823477122,"{'max_depth': None, 'n_estimators': 100}",regression_randomforest_seed-123_size-0.089799.txt
+BACE1,svm,123,0.089799,0.915420380141799,0.7158905138716789,0.4240376886178693,"{'C': 1, 'kernel': 'rbf'}",regression_svm_seed-123_size-0.089799.txt
+BACE1,linear,123,0.089799,1.285465171855307,0.997539703326099,-0.13572592869742617,{},regression_linear_seed-123_size-0.089799.txt
+BACE1,mlp,123,0.089799,1.019126849442018,0.7785766399144217,0.28614599751108327,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",regression_mlp_seed-123_size-0.089799.txt
+BACE1,xgboost,123,0.01796,1.1244525464899533,0.8831780389919909,0.13096918459460716,"{'learning_rate': 0.01, 'max_depth': 9, 'n_estimators': 300}",regression_xgboost_seed-123_size-0.01796.txt
+BACE1,randomforest,123,0.01796,1.103099022291008,0.8810576917741711,0.1636618432796797,"{'max_depth': None, 'n_estimators': 300}",regression_randomforest_seed-123_size-0.01796.txt
+BACE1,svm,123,0.01796,1.0709782344929928,0.8559590490639847,0.2116588410706539,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-123_size-0.01796.txt
+BACE1,linear,123,0.01796,1.1636778376354604,0.9316541999332,0.06928130308824165,{},regression_linear_seed-123_size-0.01796.txt
+BACE1,mlp,123,0.01796,1.150451087412403,0.9153946474420332,0.09031877819256506,"{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.0001}",regression_mlp_seed-123_size-0.01796.txt
+BACE1,xgboost,123,0.00898,1.1877437030899978,0.9470881502339603,0.030387099006128904,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 300}",regression_xgboost_seed-123_size-0.00898.txt
+BACE1,randomforest,123,0.00898,1.1345762294615456,0.9019233861982916,0.11525060814769639,"{'max_depth': 10, 'n_estimators': 100}",regression_randomforest_seed-123_size-0.00898.txt
+BACE1,svm,123,0.00898,1.1334318393448555,0.8974496661089173,0.1170345126669472,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-123_size-0.00898.txt
+BACE1,linear,123,0.00898,1.1606231845775898,0.9216983364936661,0.07416116099383352,{},regression_linear_seed-123_size-0.00898.txt
+BACE1,mlp,123,0.00898,1.093078044792052,0.8469687013776888,0.1787880611404411,"{'hidden_layer_sizes': (128, 64), 'learning_rate_init': 0.01}",regression_mlp_seed-123_size-0.00898.txt
+BACE1,xgboost,123,0.003592,1.2606167512320021,1.021625531800231,-0.09224247053772205,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",regression_xgboost_seed-123_size-0.003592.txt
+BACE1,randomforest,123,0.003592,1.2232417249630554,0.9897715563878478,-0.028436507819093126,"{'max_depth': None, 'n_estimators': 500}",regression_randomforest_seed-123_size-0.003592.txt
+BACE1,svm,123,0.003592,1.1881310045163012,0.9611047876901603,0.029754649958978474,"{'C': 1, 'kernel': 'rbf'}",regression_svm_seed-123_size-0.003592.txt
+BACE1,linear,123,0.003592,1.2056370238530296,0.9640197090830988,0.0009526677373868919,{},regression_linear_seed-123_size-0.003592.txt
+BACE1,mlp,123,0.003592,1.545279102642959,1.2497233081027403,-0.6412199030780874,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",regression_mlp_seed-123_size-0.003592.txt
+BACE1,xgboost,123,0.001796,1.2446212938348808,1.0364288804891253,-0.06470027395296807,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",regression_xgboost_seed-123_size-0.001796.txt
+BACE1,randomforest,123,0.001796,1.224435968663996,1.020175355805245,-0.030445601100146602,"{'max_depth': 5, 'n_estimators': 500}",regression_randomforest_seed-123_size-0.001796.txt
+BACE1,svm,123,0.001796,1.1967201476149243,0.9879466686373208,0.015675902183302393,"{'C': 1, 'kernel': 'rbf'}",regression_svm_seed-123_size-0.001796.txt
+BACE1,linear,123,0.001796,1.1976203999492299,0.9760773885810384,0.014194397296416694,{},regression_linear_seed-123_size-0.001796.txt
+BACE1,mlp,123,0.001796,2.8040039429032877,2.503141029043001,-4.4039354402010025,"{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.0001}",regression_mlp_seed-123_size-0.001796.txt
+BACE1,xgboost,2137,0.089799,0.9056023218292986,0.7037660559762033,0.4212246303724212,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}",regression_xgboost_seed-2137_size-0.089799.txt
+BACE1,randomforest,2137,0.089799,0.8887040777017344,0.6956845429575841,0.44262262984565104,"{'max_depth': None, 'n_estimators': 500}",regression_randomforest_seed-2137_size-0.089799.txt
+BACE1,svm,2137,0.089799,0.8583583331036662,0.6690373906954451,0.4800372382737047,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-2137_size-0.089799.txt
+BACE1,linear,2137,0.089799,1.419740501804426,1.118827762578252,-0.4225021457250113,{},regression_linear_seed-2137_size-0.089799.txt
+BACE1,mlp,2137,0.089799,1.1476719794446186,0.8746520763810594,0.07045473447856454,"{'hidden_layer_sizes': (256, 128), 'learning_rate_init': 0.0001}",regression_mlp_seed-2137_size-0.089799.txt
+BACE1,xgboost,2137,0.01796,1.0179741574899652,0.7938960736296897,0.2686782455467066,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}",regression_xgboost_seed-2137_size-0.01796.txt
+BACE1,randomforest,2137,0.01796,0.9838096922270845,0.7716668739859381,0.31694263259083566,"{'max_depth': None, 'n_estimators': 300}",regression_randomforest_seed-2137_size-0.01796.txt
+BACE1,svm,2137,0.01796,0.9605051297639415,0.7556274667124163,0.34891998674820146,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-2137_size-0.01796.txt
+BACE1,linear,2137,0.01796,1.0309400141630756,0.8088087056564007,0.24993002864870373,{},regression_linear_seed-2137_size-0.01796.txt
+BACE1,mlp,2137,0.01796,1.1261701793492114,0.8657139912001055,0.10495878814389459,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.01}",regression_mlp_seed-2137_size-0.01796.txt
+BACE1,xgboost,2137,0.00898,1.0792153162925984,0.8552934376029081,0.17803904727580655,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}",regression_xgboost_seed-2137_size-0.00898.txt
+BACE1,randomforest,2137,0.00898,1.037990557281341,0.8309233702810824,0.23963557088155762,"{'max_depth': 5, 'n_estimators': 300}",regression_randomforest_seed-2137_size-0.00898.txt
+BACE1,svm,2137,0.00898,1.033580850842223,0.8220072367812394,0.24608237646544484,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-2137_size-0.00898.txt
+BACE1,linear,2137,0.00898,1.0619022269643623,0.8295707704173589,0.20419978977584152,{},regression_linear_seed-2137_size-0.00898.txt
+BACE1,mlp,2137,0.00898,1.1922269450238354,0.9389979378002318,-0.0031199141420072962,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",regression_mlp_seed-2137_size-0.00898.txt
+BACE1,xgboost,2137,0.003592,1.2467568011515953,1.0048371801690967,-0.09697941586547554,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",regression_xgboost_seed-2137_size-0.003592.txt
+BACE1,randomforest,2137,0.003592,1.1568062044657141,0.9372805570578683,0.05559950744018083,"{'max_depth': None, 'n_estimators': 100}",regression_randomforest_seed-2137_size-0.003592.txt
+BACE1,svm,2137,0.003592,1.1095333988977083,0.9007330394165478,0.13120813452219404,"{'C': 10, 'kernel': 'rbf'}",regression_svm_seed-2137_size-0.003592.txt
+BACE1,linear,2137,0.003592,1.143112395757584,0.9104288188875892,0.07782603962448942,{},regression_linear_seed-2137_size-0.003592.txt
+BACE1,mlp,2137,0.003592,1.4696577773040247,1.2048681784741038,-0.5242893695756157,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",regression_mlp_seed-2137_size-0.003592.txt
+BACE1,xgboost,2137,0.001796,1.3331178996247792,1.097446316058343,-0.25421533285164766,"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",regression_xgboost_seed-2137_size-0.001796.txt
+BACE1,randomforest,2137,0.001796,1.3331283518886707,1.0929303542455373,-0.2542350001909448,"{'max_depth': 5, 'n_estimators': 100}",regression_randomforest_seed-2137_size-0.001796.txt
+BACE1,svm,2137,0.001796,1.2634274672016974,1.042893291616295,-0.12651146222908882,"{'C': 0.01, 'kernel': 'linear'}",regression_svm_seed-2137_size-0.001796.txt
+BACE1,linear,2137,0.001796,1.3132747327125478,1.074800191278123,-0.21715577354097415,{},regression_linear_seed-2137_size-0.001796.txt
+BACE1,mlp,2137,0.001796,2.288288648695328,1.9922992451470487,-2.6953586838121306,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",regression_mlp_seed-2137_size-0.001796.txt
