@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: svm
+task: regression
+seed: 42
+size: 100
+threshold: 
+seconds: 2.6
+
+==== VALIDATION METRICS ====
+R2: 0.474317
+RMSE: 0.890681
+MAE: 0.718222
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+==== TEST RESULTS ====
+R2: 0.399684
+RMSE: 0.951977
+MAE: 0.761934

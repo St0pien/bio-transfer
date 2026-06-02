@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: gnn
+checkpoint: checkpoints\gnn.pt
+model: randomforest
+task: classification
+seed: 2137
+size: 20
+threshold: 7.5
+seconds: 1.5
+
+==== VALIDATION METRICS ====
+Accuracy: 0.673307
+Precision: 0.734694
+Recall: 0.597285
+F1: 0.658902
+ROC_AUC: 0.747899
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+Accuracy: 0.658700
+Precision: 0.605749
+Recall: 0.641304
+F1: 0.623020
+ROC_AUC: 0.725234

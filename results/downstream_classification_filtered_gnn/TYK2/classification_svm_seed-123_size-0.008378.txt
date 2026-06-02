@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: filtered_gnn
+checkpoint: checkpoints\filtered_gnn.pt
+model: svm
+task: classification
+seed: 123
+size: 50
+threshold: 7.5
+seconds: 1.4
+
+==== VALIDATION METRICS ====
+Accuracy: 0.651057
+Precision: 0.637116
+Recall: 0.776657
+F1: 0.700000
+ROC_AUC: 0.707063
+
+==== BEST PARAMETERS ====
+{'C': 1, 'kernel': 'rbf'}
+
+==== TEST RESULTS ====
+Accuracy: 0.649927
+Precision: 0.628426
+Recall: 0.843324
+F1: 0.720186
+ROC_AUC: 0.731772

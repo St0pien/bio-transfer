@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: gnn
+checkpoint: checkpoints\gnn.pt
+model: xgboost
+task: regression
+seed: 123
+size: 10
+threshold: 
+seconds: 0.9
+
+==== VALIDATION METRICS ====
+R2: -0.025716
+RMSE: 1.245193
+MAE: 1.003855
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+R2: -0.054842
+RMSE: 1.252733
+MAE: 1.013349

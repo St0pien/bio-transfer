@@ -1,0 +1,27 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: xgboost
+task: classification
+seed: 2137
+size: 50
+threshold: 7.5
+seconds: 0.6
+
+==== VALIDATION METRICS ====
+Accuracy: 0.623904
+Precision: 0.656814
+Recall: 0.603318
+F1: 0.628931
+ROC_AUC: 0.658086
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+Accuracy: 0.636711
+Precision: 0.575188
+Recall: 0.665217
+F1: 0.616935
+ROC_AUC: 0.672524

@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: filtered_gnn
+checkpoint: checkpoints\filtered_gnn.pt
+model: svm
+task: regression
+seed: 2137
+size: 100
+threshold: 
+seconds: 0.5
+
+==== VALIDATION METRICS ====
+R2: 0.251914
+RMSE: 1.026840
+MAE: 0.806554
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+==== TEST RESULTS ====
+R2: 0.262847
+RMSE: 1.036341
+MAE: 0.819865

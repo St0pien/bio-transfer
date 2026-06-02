@@ -1,0 +1,23 @@
+==== RUN CONFIG ====
+target: TYK2
+feature: fingerprint
+checkpoint: 
+model: randomforest
+task: regression
+seed: 2137
+size: 50
+threshold: 
+seconds: 39.0
+
+==== VALIDATION METRICS ====
+R2: 0.232780
+RMSE: 1.039889
+MAE: 0.816782
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 300}
+
+==== TEST RESULTS ====
+R2: 0.208555
+RMSE: 1.073826
+MAE: 0.849722
