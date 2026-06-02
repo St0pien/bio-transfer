@@ -1,0 +1,22 @@
+Fitting 1 folds for each of 8 candidates, totalling 8 fits
+
+==== VALIDATION METRICS ====
+R2:	0.5505384137065266
+RMSE:	0.7755775550596771
+MAE:	0.5983245901047713
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}
+
+==== TEST RESULTS ====
+R2: 0.5501
+RMSE: 0.8118
+MAE: 0.6205
+[CV] END ...learning_rate=0.1, max_depth=4, n_estimators=100; total time=   1.2s
+[CV] END ...learning_rate=0.1, max_depth=8, n_estimators=300; total time=   3.1s
+[CV] END ...learning_rate=0.1, max_depth=8, n_estimators=100; total time=   1.7s
+[CV] END ...learning_rate=0.1, max_depth=4, n_estimators=300; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=4, n_estimators=100; total time=   1.6s
+[CV] END ..learning_rate=0.01, max_depth=4, n_estimators=300; total time=   3.0s
+[CV] END ..learning_rate=0.01, max_depth=8, n_estimators=100; total time=   2.5s
+[CV] END ..learning_rate=0.01, max_depth=8, n_estimators=300; total time=   4.8s
