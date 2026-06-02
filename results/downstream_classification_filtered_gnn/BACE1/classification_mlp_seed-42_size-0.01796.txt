@@ -1,0 +1,18 @@
+Fitting 1 folds for each of 12 candidates, totalling 12 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.472910927456382
+Precision:	0.37866817155756205
+Recall:	0.9345403899721448
+F1:	0.5389558232931727
+ROC_AUC:	0.6674419048345862
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}
+
+==== TEST RESULTS ====
+Accuracy: 0.4664
+Precision: 0.3749
+Recall: 0.9429
+F1: 0.5364
+ROC_AUC: 0.6722
