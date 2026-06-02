@@ -1,0 +1,18 @@
+Fitting 1 folds for each of 4 candidates, totalling 4 fits
+
+==== VALIDATION METRICS ====
+R2:	0.5584629455637242
+RMSE:	0.802728965301521
+MAE:	0.6113298192195045
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 300}
+
+==== TEST RESULTS ====
+R2: 0.5989
+RMSE: 0.7230
+MAE: 0.5496
+[CV] END ...................max_depth=None, n_estimators=300; total time=  43.6s
+[CV] END ...................max_depth=None, n_estimators=100; total time=  17.8s
+[CV] END .....................max_depth=10, n_estimators=100; total time=  11.0s
+[CV] END .....................max_depth=10, n_estimators=300; total time=  27.0s

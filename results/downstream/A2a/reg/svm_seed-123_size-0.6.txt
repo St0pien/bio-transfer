@@ -1,0 +1,20 @@
+Fitting 1 folds for each of 6 candidates, totalling 6 fits
+
+==== VALIDATION METRICS ====
+R2:	0.5756718036739751
+RMSE:	0.7535809092906477
+MAE:	0.5865500117211714
+
+==== BEST PARAMETERS ====
+{'C': 10, 'kernel': 'rbf'}
+
+==== TEST RESULTS ====
+R2: 0.5830
+RMSE: 0.7815
+MAE: 0.6126
+[CV] END .................................C=1, kernel=linear; total time=  12.6s
+[CV] END ....................................C=1, kernel=rbf; total time=  10.6s
+[CV] END ...................................C=10, kernel=rbf; total time=  10.7s
+[CV] END ...............................C=0.1, kernel=linear; total time=  10.4s
+[CV] END ..................................C=0.1, kernel=rbf; total time=  11.0s
+[CV] END ................................C=10, kernel=linear; total time=  37.4s

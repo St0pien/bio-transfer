@@ -28,7 +28,7 @@ import pandas as pd
 # ──────────────────────────────────────────────────────────────────────────────
 
 DEFAULT_THRESHOLD = 7.5          # pIC50 ≥ 7.5 → active (classification only)
-DEFAULT_TASK      = "classification"       # "regression", "classification", or "both"
+DEFAULT_TASK      = "regression"       # "regression", "classification", or "both"
 
 DEFAULT_SEEDS   = [42, 123, 2137]
 DEFAULT_SUBSETS = ["0.2", "0.4", "0.6","0.8", "full"]

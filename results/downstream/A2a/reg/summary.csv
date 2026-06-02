@@ -1,0 +1,61 @@
+target,model,seed,train_size,accuracy,precision,recall,f1,roc_auc,best_params,file
+A2a,mlp,42,0.2,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-42_size-0.2.txt
+A2a,xgboost,42,0.2,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 100}",xgboost_seed-42_size-0.2.txt
+A2a,randomforest,42,0.2,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-42_size-0.2.txt
+A2a,svm,42,0.2,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-42_size-0.2.txt
+A2a,mlp,42,0.4,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-42_size-0.4.txt
+A2a,xgboost,42,0.4,,,,,,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-42_size-0.4.txt
+A2a,randomforest,42,0.4,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-42_size-0.4.txt
+A2a,svm,42,0.4,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-42_size-0.4.txt
+A2a,mlp,42,0.6,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-42_size-0.6.txt
+A2a,xgboost,42,0.6,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-42_size-0.6.txt
+A2a,randomforest,42,0.6,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-42_size-0.6.txt
+A2a,svm,42,0.6,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-42_size-0.6.txt
+A2a,mlp,42,0.8,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-42_size-0.8.txt
+A2a,xgboost,42,0.8,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-42_size-0.8.txt
+A2a,randomforest,42,0.8,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-42_size-0.8.txt
+A2a,svm,42,0.8,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-42_size-0.8.txt
+A2a,mlp,42,full,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-42_size-full.txt
+A2a,xgboost,42,full,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-42_size-full.txt
+A2a,randomforest,42,full,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-42_size-full.txt
+A2a,svm,42,full,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-42_size-full.txt
+A2a,mlp,123,0.2,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-123_size-0.2.txt
+A2a,xgboost,123,0.2,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 100}",xgboost_seed-123_size-0.2.txt
+A2a,randomforest,123,0.2,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-123_size-0.2.txt
+A2a,svm,123,0.2,,,,,,"{'C': 1, 'kernel': 'rbf'}",svm_seed-123_size-0.2.txt
+A2a,mlp,123,0.4,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-123_size-0.4.txt
+A2a,xgboost,123,0.4,,,,,,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_seed-123_size-0.4.txt
+A2a,randomforest,123,0.4,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-123_size-0.4.txt
+A2a,svm,123,0.4,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-123_size-0.4.txt
+A2a,mlp,123,0.6,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_seed-123_size-0.6.txt
+A2a,xgboost,123,0.6,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-123_size-0.6.txt
+A2a,randomforest,123,0.6,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-123_size-0.6.txt
+A2a,svm,123,0.6,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-123_size-0.6.txt
+A2a,mlp,123,0.8,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-123_size-0.8.txt
+A2a,xgboost,123,0.8,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-123_size-0.8.txt
+A2a,randomforest,123,0.8,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-123_size-0.8.txt
+A2a,svm,123,0.8,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-123_size-0.8.txt
+A2a,mlp,123,full,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_seed-123_size-full.txt
+A2a,xgboost,123,full,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-123_size-full.txt
+A2a,randomforest,123,full,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-123_size-full.txt
+A2a,svm,123,full,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-123_size-full.txt
+A2a,mlp,2137,0.2,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-2137_size-0.2.txt
+A2a,xgboost,2137,0.2,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 100}",xgboost_seed-2137_size-0.2.txt
+A2a,randomforest,2137,0.2,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_seed-2137_size-0.2.txt
+A2a,svm,2137,0.2,,,,,,"{'C': 1, 'kernel': 'rbf'}",svm_seed-2137_size-0.2.txt
+A2a,mlp,2137,0.4,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_seed-2137_size-0.4.txt
+A2a,xgboost,2137,0.4,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-2137_size-0.4.txt
+A2a,randomforest,2137,0.4,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_seed-2137_size-0.4.txt
+A2a,svm,2137,0.4,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-2137_size-0.4.txt
+A2a,mlp,2137,0.6,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_seed-2137_size-0.6.txt
+A2a,xgboost,2137,0.6,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-2137_size-0.6.txt
+A2a,randomforest,2137,0.6,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-2137_size-0.6.txt
+A2a,svm,2137,0.6,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-2137_size-0.6.txt
+A2a,mlp,2137,0.8,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_seed-2137_size-0.8.txt
+A2a,xgboost,2137,0.8,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-2137_size-0.8.txt
+A2a,randomforest,2137,0.8,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-2137_size-0.8.txt
+A2a,svm,2137,0.8,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-2137_size-0.8.txt
+A2a,mlp,2137,full,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_seed-2137_size-full.txt
+A2a,xgboost,2137,full,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_seed-2137_size-full.txt
+A2a,randomforest,2137,full,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_seed-2137_size-full.txt
+A2a,svm,2137,full,,,,,,"{'C': 10, 'kernel': 'rbf'}",svm_seed-2137_size-full.txt
