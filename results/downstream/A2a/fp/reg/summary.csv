@@ -1,0 +1,55 @@
+target,model,seed,train_size,requested_size,features,accuracy,precision,recall,f1,roc_auc,best_params,file,status
+A2a,mlp,42,0.0029,10,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0029.txt,ok
+A2a,xgboost,42,0.0029,10,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-42_size-0.0029.txt,ok
+A2a,randomforest,42,0.0029,10,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0029.txt,ok
+A2a,mlp,42,0.0057,20,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-0.0057.txt,ok
+A2a,xgboost,42,0.0057,20,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 100}",xgboost_fingerprint_seed-42_size-0.0057.txt,ok
+A2a,randomforest,42,0.0057,20,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0057.txt,ok
+A2a,mlp,42,0.0143,50,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0143.txt,ok
+A2a,xgboost,42,0.0143,50,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.0143.txt,ok
+A2a,randomforest,42,0.0143,50,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-0.0143.txt,ok
+A2a,mlp,42,0.0286,100,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0286.txt,ok
+A2a,xgboost,42,0.0286,100,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.0286.txt,ok
+A2a,randomforest,42,0.0286,100,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0286.txt,ok
+A2a,mlp,42,0.1428,500,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-0.1428.txt,ok
+A2a,xgboost,42,0.1428,500,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.1428.txt,ok
+A2a,randomforest,42,0.1428,500,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-0.1428.txt,ok
+A2a,mlp,42,full,full,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-full.txt,ok
+A2a,xgboost,42,full,full,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-full.txt,ok
+A2a,randomforest,42,full,full,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-full.txt,ok
+A2a,mlp,123,0.0029,10,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0029.txt,ok
+A2a,xgboost,123,0.0029,10,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0029.txt,ok
+A2a,randomforest,123,0.0029,10,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0029.txt,ok
+A2a,mlp,123,0.0057,20,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-0.0057.txt,ok
+A2a,xgboost,123,0.0057,20,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0057.txt,ok
+A2a,randomforest,123,0.0057,20,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0057.txt,ok
+A2a,mlp,123,0.0143,50,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0143.txt,ok
+A2a,xgboost,123,0.0143,50,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0143.txt,ok
+A2a,randomforest,123,0.0143,50,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-123_size-0.0143.txt,ok
+A2a,mlp,123,0.0286,100,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0286.txt,ok
+A2a,xgboost,123,0.0286,100,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-0.0286.txt,ok
+A2a,randomforest,123,0.0286,100,fingerprint,,,,,,"{'max_depth': 10, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0286.txt,ok
+A2a,mlp,123,0.1428,500,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-0.1428.txt,ok
+A2a,xgboost,123,0.1428,500,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-0.1428.txt,ok
+A2a,randomforest,123,0.1428,500,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.1428.txt,ok
+A2a,mlp,123,full,full,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-full.txt,ok
+A2a,xgboost,123,full,full,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-full.txt,ok
+A2a,randomforest,123,full,full,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-full.txt,ok
+A2a,mlp,2137,0.0028,10,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0028.txt,ok
+A2a,xgboost,2137,0.0028,10,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-0.0028.txt,ok
+A2a,randomforest,2137,0.0028,10,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.0028.txt,ok
+A2a,mlp,2137,0.0055,20,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0055.txt,ok
+A2a,xgboost,2137,0.0055,20,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0055.txt,ok
+A2a,randomforest,2137,0.0055,20,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.0055.txt,ok
+A2a,mlp,2137,0.0138,50,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0138.txt,ok
+A2a,xgboost,2137,0.0138,50,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0138.txt,ok
+A2a,randomforest,2137,0.0138,50,fingerprint,,,,,,"{'max_depth': 10, 'n_estimators': 100}",randomforest_fingerprint_seed-2137_size-0.0138.txt,ok
+A2a,mlp,2137,0.0275,100,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0275.txt,ok
+A2a,xgboost,2137,0.0275,100,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0275.txt,ok
+A2a,randomforest,2137,0.0275,100,fingerprint,,,,,,"{'max_depth': 10, 'n_estimators': 100}",randomforest_fingerprint_seed-2137_size-0.0275.txt,ok
+A2a,mlp,2137,0.1376,500,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-2137_size-0.1376.txt,ok
+A2a,xgboost,2137,0.1376,500,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-0.1376.txt,ok
+A2a,randomforest,2137,0.1376,500,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.1376.txt,ok
+A2a,mlp,2137,full,full,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-2137_size-full.txt,ok
+A2a,xgboost,2137,full,full,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-full.txt,ok
+A2a,randomforest,2137,full,full,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-full.txt,ok

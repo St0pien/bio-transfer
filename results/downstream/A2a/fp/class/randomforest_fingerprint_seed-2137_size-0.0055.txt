@@ -1,0 +1,22 @@
+Fitting 1 folds for each of 4 candidates, totalling 4 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.5909797822706065
+Precision:	1.0
+Recall:	0.013133208255159476
+F1:	0.025925925925925925
+ROC_AUC:	0.508870085636192
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+Accuracy: 0.6763
+Precision: 1.0000
+Recall: 0.0161
+F1: 0.0317
+ROC_AUC: 0.5066
+[CV] END .....................max_depth=10, n_estimators=100; total time=   0.1s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   0.1s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   0.2s
+[CV] END ...................max_depth=None, n_estimators=300; total time=   0.2s
