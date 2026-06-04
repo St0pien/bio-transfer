@@ -1,55 +1,73 @@
-target,model,seed,train_size,requested_size,features,accuracy,precision,recall,f1,roc_auc,best_params,file,status
-A2a,mlp,42,0.0029,10,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0029.txt,ok
-A2a,xgboost,42,0.0029,10,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-42_size-0.0029.txt,ok
-A2a,randomforest,42,0.0029,10,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0029.txt,ok
-A2a,mlp,42,0.0057,20,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-0.0057.txt,ok
-A2a,xgboost,42,0.0057,20,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 100}",xgboost_fingerprint_seed-42_size-0.0057.txt,ok
-A2a,randomforest,42,0.0057,20,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0057.txt,ok
-A2a,mlp,42,0.0143,50,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0143.txt,ok
-A2a,xgboost,42,0.0143,50,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.0143.txt,ok
-A2a,randomforest,42,0.0143,50,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-0.0143.txt,ok
-A2a,mlp,42,0.0286,100,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0286.txt,ok
-A2a,xgboost,42,0.0286,100,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.0286.txt,ok
-A2a,randomforest,42,0.0286,100,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0286.txt,ok
-A2a,mlp,42,0.1428,500,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-0.1428.txt,ok
-A2a,xgboost,42,0.1428,500,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.1428.txt,ok
-A2a,randomforest,42,0.1428,500,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-0.1428.txt,ok
-A2a,mlp,42,full,full,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-full.txt,ok
-A2a,xgboost,42,full,full,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-full.txt,ok
-A2a,randomforest,42,full,full,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-full.txt,ok
-A2a,mlp,123,0.0029,10,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0029.txt,ok
-A2a,xgboost,123,0.0029,10,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0029.txt,ok
-A2a,randomforest,123,0.0029,10,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0029.txt,ok
-A2a,mlp,123,0.0057,20,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-0.0057.txt,ok
-A2a,xgboost,123,0.0057,20,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0057.txt,ok
-A2a,randomforest,123,0.0057,20,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0057.txt,ok
-A2a,mlp,123,0.0143,50,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0143.txt,ok
-A2a,xgboost,123,0.0143,50,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0143.txt,ok
-A2a,randomforest,123,0.0143,50,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-123_size-0.0143.txt,ok
-A2a,mlp,123,0.0286,100,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0286.txt,ok
-A2a,xgboost,123,0.0286,100,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-0.0286.txt,ok
-A2a,randomforest,123,0.0286,100,fingerprint,,,,,,"{'max_depth': 10, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0286.txt,ok
-A2a,mlp,123,0.1428,500,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-0.1428.txt,ok
-A2a,xgboost,123,0.1428,500,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-0.1428.txt,ok
-A2a,randomforest,123,0.1428,500,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.1428.txt,ok
-A2a,mlp,123,full,full,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-full.txt,ok
-A2a,xgboost,123,full,full,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-full.txt,ok
-A2a,randomforest,123,full,full,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-full.txt,ok
-A2a,mlp,2137,0.0028,10,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0028.txt,ok
-A2a,xgboost,2137,0.0028,10,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-0.0028.txt,ok
-A2a,randomforest,2137,0.0028,10,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.0028.txt,ok
-A2a,mlp,2137,0.0055,20,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0055.txt,ok
-A2a,xgboost,2137,0.0055,20,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0055.txt,ok
-A2a,randomforest,2137,0.0055,20,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.0055.txt,ok
-A2a,mlp,2137,0.0138,50,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0138.txt,ok
-A2a,xgboost,2137,0.0138,50,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0138.txt,ok
-A2a,randomforest,2137,0.0138,50,fingerprint,,,,,,"{'max_depth': 10, 'n_estimators': 100}",randomforest_fingerprint_seed-2137_size-0.0138.txt,ok
-A2a,mlp,2137,0.0275,100,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0275.txt,ok
-A2a,xgboost,2137,0.0275,100,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0275.txt,ok
-A2a,randomforest,2137,0.0275,100,fingerprint,,,,,,"{'max_depth': 10, 'n_estimators': 100}",randomforest_fingerprint_seed-2137_size-0.0275.txt,ok
-A2a,mlp,2137,0.1376,500,fingerprint,,,,,,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-2137_size-0.1376.txt,ok
-A2a,xgboost,2137,0.1376,500,fingerprint,,,,,,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-0.1376.txt,ok
-A2a,randomforest,2137,0.1376,500,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.1376.txt,ok
-A2a,mlp,2137,full,full,fingerprint,,,,,,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-2137_size-full.txt,ok
-A2a,xgboost,2137,full,full,fingerprint,,,,,,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-full.txt,ok
-A2a,randomforest,2137,full,full,fingerprint,,,,,,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-full.txt,ok
+target,model,seed,train_size,rmse,mae,r2,best_params,file
+A2a,mlp_fingerprint,123,0.0029,2.4230075252621655,2.0692510970809797,-3.386838452638079,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0029.txt
+A2a,mlp_fingerprint,123,0.0057,2.246848671208062,1.9074450464955701,-2.772157013672085,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-0.0057.txt
+A2a,mlp_fingerprint,123,0.0143,1.7109919501036395,1.388466075889887,-1.1874495637915543,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0143.txt
+A2a,mlp_fingerprint,123,0.0286,1.4535353219231086,1.142607240603206,-0.5786770500982736,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-123_size-0.0286.txt
+A2a,mlp_fingerprint,123,0.1428,1.2230361975343091,0.945724274960388,-0.1176883838024727,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-0.1428.txt
+A2a,mlp_fingerprint,123,full,0.6201922736065231,0.32499270600244623,0.7125946695565442,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-123_size-full.txt
+A2a,mlp_fingerprint,2137,0.0028,2.4454635735966006,2.0457946330098946,-2.891707183823885,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0028.txt
+A2a,mlp_fingerprint,2137,0.0055,2.0516610103484325,1.6844670841012173,-1.7392329691139863,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0055.txt
+A2a,mlp_fingerprint,2137,0.0138,1.910152520731493,1.5768576690170262,-1.374399824769049,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0138.txt
+A2a,mlp_fingerprint,2137,0.0275,1.6502927045540658,1.3138354783258122,-0.7723101279379767,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-2137_size-0.0275.txt
+A2a,mlp_fingerprint,2137,0.1376,1.2926208593450863,0.9934683589058129,-0.08732676781642645,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-2137_size-0.1376.txt
+A2a,mlp_fingerprint,2137,full,1.0314338006358752,0.7649747479202599,0.3076902014029024,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-2137_size-full.txt
+A2a,mlp_fingerprint,42,0.0029,2.496710715128873,2.0631167680463727,-3.2713556897119673,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0029.txt
+A2a,mlp_fingerprint,42,0.0057,2.215225552980102,1.8231322981505291,-2.3625224502486404,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-0.0057.txt
+A2a,mlp_fingerprint,42,0.0143,1.5310431382921184,1.2072229598316155,-0.6062167210072107,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0143.txt
+A2a,mlp_fingerprint,42,0.0286,1.374751677942078,1.075480765383313,-0.2950239630359601,"{'hidden_layer_sizes': (256,), 'learning_rate_init': 0.001}",mlp_fingerprint_seed-42_size-0.0286.txt
+A2a,mlp_fingerprint,42,0.1428,1.152346093072529,0.8971007528856012,0.09009687784121656,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-0.1428.txt
+A2a,mlp_fingerprint,42,full,1.0003143394960634,0.7642682325377433,0.31435032150257103,"{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.0001}",mlp_fingerprint_seed-42_size-full.txt
+A2a,randomforest_fingerprint,123,0.0029,1.098325778760274,0.8979319881889735,0.09862715603741579,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0029.txt
+A2a,randomforest_fingerprint,123,0.0057,1.0585231995216366,0.8480167322834642,0.16277367128501108,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0057.txt
+A2a,randomforest_fingerprint,123,0.0143,1.0257194384011523,0.806548326771653,0.2138610985623598,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-123_size-0.0143.txt
+A2a,randomforest_fingerprint,123,0.0286,0.9996735003899511,0.77449087726113,0.25327881036243616,"{'max_depth': 10, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.0286.txt
+A2a,randomforest_fingerprint,123,0.1428,0.8695485600066648,0.6788437390638671,0.4350242645633583,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-0.1428.txt
+A2a,randomforest_fingerprint,123,full,0.5215925723133312,0.3551932569756902,0.7967151974840501,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-123_size-full.txt
+A2a,randomforest_fingerprint,2137,0.0028,1.3028082739342006,1.0572597200622071,-0.10453320350444262,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.0028.txt
+A2a,randomforest_fingerprint,2137,0.0055,1.3865143492850267,1.118334085018143,-0.25102646394051775,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.0055.txt
+A2a,randomforest_fingerprint,2137,0.0138,1.2826647218582086,1.0121189626603733,-0.0706414669861406,"{'max_depth': 10, 'n_estimators': 100}",randomforest_fingerprint_seed-2137_size-0.0138.txt
+A2a,randomforest_fingerprint,2137,0.0275,1.1604631051872383,0.9298425905316041,0.1236442621185091,"{'max_depth': 10, 'n_estimators': 100}",randomforest_fingerprint_seed-2137_size-0.0275.txt
+A2a,randomforest_fingerprint,2137,0.1376,1.0240612479567175,0.8160507892690517,0.3175519080385194,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-0.1376.txt
+A2a,randomforest_fingerprint,2137,full,0.812276504154986,0.627305833755051,0.5706360854477874,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-2137_size-full.txt
+A2a,randomforest_fingerprint,42,0.0029,1.2153632556277496,0.9944415989159897,-0.012142105260475766,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0029.txt
+A2a,randomforest_fingerprint,42,0.0057,1.1319306661874458,0.9206155149051488,0.12205170511474517,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0057.txt
+A2a,randomforest_fingerprint,42,0.0143,1.0491192111385768,0.837952924570913,0.24581312995840143,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-0.0143.txt
+A2a,randomforest_fingerprint,42,0.0286,0.9842549753471384,0.7751122289972897,0.33618887685052545,"{'max_depth': None, 'n_estimators': 100}",randomforest_fingerprint_seed-42_size-0.0286.txt
+A2a,randomforest_fingerprint,42,0.1428,0.9069158831398243,0.7051199193444316,0.43640996758627015,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-0.1428.txt
+A2a,randomforest_fingerprint,42,full,0.7796631076770965,0.5943368261764955,0.5834729053502887,"{'max_depth': None, 'n_estimators': 300}",randomforest_fingerprint_seed-42_size-full.txt
+A2a,svm_fingerprint,123,0.0029,1.116977790625075,0.9062778869739543,0.06775257692027159,"{'C': 0.1, 'kernel': 'linear'}",svm_fingerprint_seed-123_size-0.0029.txt
+A2a,svm_fingerprint,123,0.0057,1.0711811521172012,0.8605817100615153,0.14263063667757192,"{'C': 0.1, 'kernel': 'linear'}",svm_fingerprint_seed-123_size-0.0057.txt
+A2a,svm_fingerprint,123,0.0143,1.0402816270019555,0.8292595639305588,0.19138094320183607,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-123_size-0.0143.txt
+A2a,svm_fingerprint,123,0.0286,0.9622262820707259,0.7465476523087735,0.30817453185789756,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-123_size-0.0286.txt
+A2a,svm_fingerprint,123,0.1428,0.8779449534299345,0.6757583578463909,0.4240607330860744,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-123_size-0.1428.txt
+A2a,svm_fingerprint,123,full,0.4746601725417879,0.30014621117231194,0.8316521007996578,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-123_size-full.txt
+A2a,svm_fingerprint,2137,0.0028,1.293248984673223,1.044636838569275,-0.08838375744808791,"{'C': 0.1, 'kernel': 'linear'}",svm_fingerprint_seed-2137_size-0.0028.txt
+A2a,svm_fingerprint,2137,0.0055,1.3255920816619378,1.076668573973515,-0.14350366815184712,"{'C': 1, 'kernel': 'rbf'}",svm_fingerprint_seed-2137_size-0.0055.txt
+A2a,svm_fingerprint,2137,0.0138,1.1432055754799468,0.9179599083594228,0.14951545222762574,"{'C': 1, 'kernel': 'rbf'}",svm_fingerprint_seed-2137_size-0.0138.txt
+A2a,svm_fingerprint,2137,0.0275,1.127640965163881,0.9022999444938126,0.1725162975848572,"{'C': 1, 'kernel': 'rbf'}",svm_fingerprint_seed-2137_size-0.0275.txt
+A2a,svm_fingerprint,2137,0.1376,0.9724709661587746,0.7676668238445196,0.38458079097237075,"{'C': 1, 'kernel': 'rbf'}",svm_fingerprint_seed-2137_size-0.1376.txt
+A2a,svm_fingerprint,2137,full,0.755898231598941,0.5894268798585343,0.6281700070709306,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-2137_size-full.txt
+A2a,svm_fingerprint,42,0.0029,1.2000161599606354,0.9809188393119331,0.013258311881544804,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-42_size-0.0029.txt
+A2a,svm_fingerprint,42,0.0057,1.1217886422114836,0.911763846420256,0.1377139404827682,"{'C': 0.1, 'kernel': 'linear'}",svm_fingerprint_seed-42_size-0.0057.txt
+A2a,svm_fingerprint,42,0.0143,0.9954157870416341,0.7851346966078465,0.32104915007362633,"{'C': 0.1, 'kernel': 'linear'}",svm_fingerprint_seed-42_size-0.0143.txt
+A2a,svm_fingerprint,42,0.0286,0.9672027580059891,0.7577664268542121,0.358990685483621,"{'C': 0.1, 'kernel': 'linear'}",svm_fingerprint_seed-42_size-0.0286.txt
+A2a,svm_fingerprint,42,0.1428,0.8882307937256071,0.6911929451776794,0.45939390379858014,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-42_size-0.1428.txt
+A2a,svm_fingerprint,42,full,0.7672481199198886,0.5899981460670917,0.5966324534259222,"{'C': 10, 'kernel': 'rbf'}",svm_fingerprint_seed-42_size-full.txt
+A2a,xgboost_fingerprint,123,0.0029,1.1436248401352918,0.9405537346028906,0.022741907375877446,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0029.txt
+A2a,xgboost_fingerprint,123,0.0057,1.0820392259872087,0.8703542338393804,0.1251610194660675,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0057.txt
+A2a,xgboost_fingerprint,123,0.0143,1.1051955300340823,0.8751517289830004,0.08731617215284249,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-123_size-0.0143.txt
+A2a,xgboost_fingerprint,123,0.0286,1.0332766950030845,0.8135145397261372,0.20223425536694484,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-0.0286.txt
+A2a,xgboost_fingerprint,123,0.1428,0.922102185977262,0.704566273219942,0.3646687479691695,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-0.1428.txt
+A2a,xgboost_fingerprint,123,full,0.5243730913420874,0.3672637691460257,0.7945420689451732,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-123_size-full.txt
+A2a,xgboost_fingerprint,2137,0.0028,1.402613742133509,1.1381990256242767,-0.2802475072158508,"{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-0.0028.txt
+A2a,xgboost_fingerprint,2137,0.0055,1.5109748868063195,1.2132754728545667,-0.4857038613793969,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0055.txt
+A2a,xgboost_fingerprint,2137,0.0138,1.2172758251295932,0.9682945682323925,0.035736442157643156,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0138.txt
+A2a,xgboost_fingerprint,2137,0.0275,1.213668757211298,0.9674249666252552,0.04144264410936638,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-2137_size-0.0275.txt
+A2a,xgboost_fingerprint,2137,0.1376,1.0557945489908558,0.8475829646969286,0.2746016046101395,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-0.1376.txt
+A2a,xgboost_fingerprint,2137,full,0.8062721318728493,0.623434687832466,0.5769603659680651,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-2137_size-full.txt
+A2a,xgboost_fingerprint,42,0.0029,1.2680698299503261,1.0358613234031493,-0.10183262497560097,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 100}",xgboost_fingerprint_seed-42_size-0.0029.txt
+A2a,xgboost_fingerprint,42,0.0057,1.1792280135710893,0.9452274121566194,0.047149287316953115,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 100}",xgboost_fingerprint_seed-42_size-0.0057.txt
+A2a,xgboost_fingerprint,42,0.0143,1.0722210504980836,0.8560517293263257,0.2122327054429023,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.0143.txt
+A2a,xgboost_fingerprint,42,0.0286,1.042595517313668,0.8230333326179484,0.2551634249459138,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.0286.txt
+A2a,xgboost_fingerprint,42,0.1428,0.8997675311722779,0.7038458954803342,0.44525943783300115,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-0.1428.txt
+A2a,xgboost_fingerprint,42,full,0.7867306961107701,0.5960724967475829,0.575887103475767,"{'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 300}",xgboost_fingerprint_seed-42_size-full.txt
