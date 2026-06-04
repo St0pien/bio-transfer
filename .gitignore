@@ -5,3 +5,6 @@ __pycache__
 src/biotransfer.egg-info
 wandb/
 checkpoints/
+.venv/
+logs/
+models/
