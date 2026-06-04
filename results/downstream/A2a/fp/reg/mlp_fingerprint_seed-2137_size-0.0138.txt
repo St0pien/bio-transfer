@@ -1,0 +1,18 @@
+Fitting 1 folds for each of 4 candidates, totalling 4 fits
+
+==== VALIDATION METRICS ====
+R2:	-1.374399824769049
+RMSE:	1.910152520731493
+MAE:	1.5768576690170262
+
+==== BEST PARAMETERS ====
+{'hidden_layer_sizes': (128,), 'learning_rate_init': 0.001}
+
+==== TEST RESULTS ====
+R2: -0.7864
+RMSE: 1.5612
+MAE: 1.2242
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.0001; total time=   1.5s
+[CV] END hidden_layer_sizes=(128,), learning_rate_init=0.001; total time=   0.6s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.0001; total time=   2.2s
+[CV] END hidden_layer_sizes=(256,), learning_rate_init=0.001; total time=   0.6s

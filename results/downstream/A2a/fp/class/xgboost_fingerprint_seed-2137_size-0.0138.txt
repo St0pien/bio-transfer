@@ -1,0 +1,26 @@
+Fitting 1 folds for each of 8 candidates, totalling 8 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.6609642301710731
+Precision:	0.5991820040899796
+Recall:	0.549718574108818
+F1:	0.5733855185909981
+ROC_AUC:	0.718214073038677
+
+==== BEST PARAMETERS ====
+{'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 300}
+
+==== TEST RESULTS ====
+Accuracy: 0.6437
+Precision: 0.4647
+Recall: 0.5461
+F1: 0.5021
+ROC_AUC: 0.7141
+[CV] END ..learning_rate=0.01, max_depth=8, n_estimators=100; total time=   0.1s
+[CV] END ...learning_rate=0.1, max_depth=4, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=4, n_estimators=300; total time=   0.1s
+[CV] END ..learning_rate=0.01, max_depth=4, n_estimators=100; total time=   0.1s
+[CV] END ..learning_rate=0.01, max_depth=8, n_estimators=300; total time=   0.1s
+[CV] END ..learning_rate=0.01, max_depth=4, n_estimators=300; total time=   0.1s
+[CV] END ...learning_rate=0.1, max_depth=8, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=8, n_estimators=300; total time=   0.1s

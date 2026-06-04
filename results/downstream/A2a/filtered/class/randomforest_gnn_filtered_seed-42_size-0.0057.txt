@@ -1,0 +1,25 @@
+[+] Loaded GNN encoder from gnn/filtered_gnn.pt
+[+] Fetching protein sequence for CHEMBL251
+[+] Preparing target embedding
+Fitting 1 folds for each of 4 candidates, totalling 4 fits
+
+==== VALIDATION METRICS ====
+Accuracy:	0.6016260162601627
+Precision:	0.4243614931237721
+Recall:	0.4227005870841487
+F1:	0.4235294117647059
+ROC_AUC:	0.61817628747858
+
+==== BEST PARAMETERS ====
+{'max_depth': None, 'n_estimators': 100}
+
+==== TEST RESULTS ====
+Accuracy: 0.6236
+Precision: 0.4416
+Recall: 0.4846
+F1: 0.4621
+ROC_AUC: 0.6182
+[CV] END ...................max_depth=None, n_estimators=300; total time=   0.2s
+[CV] END .....................max_depth=10, n_estimators=300; total time=   0.2s
+[CV] END .....................max_depth=10, n_estimators=100; total time=   0.1s
+[CV] END ...................max_depth=None, n_estimators=100; total time=   0.1s
